@@ -60,6 +60,16 @@ public class CloneInstrument {
 			String newFilePath = filepath.replaceFirst(directoryPath, directoryPath + "IPR/" + Integer.toString(i));
 			boolean result = showDiff(newFilePath, linenumber, patches[i], testName, destination, moduleName,
 					methodName);
+
+			// copy our test results to a more obvious location
+			try {
+				org.apache.commons.io.FileUtils.copyFile(new File(
+						newFilePath.substring(0, newFilePath.lastIndexOf("/") + 1) + "iprOutput.txt"),
+						new File(directoryPath + "IPR/" + "iprOutput" + Integer.toString(i) + ".csv"));
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+
 			success.add(i, result);
 		}
 
