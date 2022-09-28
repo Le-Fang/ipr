@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 import javax.swing.JOptionPane;
 
@@ -41,6 +42,9 @@ public class CloneInstrument {
 
 	public static void instru(String directoryPath, String filepath, int linenumber, String[] patches, String testName,
 			String testPath, String moduleName, String methodName) {
+
+		// success is an array that records whether our tests run sucessfully
+		ArrayList<Boolean> success = new ArrayList<>();
 		for (int i = 0; i < patches.length; i++) {
 			String source = directoryPath;
 			File srcDir = new File(source);
@@ -54,7 +58,9 @@ public class CloneInstrument {
 			}
 
 			String newFilePath = filepath.replaceFirst(directoryPath, directoryPath + "IPR/" + Integer.toString(i));
-			showDiff(newFilePath, linenumber, patches[i], testName, destination, moduleName, methodName);
+			boolean result = showDiff(newFilePath, linenumber, patches[i], testName, destination, moduleName,
+					methodName);
+			success.add(i, result);
 		}
 
 		// delete everything in our test folder
@@ -63,9 +69,10 @@ public class CloneInstrument {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		System.out.println(success.toString());
 	}
 
-	public static void showDiff(String filepath, int linenumber, String patch, String testName, String testPath,
+	public static boolean showDiff(String filepath, int linenumber, String patch, String testName, String testPath,
 			String moduleName, String methodName) {
 
 		// get variables needed from CloneVisitor.parseSnipCode
@@ -74,13 +81,13 @@ public class CloneInstrument {
 			vars = CloneVisitor.parseSnipCode(filepath, linenumber);
 		} catch (IOException e) {
 			System.out.println("unable to perform CloneVisitor.parseSnipCode");
-			return;
+			return false;
 		}
 		ArrayList<String> addedBefore = new ArrayList<>();
 		ArrayList<String> addedAfter = new ArrayList<>();
 		if (vars.size() == 0) {
 			System.out.println("no variable used or defined");
-			return;
+			return false;
 		}
 
 		String code;
@@ -88,7 +95,7 @@ public class CloneInstrument {
 			code = FileUtils.readFileToString(filepath);
 		} catch (IOException e) {
 			System.out.println("unable to perform FileUtils.readFileToString");
-			return;
+			return false;
 		}
 
 		String lineSeparator = System.getProperty("line.separator");
@@ -239,7 +246,7 @@ public class CloneInstrument {
 		} catch (IOException e) {
 			System.out.println("unable to perform createNewFile");
 			e.printStackTrace();
-			return;
+			return false;
 		}
 
 		code = before;
@@ -301,7 +308,13 @@ public class CloneInstrument {
 		Process process;
 		try {
 			process = processBuilder.start();
-		} catch (IOException e) {
+			boolean pass = process.waitFor(10, TimeUnit.MINUTES);
+			if (!pass) {
+				process.destroy();
+				throw new Exception();
+			}
+
+		} catch (Exception e) {
 			// e.printStackTrace();
 			File delete = new File(filepath);
 			File originalPath = new File(filepath);
@@ -313,7 +326,7 @@ public class CloneInstrument {
 					System.out.println("rename(back) sucess failed");
 				}
 			}
-			return;
+			return false;
 		}
 
 		try {
@@ -343,6 +356,8 @@ public class CloneInstrument {
 
 		// todo: parse the output file into a json
 
+		// our tests finished
+		return true;
 	}
 
 	// addSerialization() returns a list of sentenses that are required for using
