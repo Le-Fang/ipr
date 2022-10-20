@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<group id="10" excluded="false">
+		<clone method="KeyName" file="src/main/java/org/apache/xml/security/keys/content/KeyName.java" start="49" end="53" isTest="false">
+		</clone>
+		<clone method="MgmtData" file="src/main/java/org/apache/xml/security/keys/content/MgmtData.java" start="50" end="54" isTest="false">
+		</clone>
+	</group>
+	<group id="18" excluded="false">
+		<clone method="Signature11ElementProxy" file="src/main/java/org/apache/xml/security/utils/Signature11ElementProxy.java" start="40" end="47" isTest="false">
+		</clone>
+		<clone method="SignatureElementProxy" file="src/main/java/org/apache/xml/security/utils/SignatureElementProxy.java" start="40" end="48" isTest="false">
+		</clone>
+	</group>
+	<group id="22" excluded="false">
+		<clone method="enginePerformTransform" file="src/main/java/org/apache/xml/security/transforms/implementations/TransformC14NExclusive.java" start="53" end="93" isTest="false">
+		</clone>
+		<clone method="enginePerformTransform" file="src/main/java/org/apache/xml/security/transforms/implementations/TransformC14NExclusiveWithComments.java" start="55" end="93" isTest="false">
+		</clone>
+	</group>
+	<group id="23" excluded="false">
+		<clone method="resolveX509IssuerSerial" file="src/main/java/org/apache/xml/security/keys/keyresolver/implementations/PrivateKeyResolver.java" start="255" end="286" isTest="false">
+		</clone>
+		<clone method="resolveX509SubjectName" file="src/main/java/org/apache/xml/security/keys/keyresolver/implementations/PrivateKeyResolver.java" start="291" end="322" isTest="false">
+		</clone>
+	</group>
+	<group id="26" excluded="false">
+		<clone method="setMimeType" file="src/main/java/org/apache/xml/security/signature/ObjectContainer.java" start="83" end="87" isTest="false">
+		</clone>
+		<clone method="setTarget" file="src/main/java/org/apache/xml/security/signature/SignatureProperty.java" start="99" end="103" isTest="false">
+		</clone>
+	</group>
+	<group id="33" excluded="false">
+		<clone method="enginePerformTransform" file="src/main/java/org/apache/xml/security/transforms/implementations/TransformC14N11.java" start="42" end="58" isTest="false">
+		</clone>
+		<clone method="enginePerformTransform" file="src/main/java/org/apache/xml/security/transforms/implementations/TransformC14N11_WithComments.java" start="42" end="60" isTest="false">
+		</clone>
+	</group>
+	<group id="35" excluded="false">
+		<clone method="resolveX509SKI" file="src/main/java/org/apache/xml/security/keys/keyresolver/implementations/PrivateKeyResolver.java" start="220" end="250" isTest="false">
+		</clone>
+		<clone method="resolveX509IssuerSerial" file="src/main/java/org/apache/xml/security/keys/keyresolver/implementations/PrivateKeyResolver.java" start="255" end="286" isTest="false">
+		</clone>
+	</group>
+	<group id="43" excluded="false">
+		<clone method="engineLookupAndResolvePublicKey" file="src/main/java/org/apache/xml/security/keys/keyresolver/implementations/KeyInfoReferenceResolver.java" start="62" end="85" isTest="false">
+		</clone>
+		<clone method="engineLookupAndResolveX509Certificate" file="src/main/java/org/apache/xml/security/keys/keyresolver/implementations/KeyInfoReferenceResolver.java" start="88" end="111" isTest="false">
+		</clone>
+	</group>
+	<group id="56" excluded="false">
+		<clone method="createEncryptedData" file="src/main/java/org/apache/xml/security/encryption/XMLCipher.java" start="1904" end="1923" isTest="false">
+		</clone>
+		<clone method="createEncryptedKey" file="src/main/java/org/apache/xml/security/encryption/XMLCipher.java" start="1959" end="1978" isTest="false">
+		</clone>
+	</group>
+	<group id="77" excluded="false">
+		<clone method="handleEncrptedContent" file="src/main/java/org/apache/xml/security/stax/impl/processor/input/XMLDecryptInputProcessor.java" start="67" end="83" isTest="false">
+		</clone>
+		<clone method="handleEncryptedElement" file="src/main/java/org/apache/xml/security/stax/impl/processor/input/XMLDecryptInputProcessor.java" start="110" end="125" isTest="false">
+		</clone>
+	</group>
+	<group id="79" excluded="false">
+		<clone method="transform" file="src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheCanonicalizer.java" start="197" end="275" isTest="false">
+		</clone>
+		<clone method="transformit" file="src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheTransform.java" start="130" end="217" isTest="false">
+		</clone>
+	</group>
+	<group id="89" excluded="false">
+		<clone method="hashCode" file="src/main/java/org/apache/xml/security/keys/content/x509/XMLX509Certificate.java" start="145" end="158" isTest="false">
+		</clone>
+		<clone method="hashCode" file="src/main/java/org/apache/xml/security/keys/content/x509/XMLX509SKI.java" start="158" end="172" isTest="false">
+		</clone>
+	</group>
+	<group id="90" excluded="false">
+		<clone method="createContext" file="src/main/java/org/apache/xml/security/encryption/AbstractSerializer.java" start="187" end="207" isTest="false">
+		</clone>
+		<clone method="createContext" file="src/main/java/org/apache/xml/security/encryption/AbstractSerializer.java" start="229" end="249" isTest="false">
+		</clone>
+	</group>
+	<group id="100" excluded="false">
+		<clone method="engineInitVerify" file="src/main/java/org/apache/xml/security/algorithms/implementations/SignatureBaseRSA.java" start="98" end="107" isTest="false">
+		</clone>
+		<clone method="engineInitSign" file="src/main/java/org/apache/xml/security/algorithms/implementations/SignatureECDSA.java" start="285" end="294" isTest="false">
+		</clone>
+	</group>
+	<group id="104" excluded="false">
+		<clone method="setType" file="src/main/java/org/apache/xml/security/encryption/XMLCipher.java" start="3009" end="3022" isTest="false">
+		</clone>
+		<clone method="setEncoding" file="src/main/java/org/apache/xml/security/encryption/XMLCipher.java" start="3051" end="3064" isTest="false">
+		</clone>
+	</group>
+	<group id="109" excluded="false">
+		<clone method="engineLookupResolveX509Certifcate" file="src/main/java/org/apache/xml/security/keys/keyresolver/implementations/X509SKIResolver.java" start="99" end="109" isTest="false">
+		</clone>
+		<clone method="engineLookupResolveX509Certificate" file="src/main/java/org/apache/xml/security/keys/keyresolver/implementations/X509SubjectNameResolver.java" start="100" end="110" isTest="false">
+		</clone>
+	</group>
+	<group id="119" excluded="false">
+		<clone method="getPublicKey" file="src/main/java/org/apache/xml/security/stax/impl/securityToken/DsaKeyValueSecurityToken.java" start="58" end="69" isTest="false">
+		</clone>
+		<clone method="getPublicKey" file="src/main/java/org/apache/xml/security/stax/impl/securityToken/ECKeyValueSecurityToken.java" start="94" end="105" isTest="false">
+		</clone>
+	</group>
+	<group id="130" excluded="false">
+		<clone method="init" file="src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMXPathFilter2Transform.java" start="58" end="68" isTest="false">
+		</clone>
+		<clone method="init" file="src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMXPathTransform.java" start="48" end="58" isTest="false">
+		</clone>
+	</group>
+	<group id="133" excluded="false">
+		<clone method="checkStorage" file="src/main/java/org/apache/xml/security/keys/keyresolver/implementations/X509DigestResolver.java" start="167" end="174" isTest="false">
+		</clone>
+		<clone method="engineLookupResolveX509Certificate" file="src/main/java/org/apache/xml/security/keys/keyresolver/implementations/X509IssuerSerialResolver.java" start="84" end="93" isTest="false">
+		</clone>
+	</group>
+	<group id="151" excluded="false">
+		<clone method="getPreferredTransformMethod" file="src/main/java/org/apache/xml/security/stax/impl/transformer/TransformBase64Decode.java" start="57" end="66" isTest="false">
+		</clone>
+		<clone method="getPreferredTransformMethod" file="src/main/java/org/apache/xml/security/stax/impl/transformer/TransformEnvelopedSignature.java" start="40" end="49" isTest="false">
+		</clone>
+	</group>
+	<group id="169" excluded="false">
+		<clone method="write" file="src/main/java/org/apache/jcp/xml/dsig/internal/DigesterOutputStream.java" start="87" end="94" isTest="false">
+		</clone>
+		<clone method="write" file="src/main/java/org/apache/xml/security/utils/DigesterOutputStream.java" start="54" end="61" isTest="false">
+		</clone>
+	</group>
+	<group id="175" excluded="false">
+		<clone method="getFirstChildElement" file="src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMUtils.java" start="137" end="143" isTest="false">
+		</clone>
+		<clone method="getLastChildElement" file="src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMUtils.java" start="218" end="224" isTest="false">
+		</clone>
+	</group>
+</data>

@@ -1,0 +1,15 @@
+1:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:144:patIdxStart <= patIdxEnd |==> patIdxStart < patIdxEnd
+2:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:144:patIdxStart <= patIdxEnd |==> patIdxStart == patIdxEnd
+3:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:144:patIdxStart <= patIdxEnd |==> true
+4:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:144:strIdxStart <= strIdxEnd |==> strIdxStart < strIdxEnd
+5:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:144:strIdxStart <= strIdxEnd |==> strIdxStart == strIdxEnd
+6:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:144:strIdxStart <= strIdxEnd |==> true
+7:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:144:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart <= patIdxEnd == strIdxStart <= strIdxEnd
+8:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:144:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> false
+9:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:144:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart <= patIdxEnd
+10:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:144:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> strIdxStart <= strIdxEnd
+11:COR:patDir.equals(DEEP_TREE_MATCH):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:146:patDir.equals(DEEP_TREE_MATCH) |==> false
+12:COR:patDir.equals(DEEP_TREE_MATCH):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:146:patDir.equals(DEEP_TREE_MATCH) |==> true
+13:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:150:false |==> true
+14:STD:<INC/DEC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:152:patIdxStart++ |==> <NO-OP>
+15:STD:<INC/DEC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart:153:strIdxStart++ |==> <NO-OP>

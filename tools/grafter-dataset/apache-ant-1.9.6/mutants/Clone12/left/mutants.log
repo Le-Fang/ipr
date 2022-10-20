@@ -1,0 +1,13 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1316:processIncluded(name, file, dirsIncluded, dirsExcluded, dirsDeselected) |==> <NO-OP>
+2:COR:&&(boolean,boolean):||(boolean,boolean):org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:fast && couldHoldIncluded(name) |==> fast || couldHoldIncluded(name)
+3:ORU:fast && couldHoldIncluded(name):!(fast && couldHoldIncluded(name)):org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:fast && couldHoldIncluded(name) |==> !(fast && couldHoldIncluded(name))
+4:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:fast && couldHoldIncluded(name) |==> fast
+5:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:fast && couldHoldIncluded(name) |==> couldHoldIncluded(name)
+6:COR:&&(boolean,boolean):||(boolean,boolean):org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:fast && couldHoldIncluded(name) && !contentsExcluded(name) |==> (fast && couldHoldIncluded(name)) || !contentsExcluded(name)
+7:ORU:fast && couldHoldIncluded(name) && !contentsExcluded(name):!(fast && couldHoldIncluded(name) && !contentsExcluded(name)):org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:fast && couldHoldIncluded(name) && !contentsExcluded(name) |==> !(fast && couldHoldIncluded(name) && !contentsExcluded(name))
+8:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:fast && couldHoldIncluded(name) && !contentsExcluded(name) |==> fast && couldHoldIncluded(name)
+9:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:fast && couldHoldIncluded(name) && !contentsExcluded(name) |==> !contentsExcluded(name)
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1318:scandir(file, name, fast) |==> <NO-OP>
+11:ORU:!contentsExcluded(name):contentsExcluded(name):org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:!contentsExcluded(name) |==> contentsExcluded(name)
+12:ORU:fast:!fast:org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:fast |==> !fast
+13:ORU:couldHoldIncluded(name):!couldHoldIncluded(name):org.apache.tools.ant.DirectoryScanner@accountForIncludedDir:1317:couldHoldIncluded(name) |==> !couldHoldIncluded(name)

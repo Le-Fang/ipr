@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" id="0" name="UnitTest" package="my" tests="1">
+     <testcase classname="my.UnitTest" name="testSomething" />
+
+  </testsuite>
+</testsuites>

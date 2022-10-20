@@ -1,0 +1,17 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.Delete@removeDir:757:list == null |==> false
+2:LVR:0:POS:org.apache.tools.ant.taskdefs.Delete@removeDir:760:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.taskdefs.Delete@removeDir:760:0 |==> -1
+4:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.Delete@removeDir:760:i < list.length |==> i != list.length
+5:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.Delete@removeDir:760:i < list.length |==> i <= list.length
+6:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.Delete@removeDir:760:i < list.length |==> false
+7:COR:f.isDirectory():TRUE:org.apache.tools.ant.taskdefs.Delete@removeDir:763:f.isDirectory() |==> false
+8:COR:f.isDirectory():FALSE:org.apache.tools.ant.taskdefs.Delete@removeDir:763:f.isDirectory() |==> true
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Delete@removeDir:764:removeDir(f); |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Delete@removeDir:766:log("Deleting " + f.getAbsolutePath(), quiet ? Project.MSG_VERBOSE : verbosity); |==> <NO-OP>
+11:COR:!delete(f):TRUE:org.apache.tools.ant.taskdefs.Delete@removeDir:767:!delete(f) |==> false
+12:COR:!delete(f):FALSE:org.apache.tools.ant.taskdefs.Delete@removeDir:767:!delete(f) |==> true
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Delete@removeDir:768:handle("Unable to delete file " + f.getAbsolutePath()); |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Delete@removeDir:772:log("Deleting directory " + d.getAbsolutePath(), verbosity); |==> <NO-OP>
+15:COR:!delete(d):TRUE:org.apache.tools.ant.taskdefs.Delete@removeDir:773:!delete(d) |==> false
+16:COR:!delete(d):FALSE:org.apache.tools.ant.taskdefs.Delete@removeDir:773:!delete(d) |==> true
+17:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Delete@removeDir:774:handle("Unable to delete directory " + d.getAbsolutePath()); |==> <NO-OP>

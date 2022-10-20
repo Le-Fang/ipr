@@ -1,0 +1,24 @@
+Testing mutant 3 in ObjectContainer.setId
+The program state in [this.wrappedElement,this.wrappedElement] kills the mutant.
+Testing mutant 2 in ObjectContainer.setId
+Testing mutant 4 in ObjectContainer.setId
+The program state in [this.wrappedElement,this.wrappedElement] kills the mutant.
+Testing mutant 1 in ObjectContainer.setId
+org.apache.xml.security.test.dom.c14n.implementations.Bug45961Test.testBug kills the mutant
+org.apache.xml.security.test.dom.signature.CreateSignatureTest.testEmptyNodeSet kills the mutant
+The program state in [this.wrappedElement,this.wrappedElement] kills the mutant.
+Testing mutant 3 in SignatureProperty.setTarget
+org.apache.xml.security.test.dom.c14n.implementations.Bug45961Test.testBug kills the mutant
+org.apache.xml.security.test.dom.signature.CreateSignatureTest.testEmptyNodeSet kills the mutant
+The program state in [this.wrappedElement,this.wrappedElement] kills the mutant.
+Testing mutant 2 in SignatureProperty.setTarget
+org.apache.xml.security.test.dom.c14n.implementations.Bug45961Test.testBug kills the mutant
+org.apache.xml.security.test.dom.signature.CreateSignatureTest.testEmptyNodeSet kills the mutant
+Testing mutant 4 in SignatureProperty.setTarget
+org.apache.xml.security.test.dom.c14n.implementations.Bug45961Test.testBug kills the mutant
+org.apache.xml.security.test.dom.signature.CreateSignatureTest.testEmptyNodeSet kills the mutant
+The program state in [this.wrappedElement,this.wrappedElement] kills the mutant.
+Testing mutant 1 in SignatureProperty.setTarget
+org.apache.xml.security.test.dom.c14n.implementations.Bug45961Test.testBug kills the mutant
+org.apache.xml.security.test.dom.signature.CreateSignatureTest.testEmptyNodeSet kills the mutant
+The program state in [this.wrappedElement,this.wrappedElement] kills the mutant.

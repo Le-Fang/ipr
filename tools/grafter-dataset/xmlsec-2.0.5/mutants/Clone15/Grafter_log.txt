@@ -1,0 +1,32 @@
+Testing mutant 3 in X509SKIResolver.engineLookupResolveX509Certifcate
+Testing mutant 6 in X509SKIResolver.engineLookupResolveX509Certifcate
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers kills the mutant
+The program state in [storage,storage] kills the mutant.
+Testing mutant 2 in X509SKIResolver.engineLookupResolveX509Certifcate
+Testing mutant 4 in X509SKIResolver.engineLookupResolveX509Certifcate
+Testing mutant 5 in X509SKIResolver.engineLookupResolveX509Certifcate
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+The program state in [log,log] kills the mutant.
+Testing mutant 1 in X509SKIResolver.engineLookupResolveX509Certifcate
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers kills the mutant
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+The program state in [log,log] kills the mutant.
+Testing mutant 3 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+Testing mutant 6 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+The program state in [storage,storage] kills the mutant.
+Testing mutant 2 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+Testing mutant 4 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+Testing mutant 5 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+The program state in [log,log] kills the mutant.
+Testing mutant 1 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+The program state in [log,log] kills the mutant.

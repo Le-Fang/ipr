@@ -1,0 +1,3 @@
+1:COR:isReference():TRUE:org.apache.tools.ant.types.PatternSet@setExcludesfile:348:isReference() |==> false
+2:COR:isReference():FALSE:org.apache.tools.ant.types.PatternSet@setExcludesfile:348:isReference() |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.PatternSet@setExcludesfile:351:createExcludesFile().setName(excludesFile.getAbsolutePath()) |==> <NO-OP>

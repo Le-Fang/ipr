@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DirectoryScanner@getExcludedDirectories:1711:slowScan() |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DirectoryScanner@getExcludedDirectories:1713:dirsExcluded.copyInto(directories) |==> <NO-OP>

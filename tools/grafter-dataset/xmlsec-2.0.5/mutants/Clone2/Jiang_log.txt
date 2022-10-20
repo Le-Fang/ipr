@@ -1,0 +1,22 @@
+Testing mutant 1 in Signature11ElementProxy.Signature11ElementProxy
+Testing mutant 2 in Signature11ElementProxy.Signature11ElementProxy
+Type 3 Inconsistency
+[XMLUtils, createElementInSignature11Space, Signature11ElementProxy, RuntimeException, getBaseLocalName, doc, setElement, Document]
+[createElementInSignatureSpace, XMLUtils, setDocument, RuntimeException, getBaseLocalName, doc, setElement, Document, SignatureElementProxy]
+Testing mutant 3 in Signature11ElementProxy.Signature11ElementProxy
+Type 3 Inconsistency
+[setDocument, Signature11ElementProxy, RuntimeException, doc, Document]
+[createElementInSignatureSpace, XMLUtils, setDocument, RuntimeException, getBaseLocalName, doc, setElement, Document, SignatureElementProxy]
+Testing mutant 4 in Signature11ElementProxy.Signature11ElementProxy
+Testing mutant 5 in Signature11ElementProxy.Signature11ElementProxy
+Testing mutant 1 in SignatureElementProxy.SignatureElementProxy
+Testing mutant 2 in SignatureElementProxy.SignatureElementProxy
+Type 3 Inconsistency
+[createElementInSignatureSpace, XMLUtils, RuntimeException, getBaseLocalName, doc, setElement, Document, SignatureElementProxy]
+[XMLUtils, createElementInSignature11Space, setDocument, Signature11ElementProxy, RuntimeException, getBaseLocalName, doc, setElement, Document]
+Testing mutant 3 in SignatureElementProxy.SignatureElementProxy
+Type 3 Inconsistency
+[]
+[XMLUtils, createElementInSignature11Space, setDocument, Signature11ElementProxy, RuntimeException, getBaseLocalName, doc, setElement, Document]
+Testing mutant 4 in SignatureElementProxy.SignatureElementProxy
+Testing mutant 5 in SignatureElementProxy.SignatureElementProxy

@@ -1,0 +1,7 @@
+[withReadTimeout, readTimeout, ApnsServiceBuilder]
+[ApnsServerSocketBuilder, port, feedbackPort, withFeedbackDestination]
+Testing mutant 1 in ApnsServiceBuilder.withReadTimeout
+Type 3 Inconsistency
+[withReadTimeout, readTimeout, ApnsServiceBuilder]
+[ApnsServerSocketBuilder, port, feedbackPort, withFeedbackDestination]
+Testing mutant 1 in ApnsServerSocketBuilder.withFeedbackDestination

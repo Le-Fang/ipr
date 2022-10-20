@@ -1,0 +1,3 @@
+1:ORU:log.isDebugEnabled():!log.isDebugEnabled():org.apache.xml.security.encryption.XMLCipher@getInstance:486:log.isDebugEnabled() |==> !log.isDebugEnabled()
+2:STD:<CALL>:<NO-OP>:org.apache.xml.security.encryption.XMLCipher@getInstance:489:validateTransformation(transformation) |==> <NO-OP>
+

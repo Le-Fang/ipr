@@ -1,0 +1,167 @@
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers exposes a behavioral divergence (true,false).
+[tmp_return_value,tmp_return_value] exposes a behavioral divergence.
+[cert,cert] exposes a behavioral divergence.
+[key,key] exposes a behavioral divergence.
+[alias,alias] exposes a behavioral divergence.
+[certSKI,certSerial] exposes a behavioral divergence.
+[x509SKI,x509Serial] exposes a behavioral divergence.
+[aliases,aliases] exposes a behavioral divergence.
+[log,log] exposes a behavioral divergence.
+[this.keyStore,this.keyStore] exposes a behavioral divergence.
+[this.password,this.password] exposes a behavioral divergence.
+==========After Injecting Mutants=====
+Testing mutant 3 in PrivateKeyResolver.resolveX509SKI
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[certSKI,certSerial]
+[x509SKI,x509Serial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+Testing mutant 6 in PrivateKeyResolver.resolveX509SKI
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers kills the mutant
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[certSKI,certSerial]
+[x509SKI,x509Serial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+Testing mutant 2 in PrivateKeyResolver.resolveX509SKI
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[x509SKI,x509Serial]
+[certSKI,certSerial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+Testing mutant 4 in PrivateKeyResolver.resolveX509SKI
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[x509SKI,x509Serial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+Testing mutant 5 in PrivateKeyResolver.resolveX509SKI
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers kills the mutant
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[certSKI,certSerial]
+[x509SKI,x509Serial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+Testing mutant 1 in PrivateKeyResolver.resolveX509SKI
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers kills the mutant
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[certSKI,certSerial]
+[x509SKI,x509Serial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+Testing mutant 3 in PrivateKeyResolver.resolveX509IssuerSerial
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[x509SKI,x509Serial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+Testing mutant 6 in PrivateKeyResolver.resolveX509IssuerSerial
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers kills the mutant
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[certSKI,certSerial]
+[x509SKI,x509Serial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+Testing mutant 2 in PrivateKeyResolver.resolveX509IssuerSerial
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers kills the mutant
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[certSKI,certSerial]
+[x509SKI,x509Serial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+Testing mutant 4 in PrivateKeyResolver.resolveX509IssuerSerial
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[x509SKI,x509Serial]
+[aliases,aliases]
+Testing mutant 5 in PrivateKeyResolver.resolveX509IssuerSerial
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers kills the mutant
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[certSKI,certSerial]
+[x509SKI,x509Serial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+Testing mutant 1 in PrivateKeyResolver.resolveX509IssuerSerial
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers kills the mutant
+[Grafter]Fails to build the grafted project.
+[tmp_return_value,tmp_return_value]
+[cert,cert]
+[key,key]
+[alias,alias]
+[certSKI,certSerial]
+[x509SKI,x509Serial]
+[aliases,aliases]
+[log,log]
+[this.keyStore,this.keyStore]
+[this.password,this.password]
+

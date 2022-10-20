@@ -1,0 +1,14 @@
+Testing mutant 1 in ObjectContainer.setMimeType
+Testing mutant 2 in ObjectContainer.setMimeType
+Type 3 Inconsistency
+[setMimeType, String, MimeType]
+[_ATT_TARGET, setTarget, Constants, String, setLocalAttribute, target]
+Testing mutant 3 in ObjectContainer.setMimeType
+Testing mutant 4 in ObjectContainer.setMimeType
+Testing mutant 1 in SignatureProperty.setTarget
+Testing mutant 2 in SignatureProperty.setTarget
+Type 3 Inconsistency
+[setTarget, String, target]
+[_ATT_MIMETYPE, setMimeType, Constants, String, setLocalAttribute, MimeType]
+Testing mutant 3 in SignatureProperty.setTarget
+Testing mutant 4 in SignatureProperty.setTarget

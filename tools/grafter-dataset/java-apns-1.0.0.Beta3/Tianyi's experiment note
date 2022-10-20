@@ -1,0 +1,8 @@
+=== June 27th ===
+1. Please remember to update the prefix to "java.com.notnoop" in the TestTracker template
+2. The automated test coverage tool always hangs. Please comment out the test runner, set a breakpoint there, and run it manually then. Don't forget to print the test result to test_log.txt.
+3. Don't forget to update the pom file to add the dependency to XStream.
+4. This is related to #3 --- please also update template.mf to specify the version of XSream by appending ',\ncom.thoughtworks.*;version="1.4.9"'
+
+=== June 28th ===
+1. I haven't fixed the bug to port import statements becaue it rarely happens but takes a great effort to fix. Please do it manually when there is such a case for now.

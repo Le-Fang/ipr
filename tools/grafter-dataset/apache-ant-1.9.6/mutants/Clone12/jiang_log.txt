@@ -1,0 +1,103 @@
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 1 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[file, fast, couldHoldIncluded, accountForIncludedDir, scandir, name, contentsExcluded, File, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 10 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, file, fast, couldHoldIncluded, accountForIncludedDir, name, contentsExcluded, dirsExcluded, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 11 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 12 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 13 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 2 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 3 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 4 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, file, fast, accountForIncludedDir, scandir, name, contentsExcluded, dirsExcluded, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 5 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 6 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 7 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 8 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, file, fast, couldHoldIncluded, accountForIncludedDir, scandir, name, dirsExcluded, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 9 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, file, fast, accountForIncludedDir, scandir, name, contentsExcluded, dirsExcluded, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 1 in DirectoryScanner.accountForIncludedDir
+Testing mutant 10 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 11 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 12 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 13 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 2 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 3 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 4 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 5 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 6 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 7 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 8 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+Testing mutant 9 in DirectoryScanner.accountForIncludedDir
+Type 3 Inconsistency
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, String, LinkedList, directoryNamesFollowed, file, fast, children, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]
+[dirsDeselected, accountForIncludedDir, contentsExcluded, dirsExcluded, file, fast, couldHoldIncluded, scandir, name, File, processIncluded, dirsIncluded, TokenizedPath]

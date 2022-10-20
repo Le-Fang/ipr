@@ -1,0 +1,109 @@
+Testing mutant 12 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 10 in DigesterOutputStream.write
+[Grafter]Fails to build the grafted project.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+org.apache.xml.security.test.dom.interop.BaltimoreTest.test_twenty_three_external_b64_dsa
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testMaximumAllowedReferencesPerManifest
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_ski
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA_512
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testC14n11Method
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testSubjectName
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[len,arg2].
+[input,arg0].
+[offset,arg1].
+[log,log].
+Testing mutant 9 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 3 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 7 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 11 in DigesterOutputStream.write
+Testing mutant 6 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 8 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 2 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 4 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 5 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 1 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 10 in DigesterOutputStream.write
+Testing mutant 9 in DigesterOutputStream.write
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.interop.BaltimoreTest.test_twenty_three_external_b64_dsa
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testMaximumAllowedReferencesPerManifest
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA_512
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testC14n11Method
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testSubjectName
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[len,arg2].
+[input,arg0].
+[offset,arg1].
+Testing mutant 3 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 7 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 11 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 6 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 8 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 2 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 4 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 5 in DigesterOutputStream.write
+[input,arg0].
+Testing mutant 1 in DigesterOutputStream.write
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_ski
+[len,arg2].
+[input,arg0].
+[log,log].

@@ -1,0 +1,30 @@
+Testing mutant 3 in X509DigestResolver.checkStorage
+Testing mutant 6 in X509DigestResolver.checkStorage
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[log,log].
+Testing mutant 2 in X509DigestResolver.checkStorage
+Testing mutant 4 in X509DigestResolver.checkStorage
+Testing mutant 3 in X509IssuerSerialResolver.engineLookupResolveX509Certificate
+Testing mutant 6 in X509IssuerSerialResolver.engineLookupResolveX509Certificate
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.X509DigestResolverTest.testDigest
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[log,log].
+Testing mutant 2 in X509IssuerSerialResolver.engineLookupResolveX509Certificate
+Testing mutant 4 in X509IssuerSerialResolver.engineLookupResolveX509Certificate
+Testing mutant 5 in X509IssuerSerialResolver.engineLookupResolveX509Certificate
+org.apache.xml.security.test.dom.keys.keyresolver.X509DigestResolverTest.testDigest
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers
+[storage,storage].
+[log,log].
+Testing mutant 1 in X509IssuerSerialResolver.engineLookupResolveX509Certificate
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.keyresolver.X509DigestResolverTest.testDigest
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testKeyResolvers
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[log,log].

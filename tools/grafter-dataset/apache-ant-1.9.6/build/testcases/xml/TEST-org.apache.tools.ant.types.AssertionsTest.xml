@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="troy-ThinkPad-W541" name="org.apache.tools.ant.types.AssertionsTest" skipped="0" tests="11" time="0.735" timestamp="2016-08-24T03:42:30">
+  <properties>
+    <property name="env.DESKTOP_SESSION" value="ubuntu" />
+    <property name="env.OLDPWD" value="/home/troy/SysAssure/dataset" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SELINUX_INIT" value="YES" />
+    <property name="type.package" value="org/apache/tools/ant/types" />
+    <property name="script.dir" value="src/script" />
+    <property name="optional.type.package" value="org/apache/tools/ant/types/optional" />
+    <property name="dist.base.manual" value="distribution/manual" />
+    <property name="javac.source" value="1.5" />
+    <property name="tests.etc.dir" value="src/etc/testcases" />
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+    <property name="java.dir" value="src/main" />
+    <property name="bootstrap.jar" value="ant-bootstrap.jar" />
+    <property name="tests.are.on.system.classpath" value="true" />
+    <property name="src.junit" value="src/tests/junit" />
+    <property name="env.GDM_LANG" value="en_US" />
+    <property name="env.DISPLAY" value=":0" />
+    <property name="env.LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:" />
+    <property name="debug" value="true" />
+    <property name="env.XDG_VTNR" value="7" />
+    <property name="env.XDG_GREETER_DATA_DIR" value="/var/lib/lightdm-data/troy" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+    <property name="env.LOGNAME" value="troy" />
+    <property name="antunit.xml" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/antunit/xml" />
+    <property name="src.dir" value="src" />
+    <property name="env.XDG_SEAT" value="seat0" />
+    <property name="env.SESSION_MANAGER" value="local/troy-ThinkPad-W541:@/tmp/.ICE-unix/2298,unix/troy-ThinkPad-W541:/tmp/.ICE-unix/2298" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0" />
+    <property name="env.MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path" />
+    <property name="dist.javadocs" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/dist/manual/api" />
+    <property name="java.version" value="1.7.0_101" />
+    <property name="optional.jars.whenmanifestonly" value="skip" />
+    <property name="build.junit.reports" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/testcases/reports" />
+    <property name="chmod.maxparallel" value="250" />
+    <property name="expandproperty.files" value="**/version.txt,**/defaultManifest.mf" />
+    <property name="env.J2SDKDIR" value="/usr/lib/jvm/java-8-oracle" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.LANGUAGE" value="en_US" />
+    <property name="env.XDG_MENU_PREFIX" value="gnome-" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/" />
+    <property name="env.GNOME_KEYRING_CONTROL" value="/run/user/1000/keyring-GtrRlG" />
+    <property name="src.dist.lib" value="dist-src/lib" />
+    <property name="junit.excludes" value="" />
+    <property name="env.UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/2138" />
+    <property name="user.name" value="troy" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="build.lib-src" value="build/lib-src" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="javadoc.doclint.none" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-uUhjmHO8y4" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="src.dist.dir" value="dist-src" />
+    <property name="test.junit.vmargs" value="" />
+    <property name="optimize" value="true" />
+    <property name="lib.dir" value="lib" />
+    <property name="project.version" value="1.9.6" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.timezone" value="" />
+    <property name="env.LESSOPEN" value="| /usr/bin/lesspipe %s" />
+    <property name="path.separator" value=":" />
+    <property name="env.XMODIFIERS" value="@im=ibus" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.default-target" value="main" />
+    <property name="env.HOME" value="/home/troy" />
+    <property name="swing.present" value="true" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/home/troy/SysAssure/dataset/apache-ant-1.9.6/junittestcases7511267338427620920.properties skipNonTests=false filtertrace=false haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/testcases/xml/IGNORETHIS.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter crashfile=/home/troy/SysAssure/dataset/apache-ant-1.9.6/junitvmwatcher8772780700440848314.properties propsfile=/home/troy/SysAssure/dataset/apache-ant-1.9.6/junit3562267327816551571.properties" />
+    <property name="ant.file" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build.xml" />
+    <property name="groupid" value="org/apache/ant" />
+    <property name="tests.and.ant.share.classloader" value="true" />
+    <property name="env._" value="/usr/bin/ant" />
+    <property name="build.javadocs" value="build/javadocs" />
+    <property name="java.io.tmpdir" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/testcases/tmp" />
+    <property name="env.GNOME_KEYRING_PID" value="2136" />
+    <property name="TODAY" value="August 23 2016" />
+    <property name="user.language" value="en" />
+    <property name="junit.fork" value="true" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="src.antunit" value="src/tests/antunit" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.J2REDIR" value="/usr/lib/jvm/java-8-oracle/jre" />
+    <property name="run.junit" value="true" />
+    <property name="dist.manual" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/dist/manual" />
+    <property name="name" value="ant" />
+    <property name="junit.filtertrace" value="off" />
+    <property name="env.CLUTTER_IM_MODULE" value="xim" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="manifest" value="src/etc/manifest" />
+    <property name="ant.file.type.apache-ant" value="file" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ignoresystemclasses" value="true" />
+    <property name="env.COLORTERM" value="gnome-terminal" />
+    <property name="env.TEXTDOMAIN" value="im-config" />
+    <property name="env.IM_CONFIG_PHASE" value="1" />
+    <property name="tests-classpath.value" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/classes:/home/troy/SysAssure/dataset/apache-ant-1.9.6/lib/optional/hamcrest-core-1.3.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/lib/optional/junit-3.8.2.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/lib/optional/junit-4.11.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/lib/optional/xmlpull-xpp3-1.1.4c.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/lib/optional/xstream-1.4.7.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/testcases:/home/troy/SysAssure/dataset/apache-ant-1.9.6/src/tests/junit:/home/troy/SysAssure/dataset/apache-ant-1.9.6/src/etc/testcases:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar" />
+    <property name="junit.threads" value="0" />
+    <property name="Name" value="Apache Ant" />
+    <property name="env.GDMSESSION" value="ubuntu" />
+    <property name="bootstrap.dir" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/bootstrap" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="build.tests" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/testcases" />
+    <property name="env.VTE_VERSION" value="3409" />
+    <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path" />
+    <property name="src.dist.manual" value="dist-src/manual" />
+    <property name="pom.version" value="1.9.6" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on April 8 2014" />
+    <property name="antunit.reports" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/antunit/reports" />
+    <property name="regexp.package" value="org/apache/tools/ant/util/regexp" />
+    <property name="build.junit.tmpdir" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/testcases/tmp" />
+    <property name="env.WINDOWID" value="69210065" />
+    <property name="env.COMPIZ_CONFIG_PROFILE" value="ubuntu" />
+    <property name="env.XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session0" />
+    <property name="env.JOB" value="dbus" />
+    <property name="dist.etc" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/dist/etc" />
+    <property name="dist.base.source" value="distribution/source" />
+    <property name="os.name" value="Linux" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TERM" value="xterm" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="sun.tools.present" value="true" />
+    <property name="env.QT_IM_MODULE" value="ibus" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="env.PATH" value="/home/troy/research/AirForce/ardupilot/Tools/autotest:/home/troy/research/AirForce/ardupilot/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-4_9-2015q3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/troy/bin:/usr/lib/jvm/java-7-openjdk-amd64//bin" />
+    <property name="env.LESSCLOSE" value="/usr/bin/lesspipe %s %s" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="junit.batch" value="true" />
+    <property name="env.TEXTDOMAINDIR" value="/usr/share/locale/" />
+    <property name="basedir" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6" />
+    <property name="java.class.version" value="51.0" />
+    <property name="env.SHLVL" value="1" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="resource.dir" value="src/resources" />
+    <property name="junit.collector.dir" value="build/failingTests" />
+    <property name="build.lib" value="build/lib" />
+    <property name="util.package" value="org/apache/tools/ant/util" />
+    <property name="junit.includes" value="**/*Test*" />
+    <property name="junit.forkmode" value="once" />
+    <property name="java-repository.dir" value="java-repository/org/apache/ant" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+    <property name="build.dir" value="build" />
+    <property name="dist.base.binaries" value="distribution/binaries" />
+    <property name="build.classes" value="build/classes" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="year" value="2016" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="env.USER" value="troy" />
+    <property name="env.GTK_IM_MODULE" value="ibus" />
+    <property name="manual.dir" value="manual" />
+    <property name="env.GTK_MODULES" value="overlay-scrollbar:unity-gtk-module" />
+    <property name="run.junit.report" value="true" />
+    <property name="antunit.loglevel" value="none" />
+    <property name="ant.project.name" value="apache-ant" />
+    <property name="env.SESSIONTYPE" value="gnome-session" />
+    <property name="chmod.fail" value="true" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="env.COMPIZ_BIN_PATH" value="/usr/bin/" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="os.version" value="3.16.0-77-generic" />
+    <property name="env.QT_QPA_PLATFORMTHEME" value="appmenu-qt5" />
+    <property name="build.junit.xml" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/testcases/xml" />
+    <property name="dist.base" value="distribution" />
+    <property name="env.XDG_CURRENT_DESKTOP" value="Unity" />
+    <property name="user.home" value="/home/troy" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="jmf.present" value="true" />
+    <property name="env.JAVA_HOME" value="/usr/lib/jvm/java-7-openjdk-amd64/" />
+    <property name="env.SESSION" value="ubuntu" />
+    <property name="env.XDG_SESSION_ID" value="c2" />
+    <property name="junit.summary" value="no" />
+    <property name="ant.package" value="org/apache/tools/ant" />
+    <property name="env.XAUTHORITY" value="/home/troy/.Xauthority" />
+    <property name="user.dir" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6" />
+    <property name="offline" value="${offline}" />
+    <property name="env.PWD" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6" />
+    <property name="build.compiler" value="modern" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="jdk1.7+" value="true" />
+    <property name="build.tests.value" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/testcases" />
+    <property name="deprecation" value="false" />
+    <property name="dist.name" value="apache-ant-1.9.6" />
+    <property name="dist.lib" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/dist/lib" />
+    <property name="java.vm.version" value="24.95-b01" />
+    <property name="java.class.path" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/classes:/home/troy/SysAssure/dataset/apache-ant-1.9.6/lib/optional/hamcrest-core-1.3.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/lib/optional/junit-3.8.2.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/lib/optional/junit-4.11.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/lib/optional/xmlpull-xpp3-1.1.4c.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/lib/optional/xstream-1.4.7.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/testcases:/home/troy/SysAssure/dataset/apache-ant-1.9.6/src/tests/junit:/home/troy/SysAssure/dataset/apache-ant-1.9.6/src/etc/testcases:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar:/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/failingTests:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="env.DERBY_HOME" value="/usr/lib/jvm/java-8-oracle/db" />
+    <property name="DSTAMP" value="20160823" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="os.arch" value="amd64" />
+    <property name="dist.dir" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/dist" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="src.dist.src" value="dist-src/src" />
+    <property name="build.tests.javadocs" value="build/javadocs.test/" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="TSTAMP" value="2040" />
+    <property name="dist.bin" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/dist/bin" />
+    <property name="file.separator" value="/" />
+    <property name="optional.jars.prefix" value="ant" />
+    <property name="junit.present" value="true" />
+    <property name="jdk1.6+" value="true" />
+    <property name="test.haltonfailure" value="false" />
+    <property name="root" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6" />
+    <property name="java.runtime.version" value="1.7.0_101-b00" />
+    <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring-GtrRlG/ssh" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+    <property name="junit.collector.class" value="FailedTests" />
+    <property name="env.QT4_IM_MODULE" value="ibus" />
+    <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg" />
+    <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000" />
+    <property name="xmlschema.present" value="true" />
+    <property name="taskdefs.package" value="org/apache/tools/ant/taskdefs" />
+    <property name="ant.junit.failureCollector" value="build/failingTests/FailedTests" />
+    <property name="user.country" value="US" />
+    <property name="manifest-version" value="1.9.6" />
+    <property name="junit4.present" value="true" />
+    <property name="etc.dir" value="src/etc" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.INSTANCE" value="" />
+    <property name="apache.resolver.type.package" value="org/apache/tools/ant/types/resolver" />
+    <property name="optional.package" value="org/apache/tools/ant/taskdefs/optional" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="manifest.tmp" value="build/optional.manifest" />
+    <property name="javac.target" value="1.5" />
+    <property name="condition.package" value="org/apache/tools/ant/taskdefs/condition" />
+    <property name="env.GPG_AGENT_INFO" value="/run/user/1000/keyring-GtrRlG/gpg:0:1" />
+    <property name="antunit.tmpdir" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build/antunit/tmp" />
+    <property name="ant.file.apache-ant" value="/home/troy/SysAssure/dataset/apache-ant-1.9.6/build.xml" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+  </properties>
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testJUnit" time="0.129" />
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testPackage" time="0.077" />
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testEmptyAssertions" time="0.078" />
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testMultipleAssertions" time="0.021" />
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testOverride2" time="0.08" />
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testClassname" time="0.075" />
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testReferences" time="0.065" />
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testReferenceAbuse" time="0.02" />
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testOverride" time="0.081" />
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testDisable" time="0.082" />
+  <testcase classname="org.apache.tools.ant.types.AssertionsTest" name="testNofork" time="0.023" />
+  <system-out><![CDATA[Hit branch 2: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 8: pair 13
+Hit branch 2: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 8: pair 13
+Hit branch 2: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 8: pair 13
+Hit branch 2: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 8: pair 13
+Hit branch 2: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 8: pair 13
+Hit branch 2: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 8: pair 13
+Hit branch 2: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 8: pair 13
+Hit branch 2: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 8: pair 13
+Hit branch 2: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 8: pair 13
+Hit branch 2: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 4: pair 13
+Hit branch 6: pair 13
+Hit branch 8: pair 13
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

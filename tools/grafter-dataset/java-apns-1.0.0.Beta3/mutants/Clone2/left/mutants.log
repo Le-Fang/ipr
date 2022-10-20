@@ -1,0 +1,2 @@
+1:STD:<ASSIGNMENT>:<NO-OP>:com.notnoop.apns.ApnsServiceBuilder@withGatewayDestination:263:this.gatewayHost = host; |==> <NO-OP>
+2:STD:<ASSIGNMENT>:<NO-OP>:com.notnoop.apns.ApnsServiceBuilder@withGatewayDestination:264:this.gatewayPort = port; |==> <NO-OP>

@@ -1,0 +1,32 @@
+Testing mutant 1 in TransformC14N11.enginePerformTransform
+Testing mutant 10 in TransformC14N11.enginePerformTransform
+Testing mutant 2 in TransformC14N11.enginePerformTransform
+Testing mutant 3 in TransformC14N11.enginePerformTransform
+Type 3 Inconsistency
+[engineCanonicalize, os, Canonicalizer11_OmitComments, c14n, CanonicalizationException, OutputStream, XMLSignatureInput, enginePerformTransform, setSecureValidation, result, output, input, transform, setOutputStream, Transform, secureValidation]
+[engineCanonicalize, setWriter, os, c14n, CanonicalizationException, OutputStream, XMLSignatureInput, enginePerformTransform, setSecureValidation, result, output, input, transform, setOutputStream, Transform, Canonicalizer11_WithComments, secureValidation]
+Testing mutant 4 in TransformC14N11.enginePerformTransform
+Testing mutant 5 in TransformC14N11.enginePerformTransform
+Testing mutant 6 in TransformC14N11.enginePerformTransform
+Type 3 Inconsistency
+[engineCanonicalize, setWriter, os, Canonicalizer11_OmitComments, c14n, CanonicalizationException, OutputStream, XMLSignatureInput, enginePerformTransform, setSecureValidation, result, output, input, transform, Transform, secureValidation]
+[engineCanonicalize, setWriter, os, c14n, CanonicalizationException, OutputStream, XMLSignatureInput, enginePerformTransform, setSecureValidation, result, output, input, transform, setOutputStream, Transform, Canonicalizer11_WithComments, secureValidation]
+Testing mutant 7 in TransformC14N11.enginePerformTransform
+Testing mutant 8 in TransformC14N11.enginePerformTransform
+Testing mutant 9 in TransformC14N11.enginePerformTransform
+Testing mutant 1 in TransformC14N11_WithComments.enginePerformTransform
+Testing mutant 10 in TransformC14N11_WithComments.enginePerformTransform
+Testing mutant 2 in TransformC14N11_WithComments.enginePerformTransform
+Testing mutant 3 in TransformC14N11_WithComments.enginePerformTransform
+Type 3 Inconsistency
+[engineCanonicalize, os, c14n, CanonicalizationException, OutputStream, XMLSignatureInput, enginePerformTransform, setSecureValidation, result, output, input, transform, setOutputStream, Transform, Canonicalizer11_WithComments, secureValidation]
+[engineCanonicalize, setWriter, os, Canonicalizer11_OmitComments, c14n, CanonicalizationException, OutputStream, XMLSignatureInput, enginePerformTransform, setSecureValidation, result, output, input, transform, setOutputStream, Transform, secureValidation]
+Testing mutant 4 in TransformC14N11_WithComments.enginePerformTransform
+Testing mutant 5 in TransformC14N11_WithComments.enginePerformTransform
+Testing mutant 6 in TransformC14N11_WithComments.enginePerformTransform
+Type 3 Inconsistency
+[engineCanonicalize, setWriter, os, c14n, CanonicalizationException, OutputStream, XMLSignatureInput, enginePerformTransform, setSecureValidation, result, output, input, transform, Transform, Canonicalizer11_WithComments, secureValidation]
+[engineCanonicalize, setWriter, os, Canonicalizer11_OmitComments, c14n, CanonicalizationException, OutputStream, XMLSignatureInput, enginePerformTransform, setSecureValidation, result, output, input, transform, setOutputStream, Transform, secureValidation]
+Testing mutant 7 in TransformC14N11_WithComments.enginePerformTransform
+Testing mutant 8 in TransformC14N11_WithComments.enginePerformTransform
+Testing mutant 9 in TransformC14N11_WithComments.enginePerformTransform

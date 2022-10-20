@@ -1,0 +1,229 @@
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_hmacSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_subject_name exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_ski exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_b64_dsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_40_c14n_comments_detached exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_sn exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_rsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha384 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha384 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_b64_transform exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha384 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_with_ID exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_sn exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest.testLocalFilesystem exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha512_rsa_sha256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Is exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha512 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_b64_dsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_cert exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_enveloping_hmac_sha1_trunclen_0 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignTemplateWithObjectNSDefs exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_comments_detached exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_3 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_2 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloped_dsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureKeyname exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_hmacShortSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_enveloping_hmac_sha1_trunclen_8 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_keyname exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped_bad_digest_val exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_base64DecodeSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_external_dsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_crt_crl exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec2_102 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y3_signature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha512 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloping exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithEmptyNSPrefix does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_keyname exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_manifest exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateDSA2048Signature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateInteropXFilter2Test.test_create_sign_spec exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_crt exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloping exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.BaltimoreIaik2Test.testSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha384 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.DetachedTest.test exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.ComRSASecurityTest.test_certj201_enveloping exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testWHIRLPOOL exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_40_exclusive_c14n_comments_detached exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_external_b64_dsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_invalid_signature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignXfdl exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha384_rsa_sha256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_anonymousReferenceSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_224 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_384 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateSignatureWithEmptyId does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Crt exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_dsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.SecureXSLTTest.test exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec_102 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA512 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Sn exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_hmac_sha1_40 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_detached exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_crt exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509CrtCrl exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_c14nSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_manifestSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureRetrievalmethodRawx509crt exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_retrievalmethod_rawx509crt exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_512 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_cert_chain exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha512 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_rsaSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_issuer_serial exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA224 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_external_dsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_enveloped exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha512 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.keyinfo.KeyInfoTest.testMarshal does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_dsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignSpec exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.JSRWrappingAttackTest.testWrappingAttack exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Ski exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.ComRSASecurityTest.test_certj201_enveloped exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_rm exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_ski exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithReferenceManifestDependencies exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec3_103 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.JSRForbiddenRefCountTest.testReferenceCount exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloped_dsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.XMLSignatureFactoryTest.testunmarshalXMLSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_hmac_sha1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_is exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_exclc14n_xmlnamespace exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha256_rsa_sha256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_4 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_retrievalmethod_rawx509crt exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_signatureTypesSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_2 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloped exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_3 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_ski exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_4 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_external_b64_dsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_hmac_sha1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha256 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testRIPEMD160 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_is exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACRIPEMD160 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithProvider does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_crt_crl exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_5 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y4_signature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_6 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_7 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_224 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xpath_transform exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_2 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_3 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_xpath_transform_enveloped exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_rsa exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_4 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_bad_rm exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha512 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha384 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_hmac_sha1_40 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_384 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_1 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.BaltimoreExcC14n1Test.testExcSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_xPathSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_2 exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_envelopedSignatureSignature exposes a behavioral divergence(true,false).
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_dsaSignature exposes a behavioral divergence(true,false).
+
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_hmacSignature
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_subject_name
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_ski
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA1
+
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithEmptyNSPrefix
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_hmac_sha1_40
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateSignatureWithEmptyId
+javax.xml.crypto.test.dsig.keyinfo.KeyInfoTest.testMarshal
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithProvider
+=================== After Injecting Mutants ==========================
+The log data for previous groups is lost because the computer was crashed when running data. Since I have updated the clone table with some results as it ran, I only redid the evalutaion for those mutants I didn't update for. Please redo the evaluation on this group and copy and paste the log messages here to fill in the missing data. 
+
+Testing mutant 4 in DOMUtils.getLastChildElement
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature kills the mutant
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_hmacSignature kills the mutant
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_subject_name kills the mutant
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_ski kills the mutant
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithEmptyNSPrefix kills the mutant
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs kills the mutant
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate kills the mutant
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate kills the mutant
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateSignatureWithEmptyId kills the mutant
+javax.xml.crypto.test.dsig.keyinfo.KeyInfoTest.testMarshal kills the mutant
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithProvider kills the mutant
+The program state in [tmp_return_value,tmp_return_value] kills the mutant.
+The program state in [child,child] kills the mutant.
+The program state in [node,node] kills the mutant.
+Testing mutant 5 in DOMUtils.getLastChildElement
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature kills the mutant
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_hmacSignature kills the mutant
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_subject_name kills the mutant
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_ski kills the mutant
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithEmptyNSPrefix kills the mutant
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs kills the mutant
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate kills the mutant
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate kills the mutant
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_hmac_sha1_40 kills the mutant
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateSignatureWithEmptyId kills the mutant
+javax.xml.crypto.test.dsig.keyinfo.KeyInfoTest.testMarshal kills the mutant
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithProvider kills the mutant
+The program state in [tmp_return_value,tmp_return_value] kills the mutant.
+The program state in [child,child] kills the mutant.
+The program state in [node,node] kills the mutant.
+Testing mutant 1 in DOMUtils.getLastChildElement
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature kills the mutant
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_hmacSignature kills the mutant
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_subject_name kills the mutant
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature kills the mutant
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_ski kills the mutant
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs kills the mutant
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA1 kills the mutant
+The program state in [tmp_return_value,tmp_return_value] kills the mutant.
+The program state in [child,child] kills the mutant.
+The program state in [node,node] kills the mutant.

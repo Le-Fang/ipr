@@ -1,0 +1,20 @@
+1:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:52:logger.debug("Stopping APNSServerSimulator") |==> <NO-OP>
+2:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:54:gatewaySocket != null |==> true
+3:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:55:gatewaySocket.close() |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:58:e.printStackTrace() |==> <NO-OP>
+5:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:61:feedbackSocket != null |==> true
+6:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:62:feedbackSocket.close() |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:65:e.printStackTrace() |==> <NO-OP>
+8:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:68:gatewayThread != null |==> true
+9:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:69:gatewayThread.interrupt() |==> <NO-OP>
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:72:feedbackThread != null |==> true
+11:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:73:feedbackThread.interrupt() |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:75:logger.debug("Stopped - APNSServerSimulator") |==> <NO-OP>
+13:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:54:gatewaySocket != null |==> false
+14:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:54:gatewaySocket != null |==> gatewaySocket == null
+15:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:61:feedbackSocket != null |==> false
+16:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:61:feedbackSocket != null |==> feedbackSocket == null
+17:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:68:gatewayThread != null |==> false
+18:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:68:gatewayThread != null |==> gatewayThread == null
+19:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:72:feedbackThread != null |==> false
+20:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.Simulator.ApnsServerSimulator@stop:72:feedbackThread != null |==> feedbackThread == null

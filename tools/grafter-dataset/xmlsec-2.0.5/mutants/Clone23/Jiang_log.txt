@@ -1,0 +1,11 @@
+Testing mutant 1 in XMLCipher.getInstance
+Testing mutant 2 in XMLCipher.getInstance
+Type 3 Inconsistency
+[debug, log, digestMethod, XMLCipher, getInstance, String, isDebugEnabled, transformation, canon, XMLEncryptionException]
+[debug, provider, log, NullPointerException, getProviderInstance, XMLCipher, String, isDebugEnabled, transformation, XMLEncryptionException, validateTransformation]
+Testing mutant 1 in XMLCipher.getProviderInstance
+Testing mutant 2 in XMLCipher.getProviderInstance
+Type 3 Inconsistency
+[debug, provider, log, NullPointerException, getProviderInstance, XMLCipher, String, isDebugEnabled, transformation, XMLEncryptionException]
+[debug, log, digestMethod, XMLCipher, getInstance, String, isDebugEnabled, transformation, canon, XMLEncryptionException, validateTransformation]
+Testing mutant 3 in XMLCipher.getProviderInstance

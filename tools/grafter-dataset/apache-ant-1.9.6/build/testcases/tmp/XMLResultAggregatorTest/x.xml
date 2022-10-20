@@ -1,0 +1,3 @@
+<testsuite errors='0' failures='0' name='my.UnitTest' tests='1'>
+ <testcase classname='my.UnitTest' name='testSomething'/>
+</testsuite>

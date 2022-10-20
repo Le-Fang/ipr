@@ -1,0 +1,3 @@
+1:COR:isReference():TRUE:org.apache.tools.ant.types.PatternSet@setIncludesfile:335:isReference() |==> false
+2:COR:isReference():FALSE:org.apache.tools.ant.types.PatternSet@setIncludesfile:335:isReference() |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.PatternSet@setIncludesfile:338:createIncludesFile().setName(includesFile.getAbsolutePath()) |==> <NO-OP>

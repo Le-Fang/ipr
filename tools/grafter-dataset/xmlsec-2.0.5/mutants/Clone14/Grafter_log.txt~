@@ -1,0 +1,137 @@
+Testing mutant 3 in XMLCipher.setType
+Testing mutant 2 in XMLCipher.setType
+Testing mutant 1 in XMLCipher.setType
+org.apache.xml.security.test.stax.encryption.XMLEncryption11Test.testKeyWrappingRSA2048Outbound kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testEncryptedKeyWithRecipient kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes265ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes192ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testSerializedData kills the mutant
+org.apache.xml.security.test.dom.algorithms.SymmetricEncryptionAlgorithmTest.testAES192 kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAES256ElementRSAKWCipherUsingKEK kills the mutant
+Testing mutant 3 in XMLCipher.setEncoding
+org.apache.xml.security.test.stax.encryption.SymmetricEncryptionVerificationTest.testAES192 kills the mutant
+org.apache.xml.security.test.stax.encryption.XMLEncryption11Test.testKeyWrappingRSA2048Outbound kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testEncryptedKeyWithRecipient kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes265ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes192ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testSerializedData kills the mutant
+org.apache.xml.security.test.dom.encryption.EncryptContentTest.testMultipleKeyInfoElements kills the mutant
+org.apache.xml.security.test.dom.algorithms.SymmetricEncryptionAlgorithmTest.testAES192 kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testEncryptionProperties kills the mutant
+org.apache.xml.security.test.stax.encryption.DecryptionTest.testModifiedEncryptedKeyCipherValue kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAES256ElementRSAKWCipherUsingKEK kills the mutant
+Testing mutant 2 in XMLCipher.setEncoding
+Testing mutant 1 in XMLCipher.setEncoding
+org.apache.xml.security.test.stax.encryption.SymmetricEncryptionVerificationTest.testAES192 kills the mutant
+org.apache.xml.security.test.stax.encryption.XMLEncryption11Test.testKeyWrappingRSA2048Outbound kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testEncryptedKeyWithRecipient kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes265ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes192ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testSerializedData kills the mutant
+org.apache.xml.security.test.dom.encryption.EncryptContentTest.testMultipleKeyInfoElements kills the mutant
+org.apache.xml.security.test.dom.algorithms.SymmetricEncryptionAlgorithmTest.testAES192 kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testEncryptionProperties kills the mutant
+org.apache.xml.security.test.stax.encryption.DecryptionTest.testModifiedEncryptedKeyCipherValue kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAES256ElementRSAKWCipherUsingKEK kills the mutant
+Testing mutant 9 in SignatureBaseRSA.engineInitVerify
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 3 in SignatureBaseRSA.engineInitVerify
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 7 in SignatureBaseRSA.engineInitVerify
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 6 in SignatureBaseRSA.engineInitVerify
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 8 in SignatureBaseRSA.engineInitVerify
+The program state in [needed,needed] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 2 in SignatureBaseRSA.engineInitVerify
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+Testing mutant 4 in SignatureBaseRSA.engineInitVerify
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 5 in SignatureBaseRSA.engineInitVerify
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 1 in SignatureBaseRSA.engineInitVerify
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 10 in SignatureECDSA.engineInitSign
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 9 in SignatureECDSA.engineInitSign
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 3 in SignatureECDSA.engineInitSign
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 7 in SignatureECDSA.engineInitSign
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 6 in SignatureECDSA.engineInitSign
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 8 in SignatureECDSA.engineInitSign
+The program state in [publicKey,privateKey] kills the mutant.
+Testing mutant 2 in SignatureECDSA.engineInitSign
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 4 in SignatureECDSA.engineInitSign
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 5 in SignatureECDSA.engineInitSign
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.
+Testing mutant 1 in SignatureECDSA.engineInitSign
+The program state in [needed,needed] kills the mutant.
+The program state in [supplied,supplied] kills the mutant.
+The program state in [publicKey,privateKey] kills the mutant.
+The program state in [exArgs,exArgs] kills the mutant.

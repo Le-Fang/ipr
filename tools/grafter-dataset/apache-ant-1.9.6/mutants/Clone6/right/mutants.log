@@ -1,0 +1,6 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.DirectoryScanner@setExcludes:747:excludes == null |==> false
+2:LVR:0:POS:org.apache.tools.ant.DirectoryScanner@setExcludes:751:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.DirectoryScanner@setExcludes:751:0 |==> -1
+4:ROR:<(int,int):!=(int,int):org.apache.tools.ant.DirectoryScanner@setExcludes:751:i < excludes.length |==> i != excludes.length
+5:ROR:<(int,int):<=(int,int):org.apache.tools.ant.DirectoryScanner@setExcludes:751:i < excludes.length |==> i <= excludes.length
+6:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.DirectoryScanner@setExcludes:751:i < excludes.length |==> false

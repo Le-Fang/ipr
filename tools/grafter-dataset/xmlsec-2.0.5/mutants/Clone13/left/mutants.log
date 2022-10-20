@@ -1,0 +1,5 @@
+1:STD:<CALL>:<NO-OP>:org.apache.xml.security.algorithms.implementations.SignatureBaseRSA@engineInitVerify:110:this.signatureAlgorithm.initVerify((PublicKey)publicKey) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.xml.security.algorithms.implementations.SignatureBaseRSA@engineInitVerify:121:log.debug("Exception when reinstantiating Signature:" + e) |==> <NO-OP>
+3:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):org.apache.xml.security.algorithms.implementations.SignatureBaseRSA@engineInitVerify:100:publicKey != null |==> publicKey == null
+4:ORU:!(publicKey instanceof PublicKey):publicKey instanceof PublicKey:org.apache.xml.security.algorithms.implementations.SignatureBaseRSA@engineInitVerify:100:!(publicKey instanceof PublicKey) |==> publicKey instanceof PublicKey
+5:ORU:log.isDebugEnabled():!log.isDebugEnabled():org.apache.xml.security.algorithms.implementations.SignatureBaseRSA@engineInitVerify:120:log.isDebugEnabled() |==> !log.isDebugEnabled()

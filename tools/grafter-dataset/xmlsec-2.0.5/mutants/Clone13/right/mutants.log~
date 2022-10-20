@@ -1,0 +1,6 @@
+3:STD:<CALL>:<NO-OP>:org.apache.xml.security.algorithms.implementations.SignatureECDSA@engineInitSign:298:this.signatureAlgorithm.initSign((PrivateKey)privateKey) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.xml.security.algorithms.implementations.SignatureECDSA@engineInitSign:300:this.signatureAlgorithm.initSign((PrivateKey)privateKey, secureRandom) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.xml.security.algorithms.implementations.SignatureECDSA@engineInitSign:309:engineInitSign(privateKey, (SecureRandom)null) |==> <NO-OP>
+6:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):org.apache.xml.security.algorithms.implementations.SignatureECDSA@engineInitSign:287:privateKey != null |==> privateKey == null
+8:ORU:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.algorithms.implementations.SignatureECDSA@engineInitSign:287:!(privateKey instanceof PrivateKey) |==> privateKey instanceof PrivateKey
+10:ROR:==(java.lang.Object,java.lang.Object):!=(java.lang.Object,java.lang.Object):org.apache.xml.security.algorithms.implementations.SignatureECDSA@engineInitSign:297:secureRandom == null |==> secureRandom != null

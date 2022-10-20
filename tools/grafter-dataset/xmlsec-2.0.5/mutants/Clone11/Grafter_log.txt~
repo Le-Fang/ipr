@@ -1,0 +1,2030 @@
+JGoodies Looks: I have successfully installed the 'Sky Bluer' theme.
+before read : Document[name=/home/troy/SysAssure/dataset/xmlsec-2.0.5/src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheCanonicalizer.java]
+create document took 39
+before read : Document[name=/home/troy/SysAssure/dataset/xmlsec-2.0.5/src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheTransform.java]
+create document took 1
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha512 exits normally
+test_enveloping_p521_sha512：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_hmacSignature exits normally
+test_hmacSignature：javax.xml.crypto.test.dsig.IaikSignatureAlgosTest succeeds.
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate exits normally
+testvalidate：javax.xml.crypto.test.dsig.ReferenceTest succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_xPathSignature exits normally
+test_xPathSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_manifestSignature exits normally
+test_manifestSignature：javax.xml.crypto.test.dsig.IaikCoreFeaturesTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha256 exits normally
+test_enveloping_p256_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_256 exits normally
+testHMACSHA_256：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_256 exits normally
+testSHA3_256：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloped exits normally
+test_signature_dsa_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_comments_detached exits normally
+test_create_hmac_sha1_exclusive_c14n_comments_detached：javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Crt exits normally
+testSignatureX509Crt：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature exits normally
+test_create_signature：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped_bad_digest_val exits normally
+test_signature_rsa_enveloped_bad_digest_val：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_hmac_sha1 exits normally
+test_signature_enveloping_hmac_sha1：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloping exits normally
+test_signature_rsa_enveloping：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_rsa exits normally
+test_signature_enveloping_rsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs exits normally
+test_signature_external_c14n_xmlattrs：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_ski exits normally
+test_create_signature_x509_ski：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.BaltimoreIaik2Test.testSignature exits normally
+testSignature：javax.xml.crypto.test.dsig.BaltimoreIaik2Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_ski exits normally
+test_signature_rsa_manifest_x509_data_ski：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha384 exits normally
+test_enveloping_p256_sha384：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_384 exits normally
+testHMACSHA_384：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_crt exits normally
+test_create_signature_x509_crt：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_retrievalmethod_rawx509crt exits normally
+test_create_signature_retrievalmethod_rawx509crt：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_384 exits normally
+testSHA3_384：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_crt exits normally
+test_signature_x509_crt：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha1 exits normally
+test_enveloping_p256_sha1：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_detached exits normally
+test_signature_dsa_detached：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateDSA2048Signature exits normally
+testCreateDSA2048Signature：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha512 exits normally
+test_enveloping_hmac_sha512：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA224 exits normally
+testSHA224：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha384 exits normally
+test_enveloping_p384_sha384：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha384_rsa_sha256 exits normally
+test_enveloping_sha384_rsa_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_1 exits normally
+test_xmlid_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureRetrievalmethodRawx509crt exits normally
+testSignatureRetrievalmethodRawx509crt：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_retrievalmethod_rawx509crt exits normally
+test_signature_retrievalmethod_rawx509crt：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha256 exits normally
+test_enveloping_p384_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_dsaSignature exits normally
+test_dsaSignature：javax.xml.crypto.test.dsig.IaikSignatureAlgosTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec_102 exits normally
+test_xmlbase_c14n11spec_102：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_2 exits normally
+test_xmlid_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_c14nSignature exits normally
+test_c14nSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_rm exits normally
+test_signature_rsa_detached_xslt_transform_rm：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateSignatureWithEmptyId exits normally
+testCreateSignatureWithEmptyId：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_ski exits normally
+test_signature_x509_ski：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached exits normally
+test_signature_rsa_detached：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped exits normally
+test_create_hmac_sha1_exclusive_c14n_enveloped：javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_3 exits normally
+test_xmlspace_3：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureKeyname exits normally
+testSignatureKeyname：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_4 exits normally
+test_xmlspace_4：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform exits normally
+test_signature_rsa_detached_xslt_transform：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha512 exits normally
+test_enveloping_rsa_sha512：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1 exits normally
+test_xmlspace_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_dsa exits normally
+test_create_signature_enveloping_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_2 exits normally
+test_xmlspace_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec3_103 exits normally
+test_xmlbase_c14n11spec3_103：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_envelopedSignatureSignature exits normally
+test_envelopedSignatureSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha1 exits normally
+test_enveloping_p521_sha1：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec2_102 exits normally
+test_xmlbase_c14n11spec2_102：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_512 exits normally
+testSHA3_512：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y4_signature exits normally
+test_y4_signature：javax.xml.crypto.test.dsig.InteropC14nTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha512_rsa_sha256 exits normally
+test_enveloping_sha512_rsa_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509CrtCrl exits normally
+testSignatureX509CrtCrl：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignXfdl exits normally
+testSignXfdl：javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_cert exits normally
+test_signature_rsa_manifest_x509_data_cert：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignTemplateWithObjectNSDefs exits normally
+testSignTemplateWithObjectNSDefs：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_dsa exits normally
+test_signature_enveloping_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_external_b64_dsa exits normally
+test_create_signature_external_b64_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_external_dsa exits normally
+test_create_signature_external_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data exits normally
+test_signature_rsa_manifest_x509_data：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testRIPEMD160 exits normally
+testRIPEMD160：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature exits normally
+test_signature：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_1 exits normally
+test_xmlbase_prop_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_exclc14n_xmlnamespace exits normally
+test_signature_exclc14n_xmlnamespace：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_3 exits normally
+test_xmlbase_prop_3：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_2 exits normally
+test_xmlbase_prop_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.ComRSASecurityTest.test_certj201_enveloped exits normally
+test_certj201_enveloped：javax.xml.crypto.test.dsig.ComRSASecurityTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_5 exits normally
+test_xmlbase_prop_5：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_4 exits normally
+test_xmlbase_prop_4：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_7 exits normally
+test_xmlbase_prop_7：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloped_dsa exits normally
+test_create_signature_enveloped_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_6 exits normally
+test_xmlbase_prop_6：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate exits normally
+testsignANDvalidate：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA256 exits normally
+testSHA256：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.DetachedTest.test exits normally
+test：javax.xml.crypto.test.dsig.DetachedTest succeeds.
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_anonymousReferenceSignature exits normally
+test_anonymousReferenceSignature：javax.xml.crypto.test.dsig.IaikCoreFeaturesTest succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_is exits normally
+test_create_signature_x509_is：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_keyname exits normally
+test_signature_keyname：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_hmac_sha1 exits normally
+test_create_signature_enveloping_hmac_sha1：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.ComRSASecurityTest.test_certj201_enveloping exits normally
+test_certj201_enveloping：javax.xml.crypto.test.dsig.ComRSASecurityTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_enveloped exits normally
+test_signature_hmac_sha1_exclusive_c14n_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_b64_dsa exits normally
+test_signature_enveloping_b64_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_sn exits normally
+test_signature_x509_sn：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_subject_name exits normally
+test_signature_rsa_manifest_x509_data_subject_name：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha256 exits normally
+test_enveloping_rsa_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_keyname exits normally
+test_create_signature_keyname：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithEmptyNSPrefix exits normally
+testSignWithEmptyNSPrefix：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignSpec exits normally
+testSignSpec：javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xpath_transform exits normally
+test_signature_rsa_detached_xpath_transform：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_224 exits normally
+testSHA3_224：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384 exits normally
+testSHA384：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.SecureXSLTTest.test exits normally
+test：javax.xml.crypto.test.dsig.SecureXSLTTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_cert_chain exits normally
+test_signature_rsa_manifest_x509_data_cert_chain：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_rsaSignature exits normally
+test_rsaSignature：javax.xml.crypto.test.dsig.IaikSignatureAlgosTest succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_224 exits normally
+testHMACSHA_224：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Is exits normally
+testSignatureX509Is：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_crt_crl exits normally
+test_signature_x509_crt_crl：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_base64DecodeSignature exits normally
+test_base64DecodeSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached exits normally
+test_signature_hmac_sha1_exclusive_c14n_comments_detached：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.JSRWrappingAttackTest.testWrappingAttack exits normally
+testWrappingAttack：javax.xml.crypto.test.dsig.JSRWrappingAttackTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloped_dsa exits normally
+test_signature_enveloped_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloping exits normally
+test_signature_dsa_enveloping：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA1 exits normally
+testSHA1：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha384 exits normally
+test_enveloping_rsa_sha384：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_sn exits normally
+test_create_signature_x509_sn：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y3_signature exits normally
+test_y3_signature：javax.xml.crypto.test.dsig.InteropC14nTest succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_b64_dsa exits normally
+test_create_signature_enveloping_b64_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_b64_transform exits normally
+test_signature_rsa_detached_b64_transform：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testWHIRLPOOL exits normally
+testWHIRLPOOL：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_signatureTypesSignature exits normally
+test_signatureTypesSignature：javax.xml.crypto.test.dsig.IaikCoreFeaturesTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_external_dsa exits normally
+test_signature_external_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_issuer_serial exits normally
+test_signature_rsa_manifest_x509_data_issuer_serial：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512 exits normally
+testHMACSHA_512：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha384 exits normally
+test_enveloping_hmac_sha384：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA512 exits normally
+testSHA512：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha1 exits normally
+test_enveloping_p384_sha1：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Ski exits normally
+testSignatureX509Ski：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA1 exits normally
+testHMACSHA1：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.BaltimoreExcC14n1Test.testExcSignature exits normally
+testExcSignature：javax.xml.crypto.test.dsig.BaltimoreExcC14n1Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_3 exits normally
+test_xmllang_3：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha384 exits normally
+test_enveloping_p521_sha384：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_4 exits normally
+test_xmllang_4：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_is exits normally
+test_signature_x509_is：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_crt_crl exits normally
+test_create_signature_x509_crt_crl：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithReferenceManifestDependencies exits normally
+testSignWithReferenceManifestDependencies：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_1 exits normally
+test_xmllang_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped exits normally
+test_signature_rsa_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_2 exits normally
+test_xmllang_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha256 exits normally
+test_enveloping_hmac_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_rsa exits normally
+test_create_signature_enveloping_rsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_external_b64_dsa exits normally
+test_signature_external_b64_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_invalid_signature exits normally
+test_invalid_signature：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_manifest exits normally
+test_signature_dsa_manifest：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_with_ID exits normally
+test_signature_with_ID：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha256_rsa_sha256 exits normally
+test_enveloping_sha256_rsa_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 exits normally
+test_create_Y1：javax.xml.crypto.test.dsig.CreateInteropExcC14NTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha512 exits normally
+test_enveloping_p384_sha512：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_xpath_transform_enveloped exits normally
+test_signature_rsa_xpath_transform_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest exits normally
+test_signature_rsa_manifest：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.CreateInteropXFilter2Test.test_create_sign_spec exits normally
+test_create_sign_spec：javax.xml.crypto.test.dsig.CreateInteropXFilter2Test succeeds.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature exits normally
+test_y1_exc_signature：javax.xml.crypto.test.dsig.InteropC14nTest succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2 exits normally
+test_signature_xpathfilter2：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACRIPEMD160 exits normally
+testHMACRIPEMD160：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha512 exits normally
+test_enveloping_p256_sha512：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Sn exits normally
+testSignatureX509Sn：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha256 exits normally
+test_enveloping_p521_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest.testLocalFilesystem exits normally
+testLocalFilesystem：javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest succeeds.
+LOCAL - Data data <-> LOCAL - Data data
+FIELD - Element transformElem <-> FIELD - Element transformElem
+LOCAL - OutputStream os <-> LOCAL - OutputStream os
+LOCAL - XMLCryptoContext xc <-> LOCAL - XMLCryptoContext xc
+FIELD - org.slf4j.Logger log <-> FIELD - org.slf4j.Logger log
+FIELD - Document ownerDoc <-> FIELD - Document ownerDoc
+FIELD - Transform apacheTransform <-> FIELD - Transform apacheTransform
+LOCAL - Data data <-> LOCAL - Data data
+FIELD - Element transformElem <-> FIELD - Element transformElem
+LOCAL - OutputStream os <-> LOCAL - OutputStream os
+LOCAL - XMLCryptoContext xc <-> LOCAL - XMLCryptoContext xc
+LOCAL - XMLSignatureInput in <-> LOCAL - XMLSignatureInput in
+FIELD - org.slf4j.Logger log <-> FIELD - org.slf4j.Logger log
+FIELD - Document ownerDoc <-> FIELD - Document ownerDoc
+FIELD - Transform apacheTransform <-> FIELD - Transform apacheTransform
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha512 exits normally
+test_enveloping_p521_sha512：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_hmacSignature exits normally
+test_hmacSignature：javax.xml.crypto.test.dsig.IaikSignatureAlgosTest succeeds.
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate exits normally
+testvalidate：javax.xml.crypto.test.dsig.ReferenceTest succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_xPathSignature exits normally
+test_xPathSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_manifestSignature exits normally
+test_manifestSignature：javax.xml.crypto.test.dsig.IaikCoreFeaturesTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha256 exits normally
+test_enveloping_p256_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_256 exits normally
+testHMACSHA_256：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_256 exits normally
+testSHA3_256：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloped exits normally
+test_signature_dsa_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_comments_detached exits normally
+test_create_hmac_sha1_exclusive_c14n_comments_detached：javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Crt exits normally
+testSignatureX509Crt：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature exits normally
+test_create_signature：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped_bad_digest_val exits normally
+test_signature_rsa_enveloped_bad_digest_val：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_hmac_sha1 exits normally
+test_signature_enveloping_hmac_sha1：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloping exits normally
+test_signature_rsa_enveloping：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_rsa exits normally
+test_signature_enveloping_rsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs exits normally
+test_signature_external_c14n_xmlattrs：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_ski exits normally
+test_create_signature_x509_ski：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.BaltimoreIaik2Test.testSignature exits normally
+testSignature：javax.xml.crypto.test.dsig.BaltimoreIaik2Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_ski exits normally
+test_signature_rsa_manifest_x509_data_ski：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha384 exits normally
+test_enveloping_p256_sha384：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_384 exits normally
+testHMACSHA_384：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_crt exits normally
+test_create_signature_x509_crt：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_retrievalmethod_rawx509crt exits normally
+test_create_signature_retrievalmethod_rawx509crt：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_384 exits normally
+testSHA3_384：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_crt exits normally
+test_signature_x509_crt：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha1 exits normally
+test_enveloping_p256_sha1：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_detached exits normally
+test_signature_dsa_detached：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateDSA2048Signature exits normally
+testCreateDSA2048Signature：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha512 exits normally
+test_enveloping_hmac_sha512：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA224 exits normally
+testSHA224：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha384 exits normally
+test_enveloping_p384_sha384：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha384_rsa_sha256 exits normally
+test_enveloping_sha384_rsa_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_1 exits normally
+test_xmlid_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureRetrievalmethodRawx509crt exits normally
+testSignatureRetrievalmethodRawx509crt：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_retrievalmethod_rawx509crt exits normally
+test_signature_retrievalmethod_rawx509crt：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha256 exits normally
+test_enveloping_p384_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_dsaSignature exits normally
+test_dsaSignature：javax.xml.crypto.test.dsig.IaikSignatureAlgosTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec_102 exits normally
+test_xmlbase_c14n11spec_102：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_2 exits normally
+test_xmlid_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_c14nSignature exits normally
+test_c14nSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_rm exits normally
+test_signature_rsa_detached_xslt_transform_rm：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateSignatureWithEmptyId exits normally
+testCreateSignatureWithEmptyId：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_ski exits normally
+test_signature_x509_ski：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached exits normally
+test_signature_rsa_detached：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped exits normally
+test_create_hmac_sha1_exclusive_c14n_enveloped：javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_3 exits normally
+test_xmlspace_3：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureKeyname exits normally
+testSignatureKeyname：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_4 exits normally
+test_xmlspace_4：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform exits normally
+test_signature_rsa_detached_xslt_transform：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha512 exits normally
+test_enveloping_rsa_sha512：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1 exits normally
+test_xmlspace_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_dsa exits normally
+test_create_signature_enveloping_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_2 exits normally
+test_xmlspace_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec3_103 exits normally
+test_xmlbase_c14n11spec3_103：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_envelopedSignatureSignature exits normally
+test_envelopedSignatureSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha1 exits normally
+test_enveloping_p521_sha1：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec2_102 exits normally
+test_xmlbase_c14n11spec2_102：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_512 exits normally
+testSHA3_512：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y4_signature exits normally
+test_y4_signature：javax.xml.crypto.test.dsig.InteropC14nTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha512_rsa_sha256 exits normally
+test_enveloping_sha512_rsa_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509CrtCrl exits normally
+testSignatureX509CrtCrl：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignXfdl exits normally
+testSignXfdl：javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_cert exits normally
+test_signature_rsa_manifest_x509_data_cert：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignTemplateWithObjectNSDefs exits normally
+testSignTemplateWithObjectNSDefs：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_dsa exits normally
+test_signature_enveloping_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_external_b64_dsa exits normally
+test_create_signature_external_b64_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_external_dsa exits normally
+test_create_signature_external_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data exits normally
+test_signature_rsa_manifest_x509_data：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testRIPEMD160 exits normally
+testRIPEMD160：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature exits normally
+test_signature：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_1 exits normally
+test_xmlbase_prop_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_exclc14n_xmlnamespace exits normally
+test_signature_exclc14n_xmlnamespace：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_3 exits normally
+test_xmlbase_prop_3：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_2 exits normally
+test_xmlbase_prop_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.ComRSASecurityTest.test_certj201_enveloped exits normally
+test_certj201_enveloped：javax.xml.crypto.test.dsig.ComRSASecurityTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_5 exits normally
+test_xmlbase_prop_5：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_4 exits normally
+test_xmlbase_prop_4：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_7 exits normally
+test_xmlbase_prop_7：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloped_dsa exits normally
+test_create_signature_enveloped_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_6 exits normally
+test_xmlbase_prop_6：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate exits normally
+testsignANDvalidate：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA256 exits normally
+testSHA256：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.DetachedTest.test exits normally
+test：javax.xml.crypto.test.dsig.DetachedTest succeeds.
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_anonymousReferenceSignature exits normally
+test_anonymousReferenceSignature：javax.xml.crypto.test.dsig.IaikCoreFeaturesTest succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_is exits normally
+test_create_signature_x509_is：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_keyname exits normally
+test_signature_keyname：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_hmac_sha1 exits normally
+test_create_signature_enveloping_hmac_sha1：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.ComRSASecurityTest.test_certj201_enveloping exits normally
+test_certj201_enveloping：javax.xml.crypto.test.dsig.ComRSASecurityTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_enveloped exits normally
+test_signature_hmac_sha1_exclusive_c14n_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_b64_dsa exits normally
+test_signature_enveloping_b64_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_sn exits normally
+test_signature_x509_sn：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_subject_name exits normally
+test_signature_rsa_manifest_x509_data_subject_name：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha256 exits normally
+test_enveloping_rsa_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_keyname exits normally
+test_create_signature_keyname：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithEmptyNSPrefix exits normally
+testSignWithEmptyNSPrefix：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignSpec exits normally
+testSignSpec：javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xpath_transform exits normally
+test_signature_rsa_detached_xpath_transform：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_224 exits normally
+testSHA3_224：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384 exits normally
+testSHA384：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.SecureXSLTTest.test exits normally
+test：javax.xml.crypto.test.dsig.SecureXSLTTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_cert_chain exits normally
+test_signature_rsa_manifest_x509_data_cert_chain：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_rsaSignature exits normally
+test_rsaSignature：javax.xml.crypto.test.dsig.IaikSignatureAlgosTest succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_224 exits normally
+testHMACSHA_224：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Is exits normally
+testSignatureX509Is：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_crt_crl exits normally
+test_signature_x509_crt_crl：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_base64DecodeSignature exits normally
+test_base64DecodeSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached exits normally
+test_signature_hmac_sha1_exclusive_c14n_comments_detached：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.JSRWrappingAttackTest.testWrappingAttack exits normally
+testWrappingAttack：javax.xml.crypto.test.dsig.JSRWrappingAttackTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloped_dsa exits normally
+test_signature_enveloped_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloping exits normally
+test_signature_dsa_enveloping：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA1 exits normally
+testSHA1：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha384 exits normally
+test_enveloping_rsa_sha384：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_sn exits normally
+test_create_signature_x509_sn：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y3_signature exits normally
+test_y3_signature：javax.xml.crypto.test.dsig.InteropC14nTest succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_b64_dsa exits normally
+test_create_signature_enveloping_b64_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_b64_transform exits normally
+test_signature_rsa_detached_b64_transform：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testWHIRLPOOL exits normally
+testWHIRLPOOL：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_signatureTypesSignature exits normally
+test_signatureTypesSignature：javax.xml.crypto.test.dsig.IaikCoreFeaturesTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_external_dsa exits normally
+test_signature_external_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_issuer_serial exits normally
+test_signature_rsa_manifest_x509_data_issuer_serial：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512 exits normally
+testHMACSHA_512：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha384 exits normally
+test_enveloping_hmac_sha384：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA512 exits normally
+testSHA512：javax.xml.crypto.test.dsig.SignatureDigestMethodTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha1 exits normally
+test_enveloping_p384_sha1：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Ski exits normally
+testSignatureX509Ski：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA1 exits normally
+testHMACSHA1：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.BaltimoreExcC14n1Test.testExcSignature exits normally
+testExcSignature：javax.xml.crypto.test.dsig.BaltimoreExcC14n1Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_3 exits normally
+test_xmllang_3：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha384 exits normally
+test_enveloping_p521_sha384：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_4 exits normally
+test_xmllang_4：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_is exits normally
+test_signature_x509_is：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_crt_crl exits normally
+test_create_signature_x509_crt_crl：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithReferenceManifestDependencies exits normally
+testSignWithReferenceManifestDependencies：javax.xml.crypto.test.dsig.XMLSignatureTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_1 exits normally
+test_xmllang_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped exits normally
+test_signature_rsa_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_2 exits normally
+test_xmllang_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha256 exits normally
+test_enveloping_hmac_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_rsa exits normally
+test_create_signature_enveloping_rsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_external_b64_dsa exits normally
+test_signature_external_b64_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_invalid_signature exits normally
+test_invalid_signature：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_manifest exits normally
+test_signature_dsa_manifest：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_with_ID exits normally
+test_signature_with_ID：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha256_rsa_sha256 exits normally
+test_enveloping_sha256_rsa_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 exits normally
+test_create_Y1：javax.xml.crypto.test.dsig.CreateInteropExcC14NTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha512 exits normally
+test_enveloping_p384_sha512：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_xpath_transform_enveloped exits normally
+test_signature_rsa_xpath_transform_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest exits normally
+test_signature_rsa_manifest：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.CreateInteropXFilter2Test.test_create_sign_spec exits normally
+test_create_sign_spec：javax.xml.crypto.test.dsig.CreateInteropXFilter2Test succeeds.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature exits normally
+test_y1_exc_signature：javax.xml.crypto.test.dsig.InteropC14nTest succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2 exits normally
+test_signature_xpathfilter2：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACRIPEMD160 exits normally
+testHMACRIPEMD160：javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha512 exits normally
+test_enveloping_p256_sha512：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Sn exits normally
+testSignatureX509Sn：javax.xml.crypto.test.dsig.Baltimore18Test succeeds.
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha256 exits normally
+test_enveloping_p521_sha256：javax.xml.crypto.test.dsig.InteropXMLDSig11Test succeeds.
+javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest.testLocalFilesystem exits normally
+testLocalFilesystem：javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_1 exits normally
+test_xmlbase_prop_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_exclc14n_xmlnamespace exits normally
+test_signature_exclc14n_xmlnamespace：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_3 exits normally
+test_xmlbase_prop_3：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_2 exits normally
+test_xmlbase_prop_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_xPathSignature exits normally
+test_xPathSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.ComRSASecurityTest.test_certj201_enveloped exits normally
+test_certj201_enveloped：javax.xml.crypto.test.dsig.ComRSASecurityTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_5 exits normally
+test_xmlbase_prop_5：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_4 exits normally
+test_xmlbase_prop_4：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_7 exits normally
+test_xmlbase_prop_7：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloped_dsa exits normally
+test_create_signature_enveloped_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloped exits normally
+test_signature_dsa_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_6 exits normally
+test_xmlbase_prop_6：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature exits normally
+test_create_signature：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped_bad_digest_val exits normally
+test_signature_rsa_enveloped_bad_digest_val：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_enveloped exits normally
+test_signature_hmac_sha1_exclusive_c14n_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_b64_dsa exits normally
+test_signature_enveloping_b64_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs exits normally
+test_signature_external_c14n_xmlattrs：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.BaltimoreIaik2Test.testSignature exits normally
+testSignature：javax.xml.crypto.test.dsig.BaltimoreIaik2Test succeeds.
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignSpec exits normally
+testSignSpec：javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_base64DecodeSignature exits normally
+test_base64DecodeSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_1 exits normally
+test_xmlid_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloped_dsa exits normally
+test_signature_enveloped_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y3_signature exits normally
+test_y3_signature：javax.xml.crypto.test.dsig.InteropC14nTest succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_b64_dsa exits normally
+test_create_signature_enveloping_b64_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec_102 exits normally
+test_xmlbase_c14n11spec_102：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_2 exits normally
+test_xmlid_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_signatureTypesSignature exits normally
+test_signatureTypesSignature：javax.xml.crypto.test.dsig.IaikCoreFeaturesTest succeeds.
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped exits normally
+test_create_hmac_sha1_exclusive_c14n_enveloped：javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_3 exits normally
+test_xmlspace_3：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_4 exits normally
+test_xmlspace_4：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1 exits normally
+test_xmlspace_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_2 exits normally
+test_xmlspace_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec3_103 exits normally
+test_xmlbase_c14n11spec3_103：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_envelopedSignatureSignature exits normally
+test_envelopedSignatureSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_3 exits normally
+test_xmllang_3：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_4 exits normally
+test_xmllang_4：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec2_102 exits normally
+test_xmlbase_c14n11spec2_102：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y4_signature exits normally
+test_y4_signature：javax.xml.crypto.test.dsig.InteropC14nTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_1 exits normally
+test_xmllang_1：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_2 exits normally
+test_xmllang_2：javax.xml.crypto.test.dsig.C14N11Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped exits normally
+test_signature_rsa_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_external_b64_dsa exits normally
+test_signature_external_b64_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignXfdl exits normally
+testSignXfdl：javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest succeeds.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_external_b64_dsa exits normally
+test_create_signature_external_b64_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_xpath_transform_enveloped exits normally
+test_signature_rsa_xpath_transform_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.CreateInteropXFilter2Test.test_create_sign_spec exits normally
+test_create_sign_spec：javax.xml.crypto.test.dsig.CreateInteropXFilter2Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2 exits normally
+test_signature_xpathfilter2：javax.xml.crypto.test.dsig.ValidateSignatureTest succeeds.
+javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest.testLocalFilesystem exits normally
+testLocalFilesystem：javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature exits normally
+test_signature：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+LOCAL - Data data <-> LOCAL - Data data
+FIELD - Element transformElem <-> FIELD - Element transformElem
+LOCAL - OutputStream os <-> LOCAL - OutputStream os
+LOCAL - XMLCryptoContext xc <-> LOCAL - XMLCryptoContext xc
+FIELD - org.slf4j.Logger log <-> FIELD - org.slf4j.Logger log
+FIELD - Document ownerDoc <-> FIELD - Document ownerDoc
+FIELD - Transform apacheTransform <-> FIELD - Transform apacheTransform
+LOCAL - Data data <-> LOCAL - Data data
+FIELD - Element transformElem <-> FIELD - Element transformElem
+LOCAL - OutputStream os <-> LOCAL - OutputStream os
+LOCAL - XMLCryptoContext xc <-> LOCAL - XMLCryptoContext xc
+LOCAL - XMLSignatureInput in <-> LOCAL - XMLSignatureInput in
+FIELD - org.slf4j.Logger log <-> FIELD - org.slf4j.Logger log
+FIELD - Document ownerDoc <-> FIELD - Document ownerDoc
+FIELD - Transform apacheTransform <-> FIELD - Transform apacheTransform
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_1 exits abnormally
+test_xmlbase_prop_1：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_exclc14n_xmlnamespace exits abnormally
+test_signature_exclc14n_xmlnamespace：javax.xml.crypto.test.dsig.ValidateSignatureTest fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_3 exits abnormally
+test_xmlbase_prop_3：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_2 exits abnormally
+test_xmlbase_prop_2：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_xPathSignature exits normally
+test_xPathSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.ComRSASecurityTest.test_certj201_enveloped exits abnormally
+test_certj201_enveloped：javax.xml.crypto.test.dsig.ComRSASecurityTest fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_5 exits abnormally
+test_xmlbase_prop_5：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_4 exits abnormally
+test_xmlbase_prop_4：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_7 exits abnormally
+test_xmlbase_prop_7：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloped_dsa exits normally
+test_create_signature_enveloped_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloped exits normally
+test_signature_dsa_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_6 exits abnormally
+test_xmlbase_prop_6：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature exits abnormally
+test_create_signature：javax.xml.crypto.test.dsig.CreateBaltimore23Test fails.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped_bad_digest_val exits normally
+test_signature_rsa_enveloped_bad_digest_val：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_enveloped exits normally
+test_signature_hmac_sha1_exclusive_c14n_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_b64_dsa exits normally
+test_signature_enveloping_b64_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs exits abnormally
+test_signature_external_c14n_xmlattrs：javax.xml.crypto.test.dsig.ValidateSignatureTest fails.
+javax.xml.crypto.test.dsig.BaltimoreIaik2Test.testSignature exits abnormally
+testSignature：javax.xml.crypto.test.dsig.BaltimoreIaik2Test fails.
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignSpec exits abnormally
+testSignSpec：javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest fails.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_base64DecodeSignature exits normally
+test_base64DecodeSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_1 exits abnormally
+test_xmlid_1：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloped_dsa exits normally
+test_signature_enveloped_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y3_signature exits abnormally
+test_y3_signature：javax.xml.crypto.test.dsig.InteropC14nTest fails.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_b64_dsa exits normally
+test_create_signature_enveloping_b64_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec_102 exits abnormally
+test_xmlbase_c14n11spec_102：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_2 exits abnormally
+test_xmlid_2：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_signatureTypesSignature exits normally
+test_signatureTypesSignature：javax.xml.crypto.test.dsig.IaikCoreFeaturesTest succeeds.
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped exits normally
+test_create_hmac_sha1_exclusive_c14n_enveloped：javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_3 exits abnormally
+test_xmlspace_3：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_4 exits abnormally
+test_xmlspace_4：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1 exits abnormally
+test_xmlspace_1：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_2 exits abnormally
+test_xmlspace_2：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec3_103 exits abnormally
+test_xmlbase_c14n11spec3_103：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_envelopedSignatureSignature exits normally
+test_envelopedSignatureSignature：javax.xml.crypto.test.dsig.IaikTransformsTest succeeds.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_3 exits abnormally
+test_xmllang_3：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_4 exits abnormally
+test_xmllang_4：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec2_102 exits abnormally
+test_xmlbase_c14n11spec2_102：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y4_signature exits abnormally
+test_y4_signature：javax.xml.crypto.test.dsig.InteropC14nTest fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_1 exits abnormally
+test_xmllang_1：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_2 exits abnormally
+test_xmllang_2：javax.xml.crypto.test.dsig.C14N11Test fails.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped exits normally
+test_signature_rsa_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_external_b64_dsa exits normally
+test_signature_external_b64_dsa：javax.xml.crypto.test.dsig.Baltimore23Test succeeds.
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignXfdl exits abnormally
+testSignXfdl：javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest fails.
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_external_b64_dsa exits normally
+test_create_signature_external_b64_dsa：javax.xml.crypto.test.dsig.CreateBaltimore23Test succeeds.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_xpath_transform_enveloped exits normally
+test_signature_rsa_xpath_transform_enveloped：javax.xml.crypto.test.dsig.PhaosXMLDSig3Test succeeds.
+javax.xml.crypto.test.dsig.CreateInteropXFilter2Test.test_create_sign_spec exits abnormally
+test_create_sign_spec：javax.xml.crypto.test.dsig.CreateInteropXFilter2Test fails.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2 exits abnormally
+test_signature_xpathfilter2：javax.xml.crypto.test.dsig.ValidateSignatureTest fails.
+javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest.testLocalFilesystem exits abnormally
+testLocalFilesystem：javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest fails.
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature exits abnormally
+test_signature：javax.xml.crypto.test.dsig.Baltimore23Test fails.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_hmacSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_subject_name does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_ski does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_b64_dsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_external_c14n_xmlattrs does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_sn does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_rsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha384 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha384 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_b64_transform does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha384 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_with_ID does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_sn does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.JSRForbiddenReferenceTest.testLocalFilesystem does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha512_rsa_sha256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Is does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha512 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_b64_dsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_cert does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignTemplateWithObjectNSDefs does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_comments_detached does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_3 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_2 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloped_dsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureKeyname does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_keyname does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped_bad_digest_val does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_base64DecodeSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_external_dsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_crt_crl does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec2_102 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y3_signature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha512 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloping does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithEmptyNSPrefix does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_keyname does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_manifest does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateDSA2048Signature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateInteropXFilter2Test.test_create_sign_spec does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_crt does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloping does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.BaltimoreIaik2Test.testSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p521_sha1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha384 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.DetachedTest.test does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_enveloped does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ComRSASecurityTest.test_certj201_enveloping does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testWHIRLPOOL does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_external_b64_dsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_invalid_signature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignXfdl does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha384_rsa_sha256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_anonymousReferenceSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_224 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_384 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_hmac_sha256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testCreateSignatureWithEmptyId does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Crt does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_dsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SecureXSLTTest.test does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec_102 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA512 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Sn does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_detached does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_crt does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509CrtCrl does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_c14nSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_manifestSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureRetrievalmethodRawx509crt does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_retrievalmethod_rawx509crt does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_512 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_cert_chain does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha512 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_rsaSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_issuer_serial does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA224 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_external_dsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_enveloped does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha512 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_dsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.BaltimoreXPathFilter2ThreeTest.testSignSpec does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.JSRWrappingAttackTest.testWrappingAttack does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Ski does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ComRSASecurityTest.test_certj201_enveloped does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_rm does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_ski does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithReferenceManifestDependencies does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec3_103 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloped_dsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_hmac_sha1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_is does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_exclc14n_xmlnamespace does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha256_rsa_sha256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_4 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_retrievalmethod_rawx509crt does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikCoreFeaturesTest.test_signatureTypesSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_2 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloped does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_3 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_ski does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_4 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_external_b64_dsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_hmac_sha1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha256 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testRIPEMD160 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_is does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACRIPEMD160 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_crt_crl does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_5 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y4_signature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_6 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_7 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_224 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xpath_transform does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_2 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_3 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_xpath_transform_enveloped does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_enveloping_rsa does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_4 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha512 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p256_sha384 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_384 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_p384_sha1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_1 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.BaltimoreExcC14n1Test.testExcSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_xPathSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlid_2 does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_envelopedSignatureSignature does not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_dsaSignature does not expose a behavioral divergence (true,true).
+
+==============After Injecting Mutants===================
+Clone Group 1
+Clone Group 2
+Clone Group 3
+Clone Group 4
+Clone Group 5
+Clone Group 6
+Clone Group 7
+Clone Group 8
+Clone Group 9
+Clone Group 10
+Clone Group 11
+Testing mutant 17 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 23 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 31 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 12 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 36 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 39 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 41 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 37 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 10 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 14 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 35 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[log,log].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 27 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 21 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 9 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 25 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 3 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 29 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 32 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 40 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 7 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 11 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 16 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 30 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 6 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 34 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 13 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 24 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 18 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 15 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 2 in ApacheCanonicalizer.transform
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 4 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 28 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 19 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 33 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 5 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 1 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 20 in ApacheCanonicalizer.transform
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 17 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 26 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 23 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 31 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 12 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 38 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 36 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 39 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 41 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 37 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[log,log].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 10 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 14 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 35 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 43 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 27 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 21 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 9 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 3 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 29 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 45 in ApacheTransform.transformit
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 42 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 32 in ApacheTransform.transformit
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 40 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 7 in ApacheTransform.transformit
+[Grafter]Fails to build the grafted project.
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+Testing mutant 16 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 30 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 6 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 34 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 13 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 24 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 22 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 8 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 18 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 44 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 15 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 2 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 4 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 28 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 19 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 33 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature
+javax.xml.crypto.test.dsig.XMLSignatureTest.testsignANDvalidate
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA384
+javax.xml.crypto.test.dsig.HMACSignatureAlgorithmTest.testHMACSHA_512
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 5 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 1 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].
+Testing mutant 20 in ApacheTransform.transformit
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_1
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature
+[os,os].
+[data,data].
+[in,in].
+[this.ownerDoc,this.ownerDoc].
+[this.transformElem,this.transformElem].
+[tmp_return_value,tmp_return_value].
+[xc,xc].
+[this.apacheTransform,this.apacheTransform].

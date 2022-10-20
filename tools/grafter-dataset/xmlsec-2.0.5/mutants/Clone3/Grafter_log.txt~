@@ -1,0 +1,330 @@
+
+
+====== After Injecting Mutants=====
+Testing mutant 17 in TransformC14NExclusive.enginePerformTransform
+[os,os]
+[input,input]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 12 in TransformC14NExclusive.enginePerformTransform
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 10 in TransformC14NExclusive.enginePerformTransform
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA_224 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest.testSignatureCreationWithExternalFilesystemXMLReference kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testStrongSignatureVerification kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA3_224 kills the mutant
+[result,result]
+[os,os]
+[tmp_return_value,tmp_return_value]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 14 in TransformC14NExclusive.enginePerformTransform
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA_224 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest.testSignatureCreationWithExternalFilesystemXMLReference kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testStrongSignatureVerification kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA3_224 kills the mutant
+[result,result]
+[os,os]
+[tmp_return_value,tmp_return_value]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 9 in TransformC14NExclusive.enginePerformTransform
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 3 in TransformC14NExclusive.enginePerformTransform
+[Grafter]Fails to build the grafted project.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+Testing mutant 7 in TransformC14NExclusive.enginePerformTransform
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 kills the mutant
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 11 in TransformC14NExclusive.enginePerformTransform
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 16 in TransformC14NExclusive.enginePerformTransform
+[os,os]
+[input,input]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 6 in TransformC14NExclusive.enginePerformTransform
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 kills the mutant
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 13 in TransformC14NExclusive.enginePerformTransform
+[os,os]
+[input,input]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 8 in TransformC14NExclusive.enginePerformTransform
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 15 in TransformC14NExclusive.enginePerformTransform
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA_224 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest.testSignatureCreationWithExternalFilesystemXMLReference kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testStrongSignatureVerification kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA3_224 kills the mutant
+[result,result]
+[os,os]
+[tmp_return_value,tmp_return_value]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 2 in TransformC14NExclusive.enginePerformTransform
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[inclusiveNamespaces,inclusiveNamespaces]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 4 in TransformC14NExclusive.enginePerformTransform
+[Grafter]Fails to build the grafted project.
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y1_exc_signature kills the mutant
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA_512 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA_224 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest.testSignatureCreationWithExternalFilesystemXMLReference kills the mutant
+javax.xml.crypto.test.dsig.BaltimoreExcC14n1Test.testExcSignature kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testStrongSignatureVerification kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA3_224 kills the mutant
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped kills the mutant
+org.apache.xml.security.test.dom.c14n.implementations.ExclusiveC14NInteropTest.test_Y1 kills the mutant
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+Testing mutant 5 in TransformC14NExclusive.enginePerformTransform
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA_512 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA_224 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest.testSignatureCreationWithExternalFilesystemXMLReference kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testStrongSignatureVerification kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA3_224 kills the mutant
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped kills the mutant
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+Testing mutant 1 in TransformC14NExclusive.enginePerformTransform
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA_512 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA_224 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest.testSignatureCreationWithExternalFilesystemXMLReference kills the mutant
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testStrongSignatureVerification kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA3_224 kills the mutant
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped kills the mutant
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 kills the mutant
+[result,result]
+[os,os]
+[tmp_return_value,tmp_return_value]
+[input,input]
+[inclusiveNamespaces,inclusiveNamespaces]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 12 in TransformC14NExclusiveWithComments.enginePerformTransform
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+[result,result]
+[os,os]
+[tmp_return_value,tmp_return_value]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 10 in TransformC14NExclusiveWithComments.enginePerformTransform
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+[result,result]
+[os,os]
+[tmp_return_value,tmp_return_value]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 9 in TransformC14NExclusiveWithComments.enginePerformTransform
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 3 in TransformC14NExclusiveWithComments.enginePerformTransform
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA_512 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA_224 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest.testSignatureCreationWithExternalFilesystemXMLReference kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testStrongSignatureVerification kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA3_224 kills the mutant
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped kills the mutant
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+Testing mutant 7 in TransformC14NExclusiveWithComments.enginePerformTransform
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 kills the mutant
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 11 in TransformC14NExclusiveWithComments.enginePerformTransform
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 6 in TransformC14NExclusiveWithComments.enginePerformTransform
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 kills the mutant
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 13 in TransformC14NExclusiveWithComments.enginePerformTransform
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+[result,result]
+[os,os]
+[tmp_return_value,tmp_return_value]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 8 in TransformC14NExclusiveWithComments.enginePerformTransform
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 2 in TransformC14NExclusiveWithComments.enginePerformTransform
+[tmp_return_value,tmp_return_value]
+[os,os]
+[input,input]
+[inclusiveNamespaces,inclusiveNamespaces]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]
+Testing mutant 4 in TransformC14NExclusiveWithComments.enginePerformTransform
+[Grafter]Fails to build the grafted project.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 kills the mutant
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+Testing mutant 5 in TransformC14NExclusiveWithComments.enginePerformTransform
+[Grafter]Fails to build the grafted project.
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 kills the mutant
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+Testing mutant 1 in TransformC14NExclusiveWithComments.enginePerformTransform
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA_512 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA_224 kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest.testSignatureCreationWithExternalFilesystemXMLReference kills the mutant
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_comments_detached kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testStrongSignatureVerification kills the mutant
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA3_224 kills the mutant
+javax.xml.crypto.test.dsig.CreatePhaosXMLDSig3Test.test_create_hmac_sha1_exclusive_c14n_enveloped kills the mutant
+javax.xml.crypto.test.dsig.CreateInteropExcC14NTest.test_create_Y1 kills the mutant
+[result,result]
+[os,os]
+[tmp_return_value,tmp_return_value]
+[input,input]
+[inclusiveNamespaces,inclusiveNamespaces]
+[output,output]
+[c14n,c14n]
+[transformObject,transformObject]

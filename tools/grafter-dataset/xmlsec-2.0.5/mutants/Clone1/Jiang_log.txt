@@ -1,0 +1,8 @@
+Testing mutant 1 in KeyName.KeyName
+Type 3 Inconsistency
+[KeyName, keyName, doc, String, Document]
+[MgmtData, addText, doc, String, Document, mgmtData]
+Testing mutant 1 in MgmtData.MgmtData
+Type 3 Inconsistency
+[MgmtData, doc, String, Document, mgmtData]
+[KeyName, addText, keyName, doc, String, Document]

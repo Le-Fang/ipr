@@ -1,0 +1,12 @@
+Testing mutant 1 in PrivateKeyResolver.resolveX509SKI
+Testing mutant 2 in PrivateKeyResolver.resolveX509SKI
+Testing mutant 3 in PrivateKeyResolver.resolveX509SKI
+Testing mutant 4 in PrivateKeyResolver.resolveX509SKI
+Testing mutant 5 in PrivateKeyResolver.resolveX509SKI
+Testing mutant 6 in PrivateKeyResolver.resolveX509SKI
+Testing mutant 1 in PrivateKeyResolver.resolveX509IssuerSerial
+Testing mutant 2 in PrivateKeyResolver.resolveX509IssuerSerial
+Testing mutant 3 in PrivateKeyResolver.resolveX509IssuerSerial
+Testing mutant 4 in PrivateKeyResolver.resolveX509IssuerSerial
+Testing mutant 5 in PrivateKeyResolver.resolveX509IssuerSerial
+Testing mutant 6 in PrivateKeyResolver.resolveX509IssuerSerial

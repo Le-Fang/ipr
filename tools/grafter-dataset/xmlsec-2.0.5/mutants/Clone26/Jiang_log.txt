@@ -1,0 +1,25 @@
+Type 3 Inconsistency
+[debug, log, XMLCipher, getInstance, String, isDebugEnabled, transformation, XMLEncryptionException, validateTransformation]
+[debug, log, digestMethod, XMLCipher, String, transformation, canon, XMLEncryptionException, validateTransformation, provider, NullPointerException, getProviderInstance, isDebugEnabled]
+
+==== After Injecting Mutants =======
+Testing mutant 1 in XMLCipher.getInstance
+Type 3 Inconsistency
+[debug, log, XMLCipher, getInstance, String, isDebugEnabled, transformation, XMLEncryptionException, validateTransformation]
+[debug, log, digestMethod, XMLCipher, String, transformation, canon, XMLEncryptionException, validateTransformation, provider, NullPointerException, getProviderInstance, isDebugEnabled]
+Testing mutant 2 in XMLCipher.getInstance
+Type 3 Inconsistency
+[debug, log, XMLCipher, getInstance, String, isDebugEnabled, transformation, XMLEncryptionException]
+[debug, log, digestMethod, XMLCipher, String, transformation, canon, XMLEncryptionException, validateTransformation, provider, NullPointerException, getProviderInstance, isDebugEnabled]
+Testing mutant 1 in XMLCipher.getProviderInstance
+Type 3 Inconsistency
+[debug, log, digestMethod, XMLCipher, String, transformation, canon, XMLEncryptionException, validateTransformation, provider, NullPointerException, getProviderInstance, isDebugEnabled]
+[debug, log, XMLCipher, getInstance, String, isDebugEnabled, transformation, XMLEncryptionException, validateTransformation]
+Testing mutant 2 in XMLCipher.getProviderInstance
+Type 3 Inconsistency
+[debug, provider, log, NullPointerException, digestMethod, getProviderInstance, XMLCipher, String, isDebugEnabled, transformation, canon, XMLEncryptionException]
+[debug, log, XMLCipher, getInstance, String, isDebugEnabled, transformation, XMLEncryptionException, validateTransformation]
+Testing mutant 3 in XMLCipher.getProviderInstance
+Type 3 Inconsistency
+[debug, log, digestMethod, XMLCipher, String, transformation, canon, XMLEncryptionException, validateTransformation, provider, NullPointerException, getProviderInstance, isDebugEnabled]
+[debug, log, XMLCipher, getInstance, String, isDebugEnabled, transformation, XMLEncryptionException, validateTransformation]

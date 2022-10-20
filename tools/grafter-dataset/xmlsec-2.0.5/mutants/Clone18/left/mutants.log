@@ -1,0 +1,3 @@
+1:ORU:log.isDebugEnabled():TRUE:org.apache.xml.security.keys.keyresolver.implementations.X509DigestResolver@checkStorage:170:log.isDebugEnabled() |==> !log.isDebugEnabled()
+2:STD:<CALL>:<NO-OP>:org.apache.xml.security.keys.keyresolver.implementations.X509DigestResolver@checkStorage:171:log.debug("", ex) |==> <NO-OP>
+3:ROR:==(java.lang.Object,java.lang.Object):!=(java.lang.Object,java.lang.Object):org.apache.xml.security.keys.keyresolver.implementations.X509DigestResolver@checkStorage:167:storage == null |==> storage != null

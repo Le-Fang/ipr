@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<group id="11" excluded="false">
+		<clone method="transform" file="src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheCanonicalizer.java" start="197" end="275" isTest="false">
+			<test path="javax/xml/crypto/test/dsig/C14N11Test.java">test_xmlspace_3</test>
+		</clone>
+		<clone method="transformit" file="src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheTransform.java" start="130" end="217" isTest="false">
+		</clone>
+	</group>
+</data>

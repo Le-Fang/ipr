@@ -1,0 +1,19 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.Move@deleteDir:303:list == null |==> false
+2:ROR:==(java.lang.Object,java.lang.Object):!=(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.Move@deleteDir:303:list == null |==> list != null
+3:LVR:0:POS:org.apache.tools.ant.taskdefs.Move@deleteDir:307:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.ant.taskdefs.Move@deleteDir:307:0 |==> -1
+5:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.Move@deleteDir:307:i < list.length |==> i != list.length
+6:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.Move@deleteDir:307:i < list.length |==> i <= list.length
+7:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.Move@deleteDir:307:i < list.length |==> false
+8:COR:f.isDirectory():TRUE:org.apache.tools.ant.taskdefs.Move@deleteDir:310:f.isDirectory() |==> false
+9:COR:f.isDirectory():FALSE:org.apache.tools.ant.taskdefs.Move@deleteDir:310:f.isDirectory() |==> true
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Move@deleteDir:311:deleteDir(f) |==> <NO-OP>
+11:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.Move@deleteDir:312:deleteFiles && !getFileUtils().tryHardToDelete(f, performGc) |==> deleteFiles == !getFileUtils().tryHardToDelete(f, performGc)
+12:COR:&&(boolean,boolean):||(boolean,boolean):org.apache.tools.ant.taskdefs.Move@deleteDir:312:deleteFiles && !getFileUtils().tryHardToDelete(f, performGc) |==> deleteFiles || !getFileUtils().tryHardToDelete(f, performGc)
+13:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.Move@deleteDir:312:deleteFiles && !getFileUtils().tryHardToDelete(f, performGc) |==> deleteFiles
+14:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.Move@deleteDir:312:deleteFiles && !getFileUtils().tryHardToDelete(f, performGc) |==> !getFileUtils().tryHardToDelete(f, performGc)
+15:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Move@deleteDir:320:log("Deleting directory " + d.getAbsolutePath(), verbosity) |==> <NO-OP>
+16:ORU:f.isDirectory():!f.isDirectory():org.apache.tools.ant.taskdefs.Move@deleteDir:310:f.isDirectory() |==> !f.isDirectory()
+17:ORU:deleteFiles:!deleteFiles:org.apache.tools.ant.taskdefs.Move@deleteDir:312:deleteFiles |==> !deleteFiles
+18:ORU:!getFileUtils().tryHardToDelete(f, performGc):getFileUtils().tryHardToDelete(f, performGc):org.apache.tools.ant.taskdefs.Move@deleteDir:312:!getFileUtils().tryHardToDelete(f, performGc) |==> getFileUtils().tryHardToDelete(f, performGc)
+19:ORU:!getFileUtils().tryHardToDelete(d, performGc):getFileUtils().tryHardToDelete(d, performGc):org.apache.tools.ant.taskdefs.Move@deleteDir:321:!getFileUtils().tryHardToDelete(d, performGc) |==> getFileUtils().tryHardToDelete(d, performGc)

@@ -1,0 +1,17 @@
+1:LVR:POS:0:org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:61:1 |==> 0
+2:LVR:POS:NEG:org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:61:1 |==> -1
+3:ROR:==(int,int):<=(int,int):org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:59:transformObject.length(InclusiveNamespaces.ExclusiveCanonicalizationNamespace, InclusiveNamespaces._TAG_EC_INCLUSIVENAMESPACES) == 1 |==> transformObject.length(InclusiveNamespaces.ExclusiveCanonicalizationNamespace, InclusiveNamespaces._TAG_EC_INCLUSIVENAMESPACES) <= 1
+4:ROR:==(int,int):>=(int,int):org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:59:transformObject.length(InclusiveNamespaces.ExclusiveCanonicalizationNamespace, InclusiveNamespaces._TAG_EC_INCLUSIVENAMESPACES) == 1 |==> transformObject.length(InclusiveNamespaces.ExclusiveCanonicalizationNamespace, InclusiveNamespaces._TAG_EC_INCLUSIVENAMESPACES) >= 1
+5:ROR:==(int,int):FALSE(int,int):org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:61:transformObject.length(InclusiveNamespaces.ExclusiveCanonicalizationNamespace, InclusiveNamespaces._TAG_EC_INCLUSIVENAMESPACES) == 1 |==> false
+6:LVR:0:POS:org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:68:0 |==> 1
+7:LVR:0:NEG:org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:68:0 |==> -1
+8:STD:<CALL>:<NO-OP>:org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:78:c14n.setSecureValidation(secureValidation) |==> <NO-OP>
+9:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:79:os != null |==> true
+10:STD:<CALL>:<NO-OP>:org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:80:c14n.setWriter(os) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:85:output.setSecureValidation(secureValidation) |==> <NO-OP>
+12:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:86:os != null |==> true
+13:STD:<CALL>:<NO-OP>:org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:87:output.setOutputStream(os) |==> <NO-OP>
+14:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:79:os != null |==> false
+15:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:79:os != null |==> os == null
+16:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:86:os != null |==> false
+17:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14NExclusive@enginePerformTransform:86:os != null |==> os == null

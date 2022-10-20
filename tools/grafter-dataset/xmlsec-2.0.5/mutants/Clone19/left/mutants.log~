@@ -1,0 +1,12 @@
+1:ORU:log.isDebugEnabled():TRUE:org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:87:log.isDebugEnabled() |==> !log.isDebugEnabled()
+2:STD:<CALL>:<NO-OP>:org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:88:log.debug("Pre-digested input:") |==> <NO-OP>
+3:AOR:+(int,int):%(int,int):org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:90:offset + len |==> offset % len
+4:AOR:+(int,int):*(int,int):org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:90:offset + len |==> offset * len
+5:AOR:+(int,int):-(int,int):org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:90:offset + len |==> offset - len
+6:AOR:+(int,int):/(int,int):org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:90:offset + len |==> offset / len
+7:ROR:<(int,int):!=(int,int):org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:90:i < (offset + len) |==> i != (offset + len)
+8:ROR:<(int,int):<=(int,int):org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:90:i < (offset + len) |==> i <= (offset + len)
+9:ROR:<(int,int):FALSE(int,int):org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:90:i < (offset + len) |==> false
+11:STD:<CALL>:<NO-OP>:org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:91:sb.append((char)input[i]) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:93:log.debug(sb.toString()) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.jcp.xml.dsig.internal.DigesterOutputStream@write:93:md.update(input, offset, len) |==> <NO-OP>

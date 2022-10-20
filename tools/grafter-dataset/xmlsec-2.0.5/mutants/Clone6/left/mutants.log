@@ -1,0 +1,10 @@
+1:STD:<CALL>:<NO-OP>:org.apache.xml.security.transforms.implementations.TransformC14N11@enginePerformTransform:46:c14n.setSecureValidation(secureValidation) |==> <NO-OP>
+2:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14N11@enginePerformTransform:47:os != null |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.xml.security.transforms.implementations.TransformC14N11@enginePerformTransform:48:c14n.setWriter(os) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.xml.security.transforms.implementations.TransformC14N11@enginePerformTransform:53:output.setSecureValidation(secureValidation) |==> <NO-OP>
+5:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14N11@enginePerformTransform:54:os != null |==> true
+6:STD:<CALL>:<NO-OP>:org.apache.xml.security.transforms.implementations.TransformC14N11@enginePerformTransform:55:output.setOutputStream(os) |==> <NO-OP>
+7:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14N11@enginePerformTransform:47:os != null |==> false
+8:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14N11@enginePerformTransform:47:os != null |==> os == null
+9:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14N11@enginePerformTransform:54:os != null |==> false
+10:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):org.apache.xml.security.transforms.implementations.TransformC14N11@enginePerformTransform:54:os != null |==> os == null

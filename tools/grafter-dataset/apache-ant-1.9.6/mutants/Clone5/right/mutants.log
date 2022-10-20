@@ -1,0 +1,4 @@
+1:COR:isReference():TRUE:org.apache.tools.ant.types.PatternSet@getExcludePatterns:428:isReference() |==> false
+2:COR:isReference():FALSE:org.apache.tools.ant.types.PatternSet@getExcludePatterns:428:isReference() |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.PatternSet@getExcludePatterns:431:dieOnCircularReference(p) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.PatternSet@getExcludePatterns:432:readFiles(p) |==> <NO-OP>

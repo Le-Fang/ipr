@@ -1,0 +1,36 @@
+Testing mutant 3 in XMLCipher.setType
+Testing mutant 2 in XMLCipher.setType
+Testing mutant 1 in XMLCipher.setType
+org.apache.xml.security.test.stax.encryption.XMLEncryption11Test.testKeyWrappingRSA2048Outbound kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testEncryptedKeyWithRecipient kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes265ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes192ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testSerializedData kills the mutant
+org.apache.xml.security.test.dom.algorithms.SymmetricEncryptionAlgorithmTest.testAES192 kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAES256ElementRSAKWCipherUsingKEK kills the mutant
+Testing mutant 3 in XMLCipher.setEncoding
+org.apache.xml.security.test.stax.encryption.SymmetricEncryptionVerificationTest.testAES192 kills the mutant
+org.apache.xml.security.test.stax.encryption.XMLEncryption11Test.testKeyWrappingRSA2048Outbound kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testEncryptedKeyWithRecipient kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes265ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes192ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testSerializedData kills the mutant
+org.apache.xml.security.test.dom.encryption.EncryptContentTest.testMultipleKeyInfoElements kills the mutant
+org.apache.xml.security.test.dom.algorithms.SymmetricEncryptionAlgorithmTest.testAES192 kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testEncryptionProperties kills the mutant
+org.apache.xml.security.test.stax.encryption.DecryptionTest.testModifiedEncryptedKeyCipherValue kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAES256ElementRSAKWCipherUsingKEK kills the mutant
+Testing mutant 2 in XMLCipher.setEncoding
+Testing mutant 1 in XMLCipher.setEncoding
+org.apache.xml.security.test.stax.encryption.SymmetricEncryptionVerificationTest.testAES192 kills the mutant
+org.apache.xml.security.test.stax.encryption.XMLEncryption11Test.testKeyWrappingRSA2048Outbound kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testEncryptedKeyWithRecipient kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes265ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAes192ElementCipher kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testSerializedData kills the mutant
+org.apache.xml.security.test.dom.encryption.EncryptContentTest.testMultipleKeyInfoElements kills the mutant
+org.apache.xml.security.test.dom.algorithms.SymmetricEncryptionAlgorithmTest.testAES192 kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testEncryptionProperties kills the mutant
+org.apache.xml.security.test.stax.encryption.DecryptionTest.testModifiedEncryptedKeyCipherValue kills the mutant
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAES256ElementRSAKWCipherUsingKEK kills the mutant
+

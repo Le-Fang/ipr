@@ -1,0 +1,7 @@
+Testing mutant 1 in ApnsServiceBuilder.withReadTimeout
+[Grafter]Fails to build the grafted project.
+com.notnoop.apns.integration.ApnsConnectionTest.sendOneSimpleWithoutTimeout
+com.notnoop.apns.integration.FeedbackTest.simpleFeedbackWithoutTimeout
+com.notnoop.apns.integration.ApnsConnectionTest.sendOneSimpleWithTimeout
+Testing mutant 1 in ApnsServerSocketBuilder.withFeedbackDestination
+com.notnoop.apns.integration.FeedbackTest.simpleFeedbackWithTimeout

@@ -1,0 +1,261 @@
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testDisallowMD5Algorithm exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA224_MGF1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest.testSignatureCreationWithExternalFilesystemXMLReference doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_rsa_sha256 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ReferenceTest.testvalidate doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_SHA_384 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA384 exposes a behavioral divergence(false,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_rsa doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestCreationTest.testSHA512 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.encryption.SignedEncryptedTest.decryptUsingSunDOMSerializer exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_RIPEMD160 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testSubjectName exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testRSA_SHA1 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA_224 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testDSAPublicKeyFromKey doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_SHA1_MGF1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA256 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testECDSA_SHA_256 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureCreationReferenceURIResolverTest.testSignatureCreationWithExternalFilesystemBinaryReference doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.keys.content.x509.XMLX509DigestTest.testDigestOnConstructionWithCert doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testId doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testECDSA_RIPEMD160 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.keys.content.x509.XMLX509DigestTest.testSchema exposes a behavioral divergence(true,false).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_SHA512_MGF1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testRSA_SHA1_MGF1 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.keys.content.x509.XMLX509DigestTest.testDigestOnConstructionWithBytes doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureHMACCreationTest.testHMACSHA_384 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.XMLSignatureTest.testSignWithEmptyNSPrefix doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testDifferentDigestMethodForReference doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testECDSA_SHA512 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureHMACCreationTest.testHMACSHA1 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testRSAPublicKeyFromKey doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.DigestAlgorithmTest.testSHA224 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_manifest doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testECDSA_SHA_224 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestCreationTest.testSHA256 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.interop.IAIKTest.test_transforms_signatures_c14nSignature doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_crt doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.BaltimoreIaik2Test.testSignature doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.interop.IAIKTest.test_coreFeatures_signatures_manifestSignature_manifest doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.keys.KeyInfoReferenceTest.testSchema exposes a behavioral divergence(true,false).
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testDifferentC14nMethod doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.DetachedTest.test doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.DigestAlgorithmTest.testSHA3_256 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.encryption.XMLCipherTest.testAES128ElementAES192KWCipherUsingKEK exposes a behavioral divergence(false,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testWHIRLPOOL doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testSignatureCreation doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testRSA_SHA256_MGF1 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testECDSA_SHA_512 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testECDSA_SHA224 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testECDSA_SHA384 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA256_MGF1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.c14n.implementations.ExclusiveC14NInteropTest.test_Y2 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_SHA_256 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.c14n.implementations.ExclusiveC14NInteropTest.test_Y3 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.c14n.implementations.ExclusiveC14NInteropTest.test_Y4 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testRSA_SHA224_MGF1 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA256 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestCreationTest.testSHA3_224 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureVerificationReferenceURIResolverTest.testSignatureVerificationWithExternalFilesystemXMLReference exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testHMACSignatureCreation doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testECDSA_SHA1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.keys.KeyInfoReferenceTest.testURIOnConstruction doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA_384 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testECDSA_SHA256 exposes a behavioral divergence(false,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_issuer_serial doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_SHA224_MGF1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_SHA_224 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testECDSA_SHA256 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testRSA_SHA512 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testRSA_SHA384_MGF1 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_dsa doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testKeyValue exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureHMACCreationTest.testHMACSHA_256 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA1_MGF1 exposes a behavioral divergence(false,true).
+javax.xml.crypto.test.dsig.JSRWrappingAttackTest.testWrappingAttack doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore18Test.testSignatureX509Ski doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.signature.InvalidKeyTest.test doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestCreationTest.testSHA3_512 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testMultipleElements exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.secure_val.ForbiddenAlgorithmTest.testMD5Digest doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_SHA256_MGF1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testECDSA_SHA1 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.signature.UnknownAlgoSignatureTest.testBadTransformAlgo doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testECDSA_RIPEMD160 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA_384 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_SHA384_MGF1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testECDSA_SHA1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testStrongSignatureCreation doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_rm doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.transforms.implementations.Xpath2TransformationTest.testXpath2Transform doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_RIPEMD160 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureEncryptionTest.testEncryptionSignature doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_c14n11spec3_103 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_SHA_512 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testDifferentC14nMethodForReference doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testHMACSignatureVerification exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureHMACCreationTest.testHMACSHA_224 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.Baltimore23Test.test_signature_x509_is doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_exclc14n_xmlnamespace doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.DigestAlgorithmTest.testSHA1 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.InteropXMLDSig11Test.test_enveloping_sha256_rsa_sha256 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlspace_4 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testPartialSignedDocumentTampered_SignatureFirst exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.interop.IAIKTest.test_coreFeatures_signatures_signatureTypesSignature doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testAllowMD5Algorithm exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.secure_val.ForbiddenReferenceTest.testLocalFilesystem doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testExcC14nInclusivePrefixes doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.HMACSignatureAlgorithmTest.testHMACSHA_256 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.interop.IAIKTest.test_coreFeatures_signatures_anonymousReferenceSignature doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureVerificationReferenceURIResolverTest.testSignatureVerificationWithSameDocumentXPointerIdDoubleQuoteReference exposes a behavioral divergence(false,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_1 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testRIPEMD160 exposes a behavioral divergence(false,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_2 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_dsa_enveloped doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.interop.IAIKTest.test_transforms_signatures_base64DecodeSignature doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_3 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_manifest_x509_data_ski doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmllang_4 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testWhirlpool exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.keys.content.x509.XMLX509IssuerSerialTest.testGetIssuerName doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.ValidateSignatureTest.test_signature_xpathfilter2 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_256 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_enveloping_hmac_sha1 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.DigestAlgorithmTest.testSHA384 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testSignRootElementInRequest doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testRSA_SHA256 doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testRIPEMD160 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.interop.IAIKTest.test_transforms_signatures_envelopedSignatureSignature doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.CreateBaltimore23Test.test_create_signature_x509_is doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testSchema exposes a behavioral divergence(true,false).
+org.apache.xml.security.test.dom.keys.KeyInfoReferenceTest.testId doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA384 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.signature.UnknownAlgoSignatureTest.testGood doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.keys.keyresolver.KeyResolverTest.testResolvePrivateKey exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.algorithms.SignatureAlgorithmTest.testSameKeySeveralAlgorithmSigning doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.interop.IAIKTest.test_signatureAlgorithms_signatures_rSASignature doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA512 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureHMACVerificationTest.testHMACSHA_256 exposes a behavioral divergence(false,true).
+javax.xml.crypto.test.dsig.InteropC14nTest.test_y4_signature doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testECDSA_RIPEMD160 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA3_256 exposes a behavioral divergence(false,true).
+javax.xml.crypto.test.dsig.C14N11Test.test_xmlbase_prop_1 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA384_MGF1 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.algorithms.PKSignatureAlgorithmTest.testRSA_SHA1 exposes a behavioral divergence(false,true).
+javax.xml.crypto.test.dsig.SignatureDigestMethodTest.testSHA3_384 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testRSA_SHA384 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA3_384 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.dom.algorithms.DigestAlgorithmTest.testSHA256 doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testECDSA_SHA384 exposes a behavioral divergence(false,true).
+org.apache.xml.security.test.stax.signature.SignatureDigestVerificationTest.testSHA1 exposes a behavioral divergence(false,true).
+javax.xml.crypto.test.dsig.IaikTransformsTest.test_envelopedSignatureSignature doe not expose a behavioral divergence (true,true).
+javax.xml.crypto.test.dsig.IaikSignatureAlgosTest.test_dsaSignature doe not expose a behavioral divergence (true,true).
+org.apache.xml.security.test.stax.signature.PKSignatureCreationTest.testECDSA_SHA224 doe not expose a behavioral divergence (true,true).
+
+
+
+===== After Injecting Mutants ====================
+Testing mutant 3 in Signature11ElementProxy.Signature11ElementProxy
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testRSAPublicKeyFromKey
+org.apache.xml.security.test.dom.keys.KeyInfoReferenceTest.testId
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testStrongSignatureCreation
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_rm
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testDisallowMD5Algorithm
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA224_MGF1
+[doc,doc].
+Testing mutant 2 in Signature11ElementProxy.Signature11ElementProxy
+Grafter cannot port the variable wrappedDoc of the type Document to wrappedElement of the type Element
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testRSAPublicKeyFromKey
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testDisallowMD5Algorithm
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA224_MGF1
+Grafter cannot port the variable wrappedDoc of the type Document to wrappedElement of the type Element
+Grafter cannot port the variable wrappedDoc of the type Document to wrappedElement of the type Element
+Grafter cannot port the variable wrappedDoc of the type Document to wrappedElement of the type Element
+Grafter cannot port the variable wrappedDoc of the type Document to wrappedElement of the type Element
+[this.wrappedElement,this.wrappedElement].
+[doc,doc].
+Testing mutant 4 in Signature11ElementProxy.Signature11ElementProxy
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testRSAPublicKeyFromKey
+org.apache.xml.security.test.dom.keys.KeyInfoReferenceTest.testId
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testStrongSignatureCreation
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_rm
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testDisallowMD5Algorithm
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA224_MGF1
+[this.wrappedElement,this.wrappedElement].
+[doc,doc].
+[this.wrappedDoc,this.wrappedDoc].
+Testing mutant 5 in Signature11ElementProxy.Signature11ElementProxy
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testRSAPublicKeyFromKey
+org.apache.xml.security.test.dom.keys.KeyInfoReferenceTest.testId
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testStrongSignatureCreation
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_rm
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testDisallowMD5Algorithm
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA224_MGF1
+[this.wrappedElement,this.wrappedElement].
+[doc,doc].
+[this.wrappedDoc,this.wrappedDoc].
+Testing mutant 1 in Signature11ElementProxy.Signature11ElementProxy
+org.apache.xml.security.test.dom.keys.content.x509.XMLX509DigestTest.testSchema
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testSchema
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testDisallowMD5Algorithm
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA224_MGF1
+[this.wrappedElement,this.wrappedElement].
+[doc,doc].
+[this.wrappedDoc,this.wrappedDoc].
+Testing mutant 3 in SignatureElementProxy.SignatureElementProxy
+[Grafter]Fails to build the grafted project.
+org.apache.xml.security.test.dom.keys.content.x509.XMLX509DigestTest.testSchema
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testRSAPublicKeyFromKey
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testSchema
+org.apache.xml.security.test.dom.keys.KeyInfoReferenceTest.testId
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+[Grafter]Fails to build the grafted project.
+Testing mutant 2 in SignatureElementProxy.SignatureElementProxy
+Grafter cannot port the variable wrappedDoc of the type Document to wrappedElement of the type Element
+org.apache.xml.security.test.dom.keys.content.x509.XMLX509DigestTest.testSchema
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testRSAPublicKeyFromKey
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testSchema
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA224_MGF1
+Grafter cannot port the variable wrappedDoc of the type Document to wrappedElement of the type Element
+Grafter cannot port the variable wrappedDoc of the type Document to wrappedElement of the type Element
+Grafter cannot port the variable wrappedDoc of the type Document to wrappedElement of the type Element
+Grafter cannot port the variable wrappedDoc of the type Document to wrappedElement of the type Element
+[doc,doc].
+Testing mutant 4 in SignatureElementProxy.SignatureElementProxy
+org.apache.xml.security.test.dom.keys.content.x509.XMLX509DigestTest.testSchema
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testRSAPublicKeyFromKey
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testSchema
+org.apache.xml.security.test.dom.keys.KeyInfoReferenceTest.testId
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testStrongSignatureCreation
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_rm
+[this.wrappedElement,this.wrappedElement].
+[doc,doc].
+[this.wrappedDoc,this.wrappedDoc].
+Testing mutant 5 in SignatureElementProxy.SignatureElementProxy
+org.apache.xml.security.test.dom.keys.content.x509.XMLX509DigestTest.testSchema
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testRSAPublicKeyFromKey
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testSchema
+org.apache.xml.security.test.dom.keys.KeyInfoReferenceTest.testId
+org.apache.xml.security.test.stax.signature.SignatureCreationTest.testStrongSignatureCreation
+javax.xml.crypto.test.dsig.PhaosXMLDSig3Test.test_signature_rsa_detached_xslt_transform_rm
+[this.wrappedElement,this.wrappedElement].
+[doc,doc].
+[this.wrappedDoc,this.wrappedDoc].
+Testing mutant 1 in SignatureElementProxy.SignatureElementProxy
+org.apache.xml.security.test.dom.keys.content.x509.XMLX509DigestTest.testSchema
+org.apache.xml.security.test.dom.keys.DEREncodedKeyValueTest.testSchema
+org.apache.xml.security.test.stax.signature.SignatureVerificationTest.testDisallowMD5Algorithm
+org.apache.xml.security.test.stax.signature.PKSignatureVerificationTest.testRSA_SHA224_MGF1
+[this.wrappedElement,this.wrappedElement].
+[doc,doc].
+[this.wrappedDoc,this.wrappedDoc].

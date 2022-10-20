@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<group id="1" excluded="false">
+		<clone method="withReadTimeout" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="234" end="237" isTest="false">
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithTimeout</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithTimeout</test>
+		</clone>
+		<clone method="withConnectTimeout" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="245" end="248" isTest="false">
+		</clone>
+	</group>
+	<group id="2" excluded="false">
+		<clone method="withGatewayDestination" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="262" end="266" isTest="false">
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">handleReTransmissionError1Bad</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedback</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">threeFeedback</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">handleReTransmissionError1Good1Bad2Good</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">cacheLengthNotification</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">handleReTransmissionError5Good1Bad7Good</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithTimeout</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneQueued</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">threeQueuedFeedback</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleQueuedFeedback</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimple</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithTimeout</test>
+		</clone>
+		<clone method="withFeedbackDestination" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="280" end="284" isTest="false">
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">threeQueuedFeedback</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedback</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">threeFeedback</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleQueuedFeedback</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithTimeout</test>
+		</clone>
+	</group>
+	<group id="3" excluded="false">
+		<clone method="checkInitialization" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="641" end="649" isTest="false">
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">handleReTransmissionError1Bad</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedback</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">threeFeedback</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">handleReTransmissionError1Good1Bad2Good</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">cacheLengthNotification</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">handleReTransmissionError5Good1Bad7Good</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithTimeout</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneQueued</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">threeQueuedFeedback</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleQueuedFeedback</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimple</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithTimeout</test>
+		</clone>
+		<clone method="checkInitialization" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="329" end="346" isTest="false">
+		</clone>
+	</group>
+	<group id="4" excluded="false">
+		<clone method="checkInitialization" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="641" end="649" isTest="false">
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">handleReTransmissionError1Bad</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedback</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">threeFeedback</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">handleReTransmissionError1Good1Bad2Good</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">cacheLengthNotification</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionCacheTest.java">handleReTransmissionError5Good1Bad7Good</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithTimeout</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneQueued</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">threeQueuedFeedback</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleQueuedFeedback</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimple</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithTimeout</test>
+		</clone>
+		<clone method="checkInitialization" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="335" end="346" isTest="false">
+		</clone>
+	</group>
+	<group id="5" excluded="false">
+		<clone method="stop" file="src/test/java/com/notnoop/apns/utils/ApnsServerStub.java" start="85" end="109" isTest="false">
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedback</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">errorOnce</test>
+		</clone>
+		<clone method="stop" file="src/test/java/com/notnoop/apns/utils/Simulator/ApnsServerSimulator.java" start="51" end="77" isTest="false">
+		</clone>
+	</group>
+	<group id="6" excluded="false">
+		<clone method="withReadTimeout" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="234" end="237" isTest="false">
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithTimeout</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithTimeout</test>
+		</clone>
+		<clone method="withFeedbackDestination" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="221" end="224" isTest="false">
+		</clone>
+	</group>
+	<group id="7" excluded="false">
+		<clone method="withReadTimeout" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="234" end="237" isTest="false">
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithoutTimeout</test>
+			<test path="com/notnoop/apns/integration/FeedbackTest.java">simpleFeedbackWithTimeout</test>
+			<test path="com/notnoop/apns/integration/ApnsConnectionTest.java">sendOneSimpleWithTimeout</test>
+		</clone>
+		<clone method="withGatewayDestination" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="208" end="211" isTest="false">
+		</clone>
+	</group>
+</data>

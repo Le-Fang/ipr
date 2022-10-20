@@ -1,0 +1,729 @@
+Clone Group 1
+Testing mutant 1 in PatternSet.setIncludes
+Testing mutant 1 in PatternSet.setIncludes
+Type 3 Inconsistency
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, length, tooManyAttributes, includes, String, createInclude, setIncludes]
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, length, isReference, tooManyAttributes, String]
+Testing mutant 10 in PatternSet.setIncludes
+Type 3 Inconsistency
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, isReference, tooManyAttributes, includes, String, createInclude, setIncludes]
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, length, isReference, tooManyAttributes, String]
+Testing mutant 11 in PatternSet.setIncludes
+Type 3 Inconsistency
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, isReference, tooManyAttributes, includes, String, createInclude, setIncludes]
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, length, isReference, tooManyAttributes, String]
+Testing mutant 12 in PatternSet.setIncludes
+Testing mutant 13 in PatternSet.setIncludes
+Testing mutant 14 in PatternSet.setIncludes
+Type 3 Inconsistency
+[tok, StringTokenizer, hasMoreTokens, length, isReference, tooManyAttributes, includes, String, setIncludes]
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, length, isReference, tooManyAttributes, String]
+Testing mutant 2 in PatternSet.setIncludes
+Type 3 Inconsistency
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, length, tooManyAttributes, includes, String, createInclude, setIncludes]
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, length, isReference, tooManyAttributes, String]
+Testing mutant 3 in PatternSet.setIncludes
+Testing mutant 4 in PatternSet.setIncludes
+Testing mutant 5 in PatternSet.setIncludes
+Testing mutant 6 in PatternSet.setIncludes
+Testing mutant 7 in PatternSet.setIncludes
+Testing mutant 8 in PatternSet.setIncludes
+Type 3 Inconsistency
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, isReference, tooManyAttributes, includes, String, createInclude, setIncludes]
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, length, isReference, tooManyAttributes, String]
+Testing mutant 9 in PatternSet.setIncludes
+Testing mutant 1 in PatternSet.setExcludes
+Type 3 Inconsistency
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, length, tooManyAttributes, String]
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, length, isReference, tooManyAttributes, includes, String, createInclude, setIncludes]
+Testing mutant 10 in PatternSet.setExcludes
+Type 3 Inconsistency
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, isReference, tooManyAttributes, String]
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, length, isReference, tooManyAttributes, includes, String, createInclude, setIncludes]
+Testing mutant 11 in PatternSet.setExcludes
+Type 3 Inconsistency
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, isReference, tooManyAttributes, String]
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, length, isReference, tooManyAttributes, includes, String, createInclude, setIncludes]
+Testing mutant 12 in PatternSet.setExcludes
+Testing mutant 13 in PatternSet.setExcludes
+Testing mutant 14 in PatternSet.setExcludes
+Type 3 Inconsistency
+[tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, length, isReference, tooManyAttributes, String]
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, length, isReference, tooManyAttributes, includes, String, createInclude, setIncludes]
+Testing mutant 2 in PatternSet.setExcludes
+Type 3 Inconsistency
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, length, tooManyAttributes, String]
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, length, isReference, tooManyAttributes, includes, String, createInclude, setIncludes]
+Testing mutant 3 in PatternSet.setExcludes
+Testing mutant 4 in PatternSet.setExcludes
+Testing mutant 5 in PatternSet.setExcludes
+Testing mutant 6 in PatternSet.setExcludes
+Testing mutant 7 in PatternSet.setExcludes
+Testing mutant 8 in PatternSet.setExcludes
+Type 3 Inconsistency
+[setName, tok, StringTokenizer, excludes, hasMoreTokens, setExcludes, createExclude, nextToken, isReference, tooManyAttributes, String]
+[setName, tok, StringTokenizer, hasMoreTokens, nextToken, length, isReference, tooManyAttributes, includes, String, createInclude, setIncludes]
+Testing mutant 9 in PatternSet.setExcludes
+Clone Group 2
+Testing mutant 1 in PatternSet.createInclude
+Type 3 Inconsistency
+[includeList, addPatternToList, NameEntry, createInclude, noChildrenAllowed]
+[createExclude, excludeList, isReference, addPatternToList, NameEntry, noChildrenAllowed]
+Testing mutant 2 in PatternSet.createInclude
+Type 3 Inconsistency
+[includeList, addPatternToList, NameEntry, createInclude, noChildrenAllowed]
+[createExclude, excludeList, isReference, addPatternToList, NameEntry, noChildrenAllowed]
+Testing mutant 1 in PatternSet.createExclude
+Type 3 Inconsistency
+[createExclude, excludeList, addPatternToList, NameEntry, noChildrenAllowed]
+[includeList, isReference, addPatternToList, NameEntry, createInclude, noChildrenAllowed]
+Testing mutant 2 in PatternSet.createExclude
+Type 3 Inconsistency
+[createExclude, excludeList, addPatternToList, NameEntry, noChildrenAllowed]
+[includeList, isReference, addPatternToList, NameEntry, createInclude, noChildrenAllowed]
+Clone Group 3
+Testing mutant 1 in PatternSet.createIncludesFile
+Type 3 Inconsistency
+[includesFileList, createIncludesFile, addPatternToList, NameEntry, noChildrenAllowed]
+[createExcludesFile, isReference, addPatternToList, NameEntry, noChildrenAllowed, excludesFileList]
+Testing mutant 2 in PatternSet.createIncludesFile
+Type 3 Inconsistency
+[includesFileList, createIncludesFile, addPatternToList, NameEntry, noChildrenAllowed]
+[createExcludesFile, isReference, addPatternToList, NameEntry, noChildrenAllowed, excludesFileList]
+Testing mutant 1 in PatternSet.createExcludesFile
+Type 3 Inconsistency
+[createExcludesFile, addPatternToList, NameEntry, noChildrenAllowed, excludesFileList]
+[includesFileList, createIncludesFile, isReference, addPatternToList, NameEntry, noChildrenAllowed]
+Testing mutant 2 in PatternSet.createExcludesFile
+Type 3 Inconsistency
+[createExcludesFile, addPatternToList, NameEntry, noChildrenAllowed, excludesFileList]
+[includesFileList, createIncludesFile, isReference, addPatternToList, NameEntry, noChildrenAllowed]
+Clone Group 4
+Testing mutant 1 in PatternSet.setIncludesfile
+Type 3 Inconsistency
+[setIncludesfile, setName, getAbsolutePath, includesFile, tooManyAttributes, createIncludesFile, BuildException, File]
+[setName, excludesFile, createExcludesFile, getAbsolutePath, setExcludesfile, isReference, tooManyAttributes, BuildException, File]
+Testing mutant 2 in PatternSet.setIncludesfile
+Type 3 Inconsistency
+[setIncludesfile, setName, getAbsolutePath, includesFile, tooManyAttributes, createIncludesFile, BuildException, File]
+[setName, excludesFile, createExcludesFile, getAbsolutePath, setExcludesfile, isReference, tooManyAttributes, BuildException, File]
+Testing mutant 3 in PatternSet.setIncludesfile
+Type 3 Inconsistency
+[setIncludesfile, includesFile, isReference, tooManyAttributes, BuildException, File]
+[setName, excludesFile, createExcludesFile, getAbsolutePath, setExcludesfile, isReference, tooManyAttributes, BuildException, File]
+Testing mutant 1 in PatternSet.setExcludesfile
+Type 3 Inconsistency
+[setName, excludesFile, createExcludesFile, getAbsolutePath, setExcludesfile, tooManyAttributes, BuildException, File]
+[setIncludesfile, setName, getAbsolutePath, includesFile, isReference, tooManyAttributes, createIncludesFile, BuildException, File]
+Testing mutant 2 in PatternSet.setExcludesfile
+Type 3 Inconsistency
+[setName, excludesFile, createExcludesFile, getAbsolutePath, setExcludesfile, tooManyAttributes, BuildException, File]
+[setIncludesfile, setName, getAbsolutePath, includesFile, isReference, tooManyAttributes, createIncludesFile, BuildException, File]
+Testing mutant 3 in PatternSet.setExcludesfile
+Type 3 Inconsistency
+[excludesFile, setExcludesfile, isReference, tooManyAttributes, BuildException, File]
+[setIncludesfile, setName, getAbsolutePath, includesFile, isReference, tooManyAttributes, createIncludesFile, BuildException, File]
+Clone Group 5
+Testing mutant 1 in PatternSet.getIncludePatterns
+Type 3 Inconsistency
+[p, Project, includeList, getRef, makeArray, dieOnCircularReference, String, getIncludePatterns, readFiles]
+[p, Project, getRef, excludeList, makeArray, isReference, dieOnCircularReference, String, getExcludePatterns, readFiles]
+Testing mutant 2 in PatternSet.getIncludePatterns
+Type 3 Inconsistency
+[p, Project, includeList, getRef, makeArray, dieOnCircularReference, String, getIncludePatterns, readFiles]
+[p, Project, getRef, excludeList, makeArray, isReference, dieOnCircularReference, String, getExcludePatterns, readFiles]
+Testing mutant 3 in PatternSet.getIncludePatterns
+Type 3 Inconsistency
+[p, Project, includeList, getRef, makeArray, isReference, String, getIncludePatterns, readFiles]
+[p, Project, getRef, excludeList, makeArray, isReference, dieOnCircularReference, String, getExcludePatterns, readFiles]
+Testing mutant 4 in PatternSet.getIncludePatterns
+Type 3 Inconsistency
+[p, Project, includeList, getRef, makeArray, isReference, dieOnCircularReference, String, getIncludePatterns]
+[p, Project, getRef, excludeList, makeArray, isReference, dieOnCircularReference, String, getExcludePatterns, readFiles]
+Testing mutant 1 in PatternSet.getExcludePatterns
+Type 3 Inconsistency
+[p, Project, getRef, excludeList, makeArray, dieOnCircularReference, String, getExcludePatterns, readFiles]
+[p, Project, includeList, getRef, makeArray, isReference, dieOnCircularReference, String, getIncludePatterns, readFiles]
+Testing mutant 2 in PatternSet.getExcludePatterns
+Type 3 Inconsistency
+[p, Project, getRef, excludeList, makeArray, dieOnCircularReference, String, getExcludePatterns, readFiles]
+[p, Project, includeList, getRef, makeArray, isReference, dieOnCircularReference, String, getIncludePatterns, readFiles]
+Testing mutant 3 in PatternSet.getExcludePatterns
+Type 3 Inconsistency
+[p, Project, getRef, excludeList, makeArray, isReference, String, getExcludePatterns, readFiles]
+[p, Project, includeList, getRef, makeArray, isReference, dieOnCircularReference, String, getIncludePatterns, readFiles]
+Testing mutant 4 in PatternSet.getExcludePatterns
+Type 3 Inconsistency
+[p, Project, getRef, excludeList, makeArray, isReference, dieOnCircularReference, String, getExcludePatterns]
+[p, Project, includeList, getRef, makeArray, isReference, dieOnCircularReference, String, getIncludePatterns, readFiles]
+Clone Group 6
+Testing mutant 1 in DirectoryScanner.setIncludes
+Testing mutant 2 in DirectoryScanner.setIncludes
+Testing mutant 3 in DirectoryScanner.setIncludes
+Testing mutant 4 in DirectoryScanner.setIncludes
+Testing mutant 5 in DirectoryScanner.setIncludes
+Testing mutant 6 in DirectoryScanner.setIncludes
+Testing mutant 1 in DirectoryScanner.setExcludes
+Testing mutant 2 in DirectoryScanner.setExcludes
+Testing mutant 3 in DirectoryScanner.setExcludes
+Testing mutant 4 in DirectoryScanner.setExcludes
+Testing mutant 5 in DirectoryScanner.setExcludes
+Testing mutant 6 in DirectoryScanner.setExcludes
+Clone Group 7
+Testing mutant 1 in DirectoryScanner.isIncluded
+Testing mutant 10 in DirectoryScanner.isIncluded
+Testing mutant 11 in DirectoryScanner.isIncluded
+Testing mutant 2 in DirectoryScanner.isIncluded
+Testing mutant 3 in DirectoryScanner.isIncluded
+Testing mutant 4 in DirectoryScanner.isIncluded
+Testing mutant 5 in DirectoryScanner.isIncluded
+Testing mutant 6 in DirectoryScanner.isIncluded
+Testing mutant 7 in DirectoryScanner.isIncluded
+Type 3 Inconsistency
+[path, isCaseSensitive, includeNonPatterns, containsKey, includePatterns, toUpperCase, i, toString, matchPath]
+[excludeNonPatterns, isCaseSensitive, excludePatterns, containsKey, name, toUpperCase, length, i, toString, matchPath]
+Testing mutant 8 in DirectoryScanner.isIncluded
+Type 3 Inconsistency
+[path, isCaseSensitive, includeNonPatterns, containsKey, includePatterns, toUpperCase, length, i, toString]
+[excludeNonPatterns, isCaseSensitive, excludePatterns, containsKey, name, toUpperCase, length, i, toString, matchPath]
+Testing mutant 9 in DirectoryScanner.isIncluded
+Type 3 Inconsistency
+[path, isCaseSensitive, includeNonPatterns, containsKey, includePatterns, toUpperCase, length, i, toString]
+[excludeNonPatterns, isCaseSensitive, excludePatterns, containsKey, name, toUpperCase, length, i, toString, matchPath]
+Testing mutant 1 in DirectoryScanner.isExcluded
+Testing mutant 10 in DirectoryScanner.isExcluded
+Testing mutant 11 in DirectoryScanner.isExcluded
+Testing mutant 2 in DirectoryScanner.isExcluded
+Testing mutant 3 in DirectoryScanner.isExcluded
+Testing mutant 4 in DirectoryScanner.isExcluded
+Testing mutant 5 in DirectoryScanner.isExcluded
+Testing mutant 6 in DirectoryScanner.isExcluded
+Testing mutant 7 in DirectoryScanner.isExcluded
+Type 3 Inconsistency
+[excludeNonPatterns, isCaseSensitive, excludePatterns, containsKey, name, toUpperCase, i, toString, matchPath]
+[path, isCaseSensitive, includeNonPatterns, containsKey, includePatterns, toUpperCase, length, i, toString, matchPath]
+Testing mutant 8 in DirectoryScanner.isExcluded
+Type 3 Inconsistency
+[excludeNonPatterns, isCaseSensitive, excludePatterns, containsKey, name, toUpperCase, length, i, toString]
+[path, isCaseSensitive, includeNonPatterns, containsKey, includePatterns, toUpperCase, length, i, toString, matchPath]
+Testing mutant 9 in DirectoryScanner.isExcluded
+Type 3 Inconsistency
+[excludeNonPatterns, isCaseSensitive, excludePatterns, containsKey, name, toUpperCase, length, i, toString]
+[path, isCaseSensitive, includeNonPatterns, containsKey, includePatterns, toUpperCase, length, i, toString, matchPath]
+Clone Group 8
+Testing mutant 1 in DirectoryScanner.getNotIncludedFiles
+Type 3 Inconsistency
+[size, getNotIncludedFiles, copyInto, files, filesNotIncluded, String]
+[getExcludedFiles, size, copyInto, slowScan, filesExcluded, files, String]
+Testing mutant 2 in DirectoryScanner.getNotIncludedFiles
+Type 3 Inconsistency
+[size, getNotIncludedFiles, slowScan, files, filesNotIncluded, String]
+[getExcludedFiles, size, copyInto, slowScan, filesExcluded, files, String]
+Testing mutant 1 in DirectoryScanner.getExcludedFiles
+Type 3 Inconsistency
+[getExcludedFiles, size, copyInto, filesExcluded, files, String]
+[size, getNotIncludedFiles, copyInto, slowScan, files, filesNotIncluded, String]
+Testing mutant 2 in DirectoryScanner.getExcludedFiles
+Type 3 Inconsistency
+[getExcludedFiles, size, slowScan, filesExcluded, files, String]
+[size, getNotIncludedFiles, copyInto, slowScan, files, filesNotIncluded, String]
+Clone Group 9
+Testing mutant 1 in DirectoryScanner.getExcludedFiles
+Type 3 Inconsistency
+[getExcludedFiles, size, copyInto, filesExcluded, files, String]
+[getDeselectedFiles, size, filesDeselected, copyInto, slowScan, files, String]
+Testing mutant 2 in DirectoryScanner.getExcludedFiles
+Type 3 Inconsistency
+[getExcludedFiles, size, slowScan, filesExcluded, files, String]
+[getDeselectedFiles, size, filesDeselected, copyInto, slowScan, files, String]
+Testing mutant 1 in DirectoryScanner.getDeselectedFiles
+Type 3 Inconsistency
+[getDeselectedFiles, size, filesDeselected, copyInto, files, String]
+[getExcludedFiles, size, copyInto, slowScan, filesExcluded, files, String]
+Testing mutant 2 in DirectoryScanner.getDeselectedFiles
+Type 3 Inconsistency
+[getDeselectedFiles, size, filesDeselected, slowScan, files, String]
+[getExcludedFiles, size, copyInto, slowScan, filesExcluded, files, String]
+Clone Group 10
+Testing mutant 1 in DirectoryScanner.getNotIncludedDirectories
+Testing mutant 2 in DirectoryScanner.getNotIncludedDirectories
+Testing mutant 1 in DirectoryScanner.getExcludedDirectories
+Testing mutant 2 in DirectoryScanner.getExcludedDirectories
+Clone Group 11
+Testing mutant 1 in DirectoryScanner.getIncludedFiles
+Testing mutant 2 in DirectoryScanner.getIncludedFiles
+Type 3 Inconsistency
+[IllegalStateException, getIncludedFiles, size, files, String, sort, filesIncluded, Arrays]
+[IllegalStateException, size, copyInto, directories, String, sort, Arrays, dirsIncluded, getIncludedDirectories]
+Testing mutant 3 in DirectoryScanner.getIncludedFiles
+Type 3 Inconsistency
+[IllegalStateException, getIncludedFiles, size, copyInto, files, String, filesIncluded]
+[IllegalStateException, size, copyInto, directories, String, sort, Arrays, dirsIncluded, getIncludedDirectories]
+Testing mutant 466 in DirectoryScanner.getIncludedDirectories
+Testing mutant 467 in DirectoryScanner.getIncludedDirectories
+Type 3 Inconsistency
+[IllegalStateException, size, directories, String, sort, Arrays, dirsIncluded, getIncludedDirectories]
+[IllegalStateException, getIncludedFiles, size, copyInto, files, String, sort, filesIncluded, Arrays]
+Testing mutant 468 in DirectoryScanner.getIncludedDirectories
+Type 3 Inconsistency
+[IllegalStateException, size, copyInto, directories, String, dirsIncluded, getIncludedDirectories]
+[IllegalStateException, getIncludedFiles, size, copyInto, files, String, sort, filesIncluded, Arrays]
+Clone Group 12
+Testing mutant 1 in DirectoryScanner.getNotIncludedDirectories
+Type 3 Inconsistency
+[size, getNotIncludedDirectories, copyInto, directories, String, dirsNotIncluded]
+[size, copyInto, slowScan, directories, dirsExcluded, getExcludedDirectories, String]
+Testing mutant 2 in DirectoryScanner.getNotIncludedDirectories
+Type 3 Inconsistency
+[size, getNotIncludedDirectories, slowScan, directories, String, dirsNotIncluded]
+[size, copyInto, slowScan, directories, dirsExcluded, getExcludedDirectories, String]
+Testing mutant 1 in DirectoryScanner.getExcludedDirectories
+Type 3 Inconsistency
+[size, copyInto, directories, dirsExcluded, getExcludedDirectories, String]
+[size, getNotIncludedDirectories, copyInto, slowScan, directories, String, dirsNotIncluded]
+Testing mutant 2 in DirectoryScanner.getExcludedDirectories
+Type 3 Inconsistency
+[size, slowScan, directories, dirsExcluded, getExcludedDirectories, String]
+[size, getNotIncludedDirectories, copyInto, slowScan, directories, String, dirsNotIncluded]
+Clone Group 13
+Testing mutant 1 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 10 in Delete.removeDir
+Type 3 Inconsistency
+[d, getAbsolutePath, log, removeDir, f, length, i, handle, String, list, delete, s, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 11 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 12 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 13 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 14 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 15 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 16 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 17 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 2 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 3 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 4 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 5 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 6 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 7 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 8 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 9 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+Testing mutant 1 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 10 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 11 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 12 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 2 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 3 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 4 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 5 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 6 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 7 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 8 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 9 in Deltree.removeDir
+Type 3 Inconsistency
+[getAbsolutePath, removeDir, f, length, i, IOException, String, dir, list, delete, s, BuildException, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Clone Group 14
+Testing mutant 1 in And.eval
+Type 3 Inconsistency
+[Condition, eval, Enumeration, c, e, getConditions, BuildException, nextElement]
+[Condition, eval, Enumeration, c, e, hasMoreElements, getConditions, BuildException, nextElement]
+Testing mutant 2 in And.eval
+Type 3 Inconsistency
+[Condition, eval, Enumeration, c, e, getConditions, BuildException, nextElement]
+[Condition, eval, Enumeration, c, e, hasMoreElements, getConditions, BuildException, nextElement]
+Testing mutant 3 in And.eval
+Testing mutant 4 in And.eval
+Testing mutant 5 in And.eval
+Testing mutant 6 in And.eval
+Testing mutant 1 in Or.eval
+Type 3 Inconsistency
+[Condition, eval, Enumeration, c, e, getConditions, BuildException, nextElement]
+[Condition, eval, Enumeration, c, e, hasMoreElements, getConditions, BuildException, nextElement]
+Testing mutant 2 in Or.eval
+Type 3 Inconsistency
+[Condition, eval, Enumeration, c, e, getConditions, BuildException, nextElement]
+[Condition, eval, Enumeration, c, e, hasMoreElements, getConditions, BuildException, nextElement]
+Testing mutant 3 in Or.eval
+Testing mutant 4 in Or.eval
+Testing mutant 5 in Or.eval
+Testing mutant 6 in Or.eval
+Clone Group 15
+Testing mutant 1 in TarFileSet.getRef
+Type 3 Inconsistency
+[AbstractFileSet, msg, FileSet, zfs, getRefid, String, getRefId, TarFileSet, o, p, configureFileSet, Project, getRef, Object, getReferencedObject, BuildException]
+[AbstractFileSet, msg, FileSet, zfs, getRefid, String, getRefId, ZipFileSet, o, p, configureFileSet, Project, getRef, dieOnCircularReference, Object, getReferencedObject, BuildException]
+Testing mutant 2 in TarFileSet.getRef
+Type 3 Inconsistency
+[AbstractFileSet, msg, FileSet, zfs, getRefid, String, getRefId, TarFileSet, o, p, Project, getRef, dieOnCircularReference, Object, getReferencedObject, BuildException]
+[AbstractFileSet, msg, FileSet, zfs, getRefid, String, getRefId, ZipFileSet, o, p, configureFileSet, Project, getRef, dieOnCircularReference, Object, getReferencedObject, BuildException]
+Testing mutant 1 in ZipFileSet.getRef
+Type 3 Inconsistency
+[AbstractFileSet, msg, FileSet, zfs, getRefid, String, getRefId, ZipFileSet, o, p, configureFileSet, Project, getRef, Object, getReferencedObject, BuildException]
+[AbstractFileSet, msg, FileSet, zfs, getRefid, String, getRefId, TarFileSet, o, p, configureFileSet, Project, getRef, dieOnCircularReference, Object, getReferencedObject, BuildException]
+Testing mutant 2 in ZipFileSet.getRef
+Type 3 Inconsistency
+[AbstractFileSet, msg, FileSet, zfs, getRefid, String, getRefId, ZipFileSet, o, p, Project, getRef, dieOnCircularReference, Object, getReferencedObject, BuildException]
+[AbstractFileSet, msg, FileSet, zfs, getRefid, String, getRefId, TarFileSet, o, p, configureFileSet, Project, getRef, dieOnCircularReference, Object, getReferencedObject, BuildException]
+Clone Group 16
+Testing mutant 1 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 10 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, Project, getValue, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 11 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 12 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 13 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 14 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 15 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 16 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 17 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 2 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 3 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 4 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 5 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 6 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 7 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 8 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 9 in ContainsSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, length, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+Testing mutant 1 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 10 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, Project, getValue, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 11 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 12 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 13 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 14 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 15 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 16 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 17 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 18 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 19 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 2 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 20 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 3 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 4 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 5 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 6 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 7 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, NAME_KEY, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 8 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Testing mutant 9 in FilenameSelector.setParameters
+Type 3 Inconsistency
+[setName, setCasesensitive, getName, setNegate, setRegex, length, NEGATE_KEY, i, String, CASE_KEY, setParameters, getValue, Project, toBoolean, setError, Parameter, paramname, equalsIgnoreCase, parameters, REGEX_KEY]
+[setCasesensitive, getName, length, i, String, CONTAINS_KEY, CASE_KEY, setParameters, getValue, Project, toBoolean, WHITESPACE_KEY, setIgnorewhitespace, setError, Parameter, paramname, equalsIgnoreCase, parameters, setText]
+Clone Group 17
+Testing mutant 1 in SelectorUtils.matchPatternStart
+Type 2 Inconsistency
+patIdxStart < patIdxEnd && strIdxStart <= strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Testing mutant 10 in SelectorUtils.matchPatternStart
+Type 2 Inconsistency
+strIdxStart <= strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, patDirs, String, patIdxStart]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, String, patIdxStart, patIdxEnd, tokenizedPattern]
+Testing mutant 11 in SelectorUtils.matchPatternStart
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, strIdxEnd, match, strIdxStart, patDirs, String, patIdxStart, patIdxEnd]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, String, patIdxStart, patIdxEnd, tokenizedPattern]
+Testing mutant 12 in SelectorUtils.matchPatternStart
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, strIdxEnd, match, strIdxStart, patDirs, String, patIdxStart, patIdxEnd]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, String, patIdxStart, patIdxEnd, tokenizedPattern]
+Testing mutant 13 in SelectorUtils.matchPatternStart
+Testing mutant 14 in SelectorUtils.matchPatternStart
+Testing mutant 15 in SelectorUtils.matchPatternStart
+Testing mutant 2 in SelectorUtils.matchPatternStart
+Type 2 Inconsistency
+patIdxStart == patIdxEnd && strIdxStart <= strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Testing mutant 3 in SelectorUtils.matchPatternStart
+Type 2 Inconsistency
+true && strIdxStart <= strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, patDirs, String, patIdxStart]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, String, patIdxStart, patIdxEnd, tokenizedPattern]
+Testing mutant 4 in SelectorUtils.matchPatternStart
+Type 2 Inconsistency
+patIdxStart <= patIdxEnd && strIdxStart < strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Testing mutant 5 in SelectorUtils.matchPatternStart
+Type 2 Inconsistency
+patIdxStart <= patIdxEnd && strIdxStart == strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Testing mutant 6 in SelectorUtils.matchPatternStart
+Type 2 Inconsistency
+patIdxStart <= patIdxEnd && true
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, equals, match, DEEP_TREE_MATCH, strIdxStart, patDirs, String, patIdxStart, patIdxEnd]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, String, patIdxStart, patIdxEnd, tokenizedPattern]
+Testing mutant 7 in SelectorUtils.matchPatternStart
+Type 2 Inconsistency
+patIdxStart <= patIdxEnd == strIdxStart <= strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Testing mutant 8 in SelectorUtils.matchPatternStart
+Type 2 Inconsistency
+false
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, equals, match, DEEP_TREE_MATCH, strIdxStart, patDirs, String, patIdxStart]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, String, patIdxStart, patIdxEnd, tokenizedPattern]
+Testing mutant 9 in SelectorUtils.matchPatternStart
+Type 2 Inconsistency
+patIdxStart <= patIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, equals, match, DEEP_TREE_MATCH, strIdxStart, patDirs, String, patIdxStart, patIdxEnd]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, String, patIdxStart, patIdxEnd, tokenizedPattern]
+Testing mutant 1 in SelectorUtils.matchPath
+Type 2 Inconsistency
+patIdxStart < patIdxEnd && strIdxStart <= strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Testing mutant 10 in SelectorUtils.matchPath
+Type 2 Inconsistency
+strIdxStart <= strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, String, tokenizedPattern, patIdxStart]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, patDirs, String, patIdxStart, patIdxEnd]
+Testing mutant 11 in SelectorUtils.matchPath
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, strIdxEnd, match, strIdxStart, String, patIdxStart, patIdxEnd, tokenizedPattern]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, patDirs, String, patIdxStart, patIdxEnd]
+Testing mutant 12 in SelectorUtils.matchPath
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, strIdxEnd, match, strIdxStart, String, patIdxStart, patIdxEnd, tokenizedPattern]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, patDirs, String, patIdxStart, patIdxEnd]
+Testing mutant 13 in SelectorUtils.matchPath
+Testing mutant 14 in SelectorUtils.matchPath
+Testing mutant 15 in SelectorUtils.matchPath
+Testing mutant 2 in SelectorUtils.matchPath
+Type 2 Inconsistency
+patIdxStart == patIdxEnd && strIdxStart <= strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Testing mutant 3 in SelectorUtils.matchPath
+Type 2 Inconsistency
+true && strIdxStart <= strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, String, tokenizedPattern, patIdxStart]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, patDirs, String, patIdxStart, patIdxEnd]
+Testing mutant 4 in SelectorUtils.matchPath
+Type 2 Inconsistency
+patIdxStart <= patIdxEnd && strIdxStart < strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Testing mutant 5 in SelectorUtils.matchPath
+Type 2 Inconsistency
+patIdxStart <= patIdxEnd && strIdxStart == strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Testing mutant 6 in SelectorUtils.matchPath
+Type 2 Inconsistency
+patIdxStart <= patIdxEnd && true
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, equals, match, DEEP_TREE_MATCH, strIdxStart, String, patIdxStart, patIdxEnd, tokenizedPattern]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, patDirs, String, patIdxStart, patIdxEnd]
+Testing mutant 7 in SelectorUtils.matchPath
+Type 2 Inconsistency
+patIdxStart <= patIdxEnd == strIdxStart <= strIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Testing mutant 8 in SelectorUtils.matchPath
+Type 2 Inconsistency
+false
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, equals, match, DEEP_TREE_MATCH, strIdxStart, String, tokenizedPattern, patIdxStart]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, patDirs, String, patIdxStart, patIdxEnd]
+Testing mutant 9 in SelectorUtils.matchPath
+Type 2 Inconsistency
+patIdxStart <= patIdxEnd
+patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd
+Type 3 Inconsistency
+[patDir, strDirs, isCaseSensitive, equals, match, DEEP_TREE_MATCH, strIdxStart, String, patIdxStart, patIdxEnd, tokenizedPattern]
+[patDir, strDirs, isCaseSensitive, equals, strIdxEnd, match, strIdxStart, DEEP_TREE_MATCH, patDirs, String, patIdxStart, patIdxEnd]
+

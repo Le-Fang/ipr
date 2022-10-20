@@ -1,0 +1,10 @@
+[tmp_return_value,tmp_return_value] exposes a behavioral divergence.
+======After Injecting Mutants==============
+Testing mutant 2 in XMLCipher.getInstance
+The program state in [tmp_return_value,tmp_return_value] kills the mutant.
+Testing mutant 1 in XMLCipher.getInstance
+The program state in [tmp_return_value,tmp_return_value] kills the mutant.
+Testing mutant 2 in XMLCipher.getInstance
+The program state in [tmp_return_value,tmp_return_value] kills the mutant.
+Testing mutant 1 in XMLCipher.getInstance
+The program state in [tmp_return_value,tmp_return_value] kills the mutant.

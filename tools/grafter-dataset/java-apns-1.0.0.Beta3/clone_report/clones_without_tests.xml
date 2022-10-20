@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<group id="1" excluded="false">
+		<clone method="withCert" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="136" end="147" isTest="false">
+		</clone>
+		<clone method="withCert" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="108" end="119" isTest="false">
+		</clone>
+	</group>
+	<group id="2" excluded="false">
+		<clone method="withCert" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="171" end="177" isTest="false">
+		</clone>
+		<clone method="withCert" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="145" end="150" isTest="false">
+		</clone>
+	</group>
+	<group id="3" excluded="false">
+		<clone method="withCert" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="197" end="202" isTest="false">
+		</clone>
+		<clone method="withCert" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="170" end="174" isTest="false">
+		</clone>
+	</group>
+	<group id="4" excluded="false">
+		<clone method="withReadTimeout" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="234" end="237" isTest="false">
+		</clone>
+		<clone method="withConnectTimeout" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="245" end="248" isTest="false">
+		</clone>
+	</group>
+	<group id="5" excluded="false">
+		<clone method="withGatewayDestination" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="262" end="266" isTest="false">
+		</clone>
+		<clone method="withFeedbackDestination" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="280" end="284" isTest="false">
+		</clone>
+	</group>
+	<group id="6" excluded="false">
+		<clone method="withSandboxDestination" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="313" end="316" isTest="false">
+		</clone>
+		<clone method="withProductionDestination" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="328" end="331" isTest="false">
+		</clone>
+	</group>
+	<group id="7" excluded="false">
+		<clone method="checkInitialization" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="641" end="649" isTest="false">
+		</clone>
+		<clone method="checkInitialization" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="329" end="346" isTest="false">
+		</clone>
+	</group>
+	<group id="8" excluded="false">
+		<clone method="checkInitialization" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="641" end="649" isTest="false">
+		</clone>
+		<clone method="checkInitialization" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="335" end="346" isTest="false">
+		</clone>
+	</group>
+	<group id="9" excluded="false">
+		<clone method="stop" file="src/test/java/com/notnoop/apns/utils/ApnsServerStub.java" start="85" end="109" isTest="false">
+		</clone>
+		<clone method="stop" file="src/test/java/com/notnoop/apns/utils/Simulator/ApnsServerSimulator.java" start="51" end="77" isTest="false">
+		</clone>
+	</group>
+	<group id="10" excluded="false">
+		<clone method="withConnectTimeout" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="245" end="248" isTest="false">
+		</clone>
+		<clone method="withFeedbackDestination" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="221" end="224" isTest="false">
+		</clone>
+	</group>
+	<group id="11" excluded="false">
+		<clone method="withReadTimeout" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="234" end="237" isTest="false">
+		</clone>
+		<clone method="withFeedbackDestination" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="221" end="224" isTest="false">
+		</clone>
+	</group>
+	<group id="12" excluded="false">
+		<clone method="withConnectTimeout" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="245" end="248" isTest="false">
+		</clone>
+		<clone method="withGatewayDestination" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="208" end="211" isTest="false">
+		</clone>
+	</group>
+	<group id="13" excluded="false">
+		<clone method="withReadTimeout" file="src/main/java/com/notnoop/apns/ApnsServiceBuilder.java" start="234" end="237" isTest="false">
+		</clone>
+		<clone method="withGatewayDestination" file="src/test/java/com/notnoop/apns/ApnsServerSocketBuilder.java" start="208" end="211" isTest="false">
+		</clone>
+	</group>
+</data>

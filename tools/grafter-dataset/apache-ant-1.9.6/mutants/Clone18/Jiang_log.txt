@@ -1,0 +1,57 @@
+Testing mutant 1 in Move.deleteDir
+Testing mutant 10 in Move.deleteDir
+Testing mutant 11 in Move.deleteDir
+Testing mutant 12 in Move.deleteDir
+Testing mutant 13 in Move.deleteDir
+Type 3 Inconsistency
+[]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 14 in Move.deleteDir
+Testing mutant 15 in Move.deleteDir
+Type 3 Inconsistency
+[tryHardToDelete, d, getAbsolutePath, f, length, i, String, list, performGc, deleteFiles, s, getFileUtils, BuildException, deleteDir, File, isDirectory]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 16 in Move.deleteDir
+Testing mutant 17 in Move.deleteDir
+Testing mutant 18 in Move.deleteDir
+Testing mutant 19 in Move.deleteDir
+Testing mutant 2 in Move.deleteDir
+Testing mutant 3 in Move.deleteDir
+Testing mutant 4 in Move.deleteDir
+Testing mutant 5 in Move.deleteDir
+Testing mutant 6 in Move.deleteDir
+Testing mutant 7 in Move.deleteDir
+Type 3 Inconsistency
+[tryHardToDelete, d, getAbsolutePath, log, f, i, String, list, performGc, deleteFiles, s, getFileUtils, BuildException, deleteDir, File, isDirectory, verbosity]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 8 in Move.deleteDir
+Type 3 Inconsistency
+[tryHardToDelete, d, getAbsolutePath, log, f, length, i, String, list, performGc, deleteFiles, s, getFileUtils, BuildException, deleteDir, File, verbosity]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 9 in Move.deleteDir
+Type 3 Inconsistency
+[tryHardToDelete, d, getAbsolutePath, log, f, length, i, String, list, performGc, deleteFiles, s, getFileUtils, BuildException, deleteDir, File, verbosity]
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+Testing mutant 1 in Delete.removeDir
+Testing mutant 10 in Delete.removeDir
+Testing mutant 11 in Delete.removeDir
+Testing mutant 12 in Delete.removeDir
+Testing mutant 13 in Delete.removeDir
+Testing mutant 14 in Delete.removeDir
+Testing mutant 2 in Delete.removeDir
+Testing mutant 3 in Delete.removeDir
+Testing mutant 4 in Delete.removeDir
+Testing mutant 5 in Delete.removeDir
+Testing mutant 6 in Delete.removeDir
+Testing mutant 7 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, isDirectory, verbosity]
+[tryHardToDelete, d, getAbsolutePath, log, f, length, i, String, list, performGc, deleteFiles, s, getFileUtils, BuildException, deleteDir, File, isDirectory, verbosity]
+Testing mutant 8 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, verbosity]
+[tryHardToDelete, d, getAbsolutePath, log, f, length, i, String, list, performGc, deleteFiles, s, getFileUtils, BuildException, deleteDir, File, isDirectory, verbosity]
+Testing mutant 9 in Delete.removeDir
+Type 3 Inconsistency
+[d, log, getAbsolutePath, removeDir, f, length, i, handle, String, list, delete, Project, s, MSG_VERBOSE, quiet, File, verbosity]
+[tryHardToDelete, d, getAbsolutePath, log, f, length, i, String, list, performGc, deleteFiles, s, getFileUtils, BuildException, deleteDir, File, isDirectory, verbosity]

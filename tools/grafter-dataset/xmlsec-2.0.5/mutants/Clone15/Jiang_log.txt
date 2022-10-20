@@ -1,0 +1,60 @@
+Testing mutant 1 in X509SKIResolver.engineLookupResolveX509Certifcate
+Type 2 Inconsistency
+false
+storage == null
+Type 3 Inconsistency
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, isDebugEnabled, _TAG_X509SKI]
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SUBJECTNAME]
+Testing mutant 2 in X509SKIResolver.engineLookupResolveX509Certifcate
+Type 3 Inconsistency
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, _TAG_X509SKI]
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SUBJECTNAME]
+Testing mutant 3 in X509SKIResolver.engineLookupResolveX509Certifcate
+Type 3 Inconsistency
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, _TAG_X509SKI]
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SUBJECTNAME]
+Testing mutant 4 in X509SKIResolver.engineLookupResolveX509Certifcate
+Type 3 Inconsistency
+[exArgs, ex, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SKI]
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SUBJECTNAME]
+Testing mutant 5 in X509SKIResolver.engineLookupResolveX509Certifcate
+Type 2 Inconsistency
+true
+storage == null
+Type 3 Inconsistency
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, isDebugEnabled, _TAG_X509SKI]
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SUBJECTNAME]
+Testing mutant 6 in X509SKIResolver.engineLookupResolveX509Certifcate
+Type 2 Inconsistency
+storage != null
+storage == null
+Testing mutant 1 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+Type 2 Inconsistency
+false
+storage == null
+Type 3 Inconsistency
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, isDebugEnabled, _TAG_X509SUBJECTNAME]
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SKI]
+Testing mutant 2 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+Type 3 Inconsistency
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, _TAG_X509SUBJECTNAME]
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SKI]
+Testing mutant 3 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+Type 3 Inconsistency
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, _TAG_X509SUBJECTNAME]
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SKI]
+Testing mutant 4 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+Type 3 Inconsistency
+[exArgs, ex, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SUBJECTNAME]
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SKI]
+Testing mutant 5 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+Type 2 Inconsistency
+true
+storage == null
+Type 3 Inconsistency
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, isDebugEnabled, _TAG_X509SUBJECTNAME]
+[exArgs, ex, debug, log, Constants, Object, KeyResolverException, storage, isDebugEnabled, _TAG_X509SKI]
+Testing mutant 6 in X509SubjectNameResolver.engineLookupResolveX509Certificate
+Type 2 Inconsistency
+storage != null
+storage == null

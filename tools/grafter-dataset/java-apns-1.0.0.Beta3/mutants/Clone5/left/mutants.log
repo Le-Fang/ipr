@@ -1,0 +1,18 @@
+1:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:87:gatewaySocket != null |==> true
+2:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.ApnsServerStub@stop:88:gatewaySocket.close() |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.ApnsServerStub@stop:91:e.printStackTrace() |==> <NO-OP>
+4:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:94:feedbackSocket != null |==> true
+5:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.ApnsServerStub@stop:95:feedbackSocket.close() |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.ApnsServerStub@stop:98:e.printStackTrace() |==> <NO-OP>
+7:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:101:gatewayThread != null |==> true
+8:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.ApnsServerStub@stop:102:gatewayThread.stop() |==> <NO-OP>
+9:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:105:feedbackThread != null |==> true
+10:STD:<CALL>:<NO-OP>:com.notnoop.apns.utils.ApnsServerStub@stop:106:feedbackThread.stop() |==> <NO-OP>
+11:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:87:gatewaySocket != null |==> false
+12:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:87:gatewaySocket != null |==> gatewaySocket == null
+13:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:94:feedbackSocket != null |==> false
+14:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:94:feedbackSocket != null |==> feedbackSocket == null
+15:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:101:gatewayThread != null |==> false
+16:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:101:gatewayThread != null |==> gatewayThread == null
+17:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:105:feedbackThread != null |==> false
+18:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):com.notnoop.apns.utils.ApnsServerStub@stop:105:feedbackThread != null |==> feedbackThread == null

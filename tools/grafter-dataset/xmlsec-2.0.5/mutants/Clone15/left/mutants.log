@@ -1,0 +1,3 @@
+1:ORU:log.isDebugEnabled():!log.isDebugEnabled():org.apache.xml.security.keys.keyresolver.implementations.X509SKIResolver@engineLookupResolveX509Certificate:104:log.isDebugEnabled() |==> !log.isDebugEnabled()
+2:STD:<CALL>:<NO-OP>:org.apache.xml.security.keys.keyresolver.implementations.X509SKIResolver@engineLookupResolveX509Certificate:105:log.debug("", ex) |==> <NO-OP>
+3:ROR:==(java.lang.Object,java.lang.Object):!=(java.lang.Object,java.lang.Object):org.apache.xml.security.keys.keyresolver.implementations.X509SKIResolver@engineLookupResolveX509Certificate:99:storage == null |==> storage != null

@@ -1,0 +1,154 @@
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 1 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 10 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 11 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 12 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 13 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 14 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 15 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 16 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 17 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 18 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 2 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 3 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 4 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 5 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 6 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 7 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 8 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 9 in ApnsServerStub.stop
+Type 3 Inconsistency
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+Testing mutant 1 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[feedbackThread, debug, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 10 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 11 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 12 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 13 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 14 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 15 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 16 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 17 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 18 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 19 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 2 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 20 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 3 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 4 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 5 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 6 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 7 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 8 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
+Testing mutant 9 in ApnsServerSimulator.stop
+Type 3 Inconsistency
+[debug, feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, logger, interrupt, IOException, feedbackSocket, close]
+[feedbackThread, stop, printStackTrace, gatewaySocket, e, gatewayThread, IOException, feedbackSocket, close]
