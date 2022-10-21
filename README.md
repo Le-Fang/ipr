@@ -5,6 +5,9 @@ several things needed to do in order to run this in your local machines.
 
 typeInfo.txt
   a txt file used to record the types of the variables in our targeted file. Feel free to edit it based on you situations, but the format needs to be followed.
+  
+IPRTraces.txt
+  a txt file used to record the execution traces of our targeted file. This file supports the implementation of logging the runtime values of not only the targeted file, but also every file in the traces (from the test file to the targeted file).
  
 CloneInstrument.java:
   in the method showDiff(), there are some paths that need to be changed.
@@ -18,7 +21,7 @@ GrafterConfig.java:
     final static String path = "/Users/eddiii/Desktop/courses/ipr/grafter-code/Grafter/code/Grafter(Ant).config";
 
 Grafter(Ant).config:
-  in this file, there are 6 paths that should be changed according to your own local paths.
+  in this file, there are 6 paths that should be changed according to your own local paths. These paths refers to a dataset file in the directory named "tools".
   
 myscript.sh:
   you should type "chmod 777 myscript.sh" and "sed -i -e 's/\r$//' myscript.sh" to open the access.
