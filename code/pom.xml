@@ -212,6 +212,25 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
+         
+            <plugin>
+    <groupId>com.jolira</groupId>
+    <artifactId>onejar-maven-plugin</artifactId>
+    <executions>
+        <execution>
+            <configuration>
+                <mainClass>edu.ucla.cs.grafter.instrument.CloneInstrument</mainClass>
+                <attachToBuild>true</attachToBuild>
+                <filename>
+                  instrument.${project.packaging}
+                </filename>
+            </configuration>
+            <goals>
+                <goal>one-jar</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
         </plugins>
     </build>
 </project>

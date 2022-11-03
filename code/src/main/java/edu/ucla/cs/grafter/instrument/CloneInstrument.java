@@ -82,7 +82,7 @@ public class CloneInstrument {
 		}
 		// delete everything in our test folder
 		try {
-			org.apache.commons.io.FileUtils.deleteDirectory(new File(directoryPath + "IPR"));
+			org.apache.commons.io.FileUtils.deleteDirectory(new File(directoryPath + "IPRkk"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -763,6 +763,12 @@ public class CloneInstrument {
 	// used for manual testing
 	public static void main(String[] args) {
 		testwhole();
+		if (true) {
+			return;
+		}
+		String[] patches = args[3].split(",");
+		CloneInstrument.instru(args[0], args[1], Integer.parseInt(args[2]), patches, args[4], args[5], args[6],
+				args[7]);
 	}
 
 	private static void testwhole() {

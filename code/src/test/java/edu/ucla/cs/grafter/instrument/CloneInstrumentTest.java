@@ -13,6 +13,7 @@ import edu.ucla.cs.grafter.file.FileUtils;
 public class CloneInstrumentTest {
 
 	@Test
+	@Ignore
 	public void testMath82() {
 		CloneInstrument.showDiff(
 				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
@@ -21,7 +22,7 @@ public class CloneInstrumentTest {
 	}
 
 	@Test
-	// @Ignore
+	@Ignore
 	public void testChart1() {
 		CloneInstrument.showDiff(
 				"/Users/eddiii/Desktop/courses/ipr/jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java",
@@ -30,7 +31,7 @@ public class CloneInstrumentTest {
 	}
 
 	@Test
-	// @Ignore
+	@Ignore
 	public void testChart9() {
 		CloneInstrument.showDiff(
 				"/Users/eddiii/Desktop/courses/ipr/jfreechart/src/main/java/org/jfree/data/time/TimeSeries.java",
@@ -39,7 +40,7 @@ public class CloneInstrumentTest {
 	}
 
 	@Test
-	// @Ignore
+	@Ignore
 	public void testMath94() {
 		CloneInstrument.showDiff(
 				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math94/src/java/org/apache/commons/math/util/MathUtils.java",
@@ -48,7 +49,7 @@ public class CloneInstrumentTest {
 	}
 
 	@Test
-	// @Ignore
+	@Ignore
 	public void testMath75() {
 		CloneInstrument.showDiff(
 				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math75/src/main/java/org/apache/commons/math/stat/Frequency.java",
@@ -57,7 +58,7 @@ public class CloneInstrumentTest {
 	}
 
 	@Test
-	// @Ignore
+	@Ignore
 	public void testMath30() {
 		CloneInstrument.showDiff(
 				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",

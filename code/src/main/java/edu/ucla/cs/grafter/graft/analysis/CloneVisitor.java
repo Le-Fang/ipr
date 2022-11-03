@@ -247,6 +247,15 @@ public class CloneVisitor extends ASTVisitor {
 			int start = cu.getLineNumber(node.getStartPosition());
 			int end = cu.getLineNumber(node.getStartPosition() + node.getLength());
 
+			try {
+				CloneParser cp = new CloneParser();
+				String strFile = cp.readFileToString(this.path);
+				// clone.set_x(FileUtils.getStartIndex(strFile, linenumber));
+				// clone.set_y(FileUtils.getEndIndex(strFile, end));
+			} catch (IOException e) {
+				System.out.println("unable to perform readfiletostring in cv, methodinvocation");
+			}
+
 			// the method containing the clone is the biggest block and should be pushed to
 			// the blockStack first
 			blockStacks.push(new ImmutablePair<Integer, Integer>(start, end));
@@ -737,14 +746,15 @@ public class CloneVisitor extends ASTVisitor {
 
 	@Override
 	public boolean visit(MethodInvocation node) {
-		if (getLineNumber(node) == this.linenumber) {
+
+		int start = node.getStartPosition();
+		int end = node.getLength() + start;
+
+		if ((clone.getX() <= start) && (end <= clone.getY())) {
 			// add the method calls to the list
 			methodCalls.add(node.toString());
 			// System.out.println("in method invo: " + node);
 		}
-
-		int start = node.getStartPosition();
-		int end = node.getLength() + start;
 
 		if ((clone.getX() <= start) && (end <= clone.getY())) {
 			Expression expr = node.getExpression();
@@ -871,7 +881,10 @@ public class CloneVisitor extends ASTVisitor {
 
 	@Override
 	public boolean visit(InfixExpression node) {
-		if (getLineNumber(node) == this.linenumber) {
+		int start = node.getStartPosition();
+		int end = node.getLength() + start;
+
+		if ((clone.getX() <= start) && (end <= clone.getY())) {
 			infix.add(node.toString());
 		}
 
@@ -1015,6 +1028,12 @@ public class CloneVisitor extends ASTVisitor {
 			}
 		}
 
+		for (int i = 0; i < cv.methodCalls.size(); i++) {
+			if (cv.methodCalls.get(i).contains("assert")) {
+				cv.methodCalls.remove(i);
+			}
+		}
+
 		System.out.println("defined: " + defined);
 		System.out.println("used: " + used);
 		System.out.println("infix: " + cv.infix);
@@ -1040,8 +1059,8 @@ public class CloneVisitor extends ASTVisitor {
 	}
 
 	public static void main(String[] args) throws IOException {
-		String filePath = "/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java";
-		int lineNumber = 150;
+		String filePath = "/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java";
+		int lineNumber = 173;
 		parseSnipCode(filePath, lineNumber);
 	}
 }

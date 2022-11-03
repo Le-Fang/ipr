@@ -66,10 +66,12 @@ public class InstruThread extends Thread {
         }
 
         // for each of the trace info, we want to insert print statements
+        ArrayList<String> paths = new ArrayList<>(); // this contains all the paths we should analyze in the call stack
         for (String each : traces) {
             String path = each.split(",")[0];
             int lineN = Integer.valueOf(each.split(",")[1]);
             path = path.replaceFirst(directoryPath, directoryPath + "IPR/" + Integer.toString(i));
+            paths.add(path);
             CloneInstrument.preprocessTrace(path, lineN);
         }
 
@@ -83,9 +85,21 @@ public class InstruThread extends Thread {
         try {
             org.apache.commons.io.FileUtils.copyFile(new File(
                     filePath.substring(0, filePath.lastIndexOf("/") + 1) + "iprOutput.txt"),
-                    new File(directoryPath + "IPR/" + "iprOutput" + Integer.toString(i) + ".csv"));
+                    new File(directoryPath + "IPR/result-i/" + "iprOutput" + Integer.toString(i) + ".csv"));
         } catch (IOException e) {
             e.printStackTrace();
+        }
+        // now we only move the output file for our target file, we should also move
+        // output files for the call stack
+        for (String each : paths) {
+            try {
+                org.apache.commons.io.FileUtils.copyFile(new File(
+                        each.substring(0, each.lastIndexOf("/") + 1) + "iprOutput.txt"),
+                        new File(directoryPath + "IPR/result-i/" + "iprOutput" +
+                                Integer.toString(i) + each.substring(each.lastIndexOf("/") + 1) + ".csv"));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
