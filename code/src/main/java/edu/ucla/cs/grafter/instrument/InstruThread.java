@@ -54,7 +54,7 @@ public class InstruThread extends Thread {
         // our target file
         ArrayList<String> traces = new ArrayList<>();
         try {
-            Scanner sc = new Scanner(new File("/Users/eddiii/Desktop/courses/ipr/IPRTraces.txt"));
+            Scanner sc = new Scanner(new File("./IPRTraces.txt"));
             while (sc.hasNext()) {
                 // System.out.println(sc.nextLine());
                 traces.add(sc.nextLine());

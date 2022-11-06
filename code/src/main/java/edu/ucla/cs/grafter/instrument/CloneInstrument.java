@@ -82,46 +82,19 @@ public class CloneInstrument {
 		}
 		// delete everything in our test folder
 		try {
-			org.apache.commons.io.FileUtils.deleteDirectory(new File(directoryPath + "IPRkk"));
+			org.apache.commons.io.FileUtils.deleteDirectory(new File(directoryPath + "IPRkkk"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		System.out.println(success.toString());
 	}
 
-	// preprocessTrace is used before showDiff(), they basically have the same
-	// function,
-	// but preprocessTrace() only insert print statments into the targeted file
-	public static boolean preprocessTrace(String filepath, int linenumber) {
-		ArrayList<ArrayList<String>> vars;
-		String patch;
-		try {
-			vars = CloneVisitor.parseSnipCode(filepath, linenumber);
-			patch = FileUtils.grepLine(filepath, linenumber);
-		} catch (IOException e) {
-			e.printStackTrace();
-			System.out.println("unable to perform CloneVisitor.parseSnipCode");
-			return false;
-		}
-		ArrayList<String> addedBefore = new ArrayList<>();
-		ArrayList<String> addedAfter = new ArrayList<>();
-		if (vars.size() == 0) {
-			System.out.println("no variable used or defined");
-			return false;
-		}
-
-		String code;
-		try {
-			code = FileUtils.readFileToString(filepath);
-		} catch (IOException e) {
-			System.out.println("unable to perform FileUtils.readFileToString");
-			return false;
-		}
+	public static String insert_print(String code, ArrayList<ArrayList<String>> vars, int linenumber, String filepath) {
+		String result = "";
+		int lastIndex = 0;
 
 		String lineSeparator = System.getProperty("line.separator");
 		String[] cc = code.split(lineSeparator);
-		String before = "";
-		String after = "";
 		// add import statement
 		int lineToInsertImport = -1;
 		int inComment = 0;
@@ -145,61 +118,82 @@ public class CloneInstrument {
 			}
 		}
 		lineToInsertImport++;
-		System.out.println("line to insert is: " + lineToInsertImport);
 		cc[lineToInsertImport] = "import com.thoughtworks.xstream.XStream;" + lineSeparator
 				+ "import com.thoughtworks.xstream.io.xml.DomDriver;import java.io.*;" + lineSeparator
 				+ cc[lineToInsertImport];
-		// add before and after
-		for (int i = 0; i < cc.length; i++) {
-			if (i < linenumber - 1) {
-				before += cc[i] + lineSeparator;
-			} else if (i > linenumber - 1) {
-				after += cc[i] + lineSeparator;
-			}
-		}
-
-		// add sentenses to use XStream
 		ArrayList<String> serialSentenses = addSerialization();
 		for (String each : serialSentenses) {
-			addedBefore.add(each);
+			cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator + each;
 		}
-
 		// create and redirect the system out to a file named iprOutput.txt
-		addedBefore.add("File new_file = new File(" + "\"" + filepath.substring(0, filepath.lastIndexOf("/") + 1)
-				+ "iprOutput.txt" + "\");");
-		addedBefore.add(
-				"if (!new_file.exists()) { try {new_file.createNewFile();} catch(Exception e) {System.out.println(\"cannot create iprOutput.txt\");} }");
-		addedBefore.add("PrintStream o = null;");
-		addedBefore.add("try { o = new PrintStream(new FileOutputStream(\""
-				+ filepath.substring(0, filepath.lastIndexOf("/") + 1) + "iprOutput.txt"
-				+ "\",true)); } catch (Exception e) {System.out.println(\"no iprOutput.txt found\");}");
-		addedBefore.add("PrintStream console = System.out;");
-		addedBefore.add("System.setOut(o);");
-		// addedBefore.add("System.setOut(console);");
-
+		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator + "File new_file = new File(" + "\""
+				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
+				+ "iprOutput.txt" + "\");";
+		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator +
+				"if (!new_file.exists()) { try {new_file.createNewFile();} catch(Exception e) {System.out.println(\"cannot create iprOutput.txt\");} }";
+		// cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator + "PrintStream o =
+		// null;";
+		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator + "FileWriter IPRfw = null;";
+		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator + "try {  IPRfw = new FileWriter(" + "\""
+				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
+				+ "iprOutput.txt"
+				+ "\", true); } catch (Exception e) {System.out.println(\"cannot create fileWriter\");}";
+		/*
+		 * cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator +
+		 * "try { o = new PrintStream(new FileOutputStream(\""
+		 * + filepath.substring(0, filepath.lastIndexOf("/") + 1) + "iprOutput.txt"
+		 * +
+		 * "\",true)); } catch (Exception e) {System.out.println(\"no iprOutput.txt found\");}"
+		 * ;
+		 * cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator +
+		 * "PrintStream console = System.out;";
+		 * cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator +
+		 * "System.setOut(o);";
+		 */
+		// cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator +
+		// "System.setOut(console);";
 		// to separate different rounds of outputs
-		addedBefore.add("System.out.println(\"A round starts:\");");
+		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator
+				+ "try { IPRfw.write(\"A round starts:\" + System.getProperty(\"line.separator\"));} catch (Exception e) {System.out.println(\"cannot write to fileWriter\");}";
 
 		// create the inserted lines
 		// vars[0] is used variable list; vars[1] is defined variable list
 		for (String each : vars.get(0)) {
-			addedBefore.add("try { " + "System.out.println(\"before," + "used,"
-					+ each + "," + "\"+ " + "xstream.toXML(" + each + ")" + ");"
-					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}");
-			if (!patch.contains("return")) {
-				addedAfter.add("try { "
-						+ "System.out.println(\"after," + "used,"
-						+ each + "," + "\"+ " + "xstream.toXML(" + each + ")" + ");"
-						+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}");
+			String name = each.split(":")[0];
+			int line = Integer.parseInt(each.split(":")[1]);
+			if (line - 2 > lastIndex) {
+				lastIndex = line - 2;
+			}
+			cc[line - 2] = cc[line - 2] + lineSeparator + "try { " + "IPRfw.write(\"before"
+					+ Integer.toString(line) + "," + "used,"
+					+ name + "," + "\"+ " + "xstream.toXML(" + name + ")" + "+ System.getProperty(\"line.separator\"));"
+					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+			if (!cc[line - 1].contains("return")) {
+				cc[line - 1] = cc[line - 1] + lineSeparator + "try { " + "IPRfw.write(\"after"
+						+ Integer.toString(line) + "," + "used,"
+						+ name + "," + "\"+ " + "xstream.toXML(" + name + ")"
+						+ "+ System.getProperty(\"line.separator\"));"
+						+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+				if (line - 1 > lastIndex) {
+					lastIndex = line - 1;
+				}
 			}
 		}
 		for (String each : vars.get(1)) {
 			// if our patch is a return statement, we don't want to insert print after
 			// return
-			if (!patch.contains("return")) {
-				addedAfter.add("try { " + "System.out.println(\"after," + "defined,"
-						+ each + "," + "\"+ " + "xstream.toXML(" + each + ")" + ");"
-						+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}");
+			String name = each.split(":")[0];
+			int line = Integer.parseInt(each.split(":")[1]);
+			if (!cc[line - 1].contains("return")) {
+				cc[line - 1] = cc[line - 1] + lineSeparator + "try { " + "IPRfw.write(\"after"
+						+ Integer.toString(line)
+						+ "," + "defined,"
+						+ name + "," + "\"+ " + "xstream.toXML(" + name + ")"
+						+ "+ System.getProperty(\"line.separator\"));"
+						+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+				if (line - 1 > lastIndex) {
+					lastIndex = line - 1;
+				}
 			}
 		}
 
@@ -207,7 +201,7 @@ public class CloneInstrument {
 		// variables
 		HashMap<String, String> variableTypes = new HashMap<>();
 		try {
-			Scanner sc = new Scanner(new File("/Users/eddiii/Desktop/courses/ipr/typeInfo.txt"));
+			Scanner sc = new Scanner(new File("./typeInfo.txt"));
 			while (sc.hasNext()) {
 				// System.out.println(sc.nextLine());
 				String[] pair = sc.nextLine().split(":::");
@@ -217,23 +211,31 @@ public class CloneInstrument {
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("variableTypes csv file unreadable");
-			return false;
+			return "";
 		}
 
 		// handle infix expressions: insert a printStatement only once(before the target
 		// line)
 		int i = 0;
 		for (String each : vars.get(2)) {
-			String type = variableTypes.get(each);
+			String name = each.split(":")[0];
+			int line = Integer.parseInt(each.split(":")[1]);
+			String type = variableTypes.get(name);
 			if (type == null) {
 				continue;
 			}
-			addedBefore.add(type + " iprTemp" + i + " = " + each + ";");
-			addedBefore.add("try { " + "System.out.println(\"before," + "infix,"
-					+ each + "," + "\"+ " + "xstream.toXML(" + "iprTemp" + i + ")" + ");" +
-					"} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}");
+			if (line - 2 > lastIndex) {
+				lastIndex = line - 2;
+			}
+			cc[line - 2] = cc[line - 2] + lineSeparator + type + " iprTemp" + i + " = " + name + ";";
+			cc[line - 2] = cc[line - 2] + lineSeparator + "try { " + "IPRfw.write(\"before"
+					+ Integer.toString(line)
+					+ "," + "infix,"
+					+ name + "," + "\"+ " + "xstream.toXML(" + "iprTemp" + i + ")"
+					+ "+ System.getProperty(\"line.separator\"));" +
+					"} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
 			// update our patch string
-			patch.replaceFirst(each, "iprTemp" + i);
+			cc[line - 1].replaceFirst(each, "iprTemp" + i);
 			i++;
 		}
 
@@ -241,17 +243,63 @@ public class CloneInstrument {
 		// assumption: calling the method(s) more than once does not alter the overall
 		// behavior
 		for (String each : vars.get(3)) {
-			if (each.contains("assert")) {
+			String name = each.split(":")[0];
+			int line = Integer.parseInt(each.split(":")[1]);
+			if (line - 2 > lastIndex) {
+				lastIndex = line - 2;
+			}
+			if (name.contains("assert")) {
 				continue;
 			}
-			addedBefore.add("try { " + "System.out.println(\"before," + "method,"
-					+ each + "," + "\"+ " + "xstream.toXML(" + each + ")" + ");"
-					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}");
+			cc[line - 2] = cc[line - 2] + lineSeparator + "try { " + "IPRfw.write(\"before"
+					+ Integer.toString(line)
+					+ "," + "method,"
+					+ name + "," + "\"+ " + "xstream.toXML(" + name + ")" + "+ System.getProperty(\"line.separator\"));"
+					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+		}
+		// set outputstream back
+		cc[lastIndex] = cc[lastIndex] + lineSeparator
+				+ "try { IPRfw.close(); } catch (Exception e) {System.out.println(\"cannot close file writer\");}";
+
+		for (String each : cc) {
+			result += each + lineSeparator;
 		}
 
-		// set outputstream back
-		// addedBefore.add("System.setOut(console);");
-		addedAfter.add("System.setOut(console);");
+		return result;
+	}
+
+	// preprocessTrace is used before showDiff(), they basically have the same
+	// function,
+	// but preprocessTrace() only insert print statments into the targeted file
+	public static boolean preprocessTrace(String filepath, int linenumber) {
+		ArrayList<ArrayList<String>> vars;
+		String patch;
+		try {
+			vars = CloneVisitor.parseSnipCode(filepath, linenumber);
+			patch = FileUtils.grepLine(filepath, linenumber);
+		} catch (IOException e) {
+			e.printStackTrace();
+			System.out.println("unable to perform CloneVisitor.parseSnipCode");
+			return false;
+		}
+
+		if (vars.size() == 0) {
+			System.out.println("no variable used or defined");
+			return false;
+		}
+
+		String code;
+		try {
+			code = FileUtils.readFileToString(filepath);
+		} catch (IOException e) {
+			System.out.println("unable to perform FileUtils.readFileToString");
+			return false;
+		}
+
+		code = insert_print(code, vars, linenumber, filepath);
+		if (code.length() == 0) {
+			return false;
+		}
 
 		// change the name of the original file
 		File backup = new File(filepath + ".bak");
@@ -273,35 +321,30 @@ public class CloneInstrument {
 			return false;
 		}
 
-		code = before;
-		for (String each : addedBefore) {
-			code += each + lineSeparator;
-		}
-		// code += cc[linenumber - 1] + lineSeparator;
-		// instead of using the original line, we want to replace it with a patch
-		code += patch + lineSeparator;
-
-		// if our target line is a if statement, we want to insert the print statements
-		// after the whole if block, instead of the line after the if condition
-		int ifEndLine = Integer.valueOf(vars.get(4).get(0)).intValue();
-		if (ifEndLine != -1) {
-			// if we do encounter a If statement
-			for (int k = linenumber; k <= ifEndLine - 1; k++) {
-				code += cc[k] + lineSeparator;
-			}
-			for (String each : addedAfter) {
-				code += each + lineSeparator;
-			}
-			for (int k = ifEndLine; k < cc.length; k++) {
-				code += cc[k] + lineSeparator;
-			}
-		} else {
-			// if we do not encounter a If statement
-			for (String each : addedAfter) {
-				code += each + lineSeparator;
-			}
-			code += after;
-		}
+		/*
+		 * // if our target line is a if statement, we want to insert the print
+		 * statements
+		 * // after the whole if block, instead of the line after the if condition
+		 * int ifEndLine = Integer.valueOf(vars.get(4).get(0)).intValue();
+		 * if (ifEndLine != -1) {
+		 * // if we do encounter a If statement
+		 * for (int k = linenumber; k <= ifEndLine - 1; k++) {
+		 * code += cc[k] + lineSeparator;
+		 * }
+		 * for (String each : addedAfter) {
+		 * code += each + lineSeparator;
+		 * }
+		 * for (int k = ifEndLine; k < cc.length; k++) {
+		 * code += cc[k] + lineSeparator;
+		 * }
+		 * } else {
+		 * // if we do not encounter a If statement
+		 * for (String each : addedAfter) {
+		 * code += each + lineSeparator;
+		 * }
+		 * code += after;
+		 * }
+		 */
 
 		BufferedWriter bw = null;
 		try {
@@ -339,8 +382,7 @@ public class CloneInstrument {
 			System.out.println("unable to perform CloneVisitor.parseSnipCode");
 			return false;
 		}
-		ArrayList<String> addedBefore = new ArrayList<>();
-		ArrayList<String> addedAfter = new ArrayList<>();
+
 		if (vars.size() == 0) {
 			System.out.println("no variable used or defined");
 			return false;
@@ -354,137 +396,10 @@ public class CloneInstrument {
 			return false;
 		}
 
-		String lineSeparator = System.getProperty("line.separator");
-		String[] cc = code.split(lineSeparator);
-		String before = "";
-		String after = "";
-		// add import statement
-		int lineToInsertImport = -1;
-		int inComment = 0;
-		for (int i = 0; i < cc.length; i++) {
-			if (cc[i].contains("/*")) {
-				inComment = 1;
-			}
-			if (cc[i].contains("*/")) {
-				inComment = 0;
-			}
-			// if in comment, we want to skip this line
-			if (inComment == 1) {
-				continue;
-			}
-
-			if (cc[i].contains("package") || cc[i].contains("import")) {
-				lineToInsertImport = i;
-			}
-			if (cc[i].contains("public") || cc[i].contains("class")) {
-				break;
-			}
-		}
-		lineToInsertImport++;
-		System.out.println("line to insert is: " + lineToInsertImport);
-		cc[lineToInsertImport] = "import com.thoughtworks.xstream.XStream;" + lineSeparator
-				+ "import com.thoughtworks.xstream.io.xml.DomDriver;import java.io.*;" + lineSeparator
-				+ cc[lineToInsertImport];
-		// add before and after
-		for (int i = 0; i < cc.length; i++) {
-			if (i < linenumber - 1) {
-				before += cc[i] + lineSeparator;
-			} else if (i > linenumber - 1) {
-				after += cc[i] + lineSeparator;
-			}
-		}
-
-		// add sentenses to use XStream
-		ArrayList<String> serialSentenses = addSerialization();
-		for (String each : serialSentenses) {
-			addedBefore.add(each);
-		}
-
-		// create and redirect the system out to a file named iprOutput.txt
-		addedBefore.add("File new_file = new File(" + "\"" + filepath.substring(0, filepath.lastIndexOf("/") + 1)
-				+ "iprOutput.txt" + "\");");
-		addedBefore.add(
-				"if (!new_file.exists()) { try {new_file.createNewFile();} catch(Exception e) {System.out.println(\"cannot create iprOutput.txt\");} }");
-		addedBefore.add("PrintStream o = null;");
-		addedBefore.add("try { o = new PrintStream(new FileOutputStream(\""
-				+ filepath.substring(0, filepath.lastIndexOf("/") + 1) + "iprOutput.txt"
-				+ "\",true)); } catch (Exception e) {System.out.println(\"no iprOutput.txt found\");}");
-		addedBefore.add("PrintStream console = System.out;");
-		addedBefore.add("System.setOut(o);");
-		// addedBefore.add("System.setOut(console);");
-
-		// to separate different rounds of outputs
-		addedBefore.add("System.out.println(\"A round starts:\");");
-
-		// create the inserted lines
-		// vars[0] is used variable list; vars[1] is defined variable list
-		for (String each : vars.get(0)) {
-			addedBefore.add("try { " + "System.out.println(\"before," + "used,"
-					+ each + "," + "\"+ " + "xstream.toXML(" + each + ")" + ");"
-					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}");
-			if (!patch.contains("return")) {
-				addedAfter.add("try { "
-						+ "System.out.println(\"after," + "used,"
-						+ each + "," + "\"+ " + "xstream.toXML(" + each + ")" + ");"
-						+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}");
-			}
-		}
-		for (String each : vars.get(1)) {
-			// if our patch is a return statement, we don't want to insert print after
-			// return
-			if (!patch.contains("return")) {
-				addedAfter.add("try { " + "System.out.println(\"after," + "defined,"
-						+ each + "," + "\"+ " + "xstream.toXML(" + each + ")" + ");"
-						+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}");
-			}
-		}
-
-		// variableTypes is the dictionary that we use to look up the types of certain
-		// variables
-		HashMap<String, String> variableTypes = new HashMap<>();
-		try {
-			Scanner sc = new Scanner(new File("/Users/eddiii/Desktop/courses/ipr/typeInfo.txt"));
-			while (sc.hasNext()) {
-				// System.out.println(sc.nextLine());
-				String[] pair = sc.nextLine().split(":::");
-				variableTypes.put(pair[0], pair[1]);
-			}
-			sc.close();
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.out.println("variableTypes csv file unreadable");
+		code = insert_print(code, vars, linenumber, filepath);
+		if (code.length() == 0) {
 			return false;
 		}
-
-		// handle infix expressions: insert a printStatement only once(before the target
-		// line)
-		int i = 0;
-		for (String each : vars.get(2)) {
-			String type = variableTypes.get(each);
-			if (type == null) {
-				continue;
-			}
-			addedBefore.add(type + " iprTemp" + i + " = " + each + ";");
-			addedBefore.add("try { " + "System.out.println(\"before," + "infix,"
-					+ each + "," + "\"+ " + "xstream.toXML(" + "iprTemp" + i + ")" + ");" +
-					"} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}");
-			// update our patch string
-			patch.replaceFirst(each, "iprTemp" + i);
-			i++;
-		}
-
-		// handle methodCalls: insert a printStatement before the target line
-		// assumption: calling the method(s) more than once does not alter the overall
-		// behavior
-		for (String each : vars.get(3)) {
-			addedBefore.add("try { " + "System.out.println(\"before," + "method,"
-					+ each + "," + "\"+ " + "xstream.toXML(" + each + ")" + ");"
-					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}");
-		}
-
-		// set outputstream back
-		// addedBefore.add("System.setOut(console);");
-		addedAfter.add("System.setOut(console);");
 
 		// change the name of the original file
 		File backup = new File(filepath + ".bak");
@@ -506,35 +421,30 @@ public class CloneInstrument {
 			return false;
 		}
 
-		code = before;
-		for (String each : addedBefore) {
-			code += each + lineSeparator;
-		}
-		// code += cc[linenumber - 1] + lineSeparator;
-		// instead of using the original line, we want to replace it with a patch
-		code += patch + lineSeparator;
-
-		// if our target line is a if statement, we want to insert the print statements
-		// after the whole if block, instead of the line after the if condition
-		int ifEndLine = Integer.valueOf(vars.get(4).get(0)).intValue();
-		if (ifEndLine != -1) {
-			// if we do encounter a If statement
-			for (int k = linenumber; k <= ifEndLine - 1; k++) {
-				code += cc[k] + lineSeparator;
-			}
-			for (String each : addedAfter) {
-				code += each + lineSeparator;
-			}
-			for (int k = ifEndLine; k < cc.length; k++) {
-				code += cc[k] + lineSeparator;
-			}
-		} else {
-			// if we do not encounter a If statement
-			for (String each : addedAfter) {
-				code += each + lineSeparator;
-			}
-			code += after;
-		}
+		/*
+		 * // if our target line is a if statement, we want to insert the print
+		 * statements
+		 * // after the whole if block, instead of the line after the if condition
+		 * int ifEndLine = Integer.valueOf(vars.get(4).get(0)).intValue();
+		 * if (ifEndLine != -1) {
+		 * // if we do encounter a If statement
+		 * for (int k = linenumber; k <= ifEndLine - 1; k++) {
+		 * code += cc[k] + lineSeparator;
+		 * }
+		 * for (String each : addedAfter) {
+		 * code += each + lineSeparator;
+		 * }
+		 * for (int k = ifEndLine; k < cc.length; k++) {
+		 * code += cc[k] + lineSeparator;
+		 * }
+		 * } else {
+		 * // if we do not encounter a If statement
+		 * for (String each : addedAfter) {
+		 * code += each + lineSeparator;
+		 * }
+		 * code += after;
+		 * }
+		 */
 
 		BufferedWriter bw = null;
 		try {
@@ -554,10 +464,10 @@ public class CloneInstrument {
 		// we should run this new clone file
 		ProcessBuilder processBuilder = new ProcessBuilder();
 		if (moduleName.equals("")) {
-			processBuilder.command("/Users/eddiii/Desktop/courses/ipr/Grafter/code/myscript.sh", testPath, testName,
+			processBuilder.command("./myscript.sh", testPath, testName,
 					methodName);
 		} else {
-			processBuilder.command("/Users/eddiii/Desktop/courses/ipr/Grafter/code/myscript.sh", testPath, moduleName,
+			processBuilder.command("./myscript.sh", testPath, moduleName,
 					testName, methodName);
 		}
 		Process process;
@@ -595,19 +505,22 @@ public class CloneInstrument {
 		}
 		// end---running code
 
-		// after we run the new file, we need to delete this clone file and rename the
-		// old file back
-		File delete = new File(filepath);
-		File originalPath = new File(filepath);
-		if (delete.exists()) {
-			delete.delete();
-			File old = new File(filepath + ".bak");
-			ifRename = old.renameTo(originalPath);
-			if (ifRename) {
-				System.out.println("rename(back) sucess");
-			}
-		}
-
+		/*
+		 * // after we run the new file, we need to delete this clone file and rename
+		 * the
+		 * // old file back
+		 * File delete = new File(filepath);
+		 * File originalPath = new File(filepath);
+		 * if (delete.exists()) {
+		 * delete.delete();
+		 * File old = new File(filepath + ".bak");
+		 * ifRename = old.renameTo(originalPath);
+		 * if (ifRename) {
+		 * System.out.println("rename(back) sucess");
+		 * }
+		 * }
+		 * 
+		 */
 		// our tests finished
 		return true;
 	}
@@ -762,10 +675,7 @@ public class CloneInstrument {
 
 	// used for manual testing
 	public static void main(String[] args) {
-		testwhole();
-		if (true) {
-			return;
-		}
+
 		String[] patches = args[3].split(",");
 		CloneInstrument.instru(args[0], args[1], Integer.parseInt(args[2]), patches, args[4], args[5], args[6],
 				args[7]);

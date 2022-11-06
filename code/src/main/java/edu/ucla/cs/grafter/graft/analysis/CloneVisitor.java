@@ -63,8 +63,11 @@ public class CloneVisitor extends ASTVisitor {
 	int ifEndLine; // if our target line is a start of a if block, we need to record the end of the
 					// if block
 	int linenumber;
+	ArrayList<String> def_var;
+	ArrayList<String> use_var;
 	ArrayList<String> infix;
 	ArrayList<String> methodCalls;
+
 	// methodCalls is used to record method calls and some combinations of method
 	// calls
 
@@ -109,6 +112,8 @@ public class CloneVisitor extends ASTVisitor {
 		uses = new HashSet<Token>();
 		effects = new HashSet<Token>();
 
+		def_var = new ArrayList<>();
+		use_var = new ArrayList<>();
 		infix = new ArrayList<>();
 		methodCalls = new ArrayList<>();
 		ifEndLine = -1;
@@ -250,8 +255,8 @@ public class CloneVisitor extends ASTVisitor {
 			try {
 				CloneParser cp = new CloneParser();
 				String strFile = cp.readFileToString(this.path);
-				// clone.set_x(FileUtils.getStartIndex(strFile, linenumber));
-				// clone.set_y(FileUtils.getEndIndex(strFile, end));
+				clone.set_x(FileUtils.getStartIndex(strFile, linenumber));
+				clone.set_y(FileUtils.getEndIndex(strFile, end));
 			} catch (IOException e) {
 				System.out.println("unable to perform readfiletostring in cv, methodinvocation");
 			}
@@ -621,7 +626,9 @@ public class CloneVisitor extends ASTVisitor {
 		int line = getLineNumber(node);
 		t.start = line;
 		t.end = blockStacks.peek().getRight() - 1;
+		t.setInstru_line(line);
 		defs.add(t);
+		def_var.add(t.getName() + ":" + t.getInstru_line());
 		vars.add(t);
 
 		if (inBlock) {
@@ -678,7 +685,9 @@ public class CloneVisitor extends ASTVisitor {
 
 			if ((clone.getX() <= start) && (end <= clone.getY())) {
 				// this local variable is defined in the clone
+				t.setInstru_line(line);
 				defs.add(t);
+				def_var.add(t.getName() + ":" + t.getInstru_line());
 				effects.add(t);
 
 				if (inBlock) {
@@ -732,7 +741,9 @@ public class CloneVisitor extends ASTVisitor {
 
 			if ((clone.getX() <= start) && (end <= clone.getY())) {
 				// this local variable is defined in the clone
+				t.setInstru_line(line);
 				defs.add(t);
+				def_var.add(t.getName() + ":" + t.getInstru_line());
 				effects.add(t);
 
 				if (inBlock) {
@@ -749,10 +760,11 @@ public class CloneVisitor extends ASTVisitor {
 
 		int start = node.getStartPosition();
 		int end = node.getLength() + start;
+		int line = getLineNumber(node);
 
 		if ((clone.getX() <= start) && (end <= clone.getY())) {
 			// add the method calls to the list
-			methodCalls.add(node.toString());
+			methodCalls.add(node.toString() + ":" + Integer.toString(line));
 			// System.out.println("in method invo: " + node);
 		}
 
@@ -813,12 +825,16 @@ public class CloneVisitor extends ASTVisitor {
 						if (isAssignmentLeftHand) {
 							f.start = line < f.start ? line : f.start;
 							f.end = line > f.end ? line : f.end;
+							f.setInstru_line(line);
 							defs.add(f);
+							def_var.add(f.getName() + ":" + f.getInstru_line());
 							effects.add(f);
 						} else {
 							f.start = line < f.start ? line : f.start;
 							f.end = line > f.end ? line : f.end;
+							f.setInstru_line(line);
 							uses.add(f);
+							def_var.add(f.getName() + ":" + f.getInstru_line());
 							if (!defs.contains(f) && !(f.isFinal() && f.isInitialized())) {
 								wilds.add(f);
 							}
@@ -856,7 +872,9 @@ public class CloneVisitor extends ASTVisitor {
 				} else {
 					t.start = line < t.start ? line : t.start;
 					t.end = line > t.end ? line : t.end;
+					t.setInstru_line(line);
 					uses.add(t);
+					use_var.add(t.getName() + ":" + t.getInstru_line());
 					if (isInvoked) {
 						effects.add(t);
 					} else if (isArgument && t.isField()) {
@@ -883,9 +901,10 @@ public class CloneVisitor extends ASTVisitor {
 	public boolean visit(InfixExpression node) {
 		int start = node.getStartPosition();
 		int end = node.getLength() + start;
+		int line = getLineNumber(node);
 
 		if ((clone.getX() <= start) && (end <= clone.getY())) {
-			infix.add(node.toString());
+			infix.add(node.toString() + ":" + Integer.toString(line));
 		}
 
 		return true;
@@ -1010,15 +1029,15 @@ public class CloneVisitor extends ASTVisitor {
 		ArrayList<String> used = new ArrayList<>();
 		ArrayList<String> defined = new ArrayList<>();
 		// System.out.println("uses: ");
-		for (Token t : cv.uses) {
+		for (String t : cv.use_var) {
 			// System.out.println(t.getLabel() + " - " + t.getType() + " " + t.getName());
-			used.add(t.getName());
+			used.add(t);
 		}
 
 		// System.out.println("defined: ");
-		for (Token t : cv.defs) {
+		for (String t : cv.def_var) {
 			// System.out.println(t.getLabel() + " - " + t.getType() + " " + t.getName());
-			defined.add(t.getName());
+			defined.add(t);
 		}
 
 		// remove the repeated element from [used]
@@ -1061,6 +1080,8 @@ public class CloneVisitor extends ASTVisitor {
 	public static void main(String[] args) throws IOException {
 		String filePath = "/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java";
 		int lineNumber = 173;
+		filePath = "/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math94/src/java/org/apache/commons/math/util/MathUtils.java";
+		lineNumber = 412;
 		parseSnipCode(filePath, lineNumber);
 	}
 }
