@@ -25,21 +25,21 @@ public class Clone {
 	String path;
 	String test;
 	boolean isStatic = false;
-	
-	public Clone(String clazz, String method, String code){
+
+	public Clone(String clazz, String method, String code) {
 		this.owner = clazz;
 		this.method = method;
 		this.code = code;
 	}
-	
-	public Clone(int x, int y, String method, String clazz){
+
+	public Clone(int x, int y, String method, String clazz) {
 		this.x = x;
 		this.y = y;
 		this.method = method;
 		this.owner = clazz;
 	}
-	
-	public Clone(String clazz, String method, String code, int x, int y, String path){
+
+	public Clone(String clazz, String method, String code, int x, int y, String path) {
 		this.owner = clazz;
 		this.method = method;
 		this.code = code;
@@ -47,8 +47,8 @@ public class Clone {
 		this.y = y;
 		this.path = path;
 	}
-	
-	public Clone(String clazz, String method, String code, int x, int y, String path, int start, int end){
+
+	public Clone(String clazz, String method, String code, int x, int y, String path, int start, int end) {
 		this.owner = clazz;
 		this.method = method;
 		this.code = code;
@@ -58,8 +58,8 @@ public class Clone {
 		this.start = start;
 		this.end = end;
 	}
-	
-	public Clone(String path, String m, int x, int y) throws IOException{
+
+	public Clone(String path, String m, int x, int y) throws IOException {
 		this.path = path;
 		this.method = m;
 		this.x = x;
@@ -69,113 +69,132 @@ public class Clone {
 		this.start = getLineNumber(path, x);
 		this.end = getLineNumber(path, y);
 	}
-	
-	private String read(String path, int x, int y) throws IOException{
+
+	private String read(String path, int x, int y) throws IOException {
 		CloneParser cp = new CloneParser();
 		String code = cp.readFileToString(path);
-		return code.substring(x,y);
+		return code.substring(x, y);
 	}
-	
-	private int getLineNumber(String path, int x) throws IOException{
+
+	private int getLineNumber(String path, int x) throws IOException {
 		CloneParser cp = new CloneParser();
 		CompilationUnit cu = cp.parse(path);
 		return cu.getLineNumber(x);
 	}
-	
-	public void setStatic(boolean b){
+
+	public void setStatic(boolean b) {
 		this.isStatic = b;
 	}
-	
-	public boolean isStatic(){
+
+	public void set_x(int x) {
+		this.x = x;
+	}
+
+	public void set_y(int y) {
+		this.y = y;
+	}
+
+	public boolean isStatic() {
 		return this.isStatic;
 	}
-	
-	public String getCode(){
+
+	public String getCode() {
 		return code;
 	}
-	
-	public void setCode(String code){
+
+	public void setCode(String code) {
 		this.code = code;
 	}
-	
+
 	public String getOwner() {
 		return owner;
 	}
-	public void setOwner(String owner){
+
+	public void setOwner(String owner) {
 		this.owner = owner;
 	}
+
 	public String getMethod() {
 		return method;
 	}
+
 	public void setMethod(String method) {
 		this.method = method;
 	}
+
 	public int getStart() {
 		return start;
 	}
+
 	public void setStart(int start) {
 		this.start = start;
 	}
+
 	public int getEnd() {
 		return end;
 	}
+
 	public void setEnd(int end) {
 		this.end = end;
 	}
+
 	public List<Token> getTokens() {
 		return tokens;
 	}
+
 	public void setTokens(List<Token> tokens) {
 		this.tokens = tokens;
 	}
+
 	public Hook getHook() {
 		return hook;
 	}
+
 	public void setHook(Hook hook) {
 		this.hook = hook;
 	}
-	
-	public int getX(){
+
+	public int getX() {
 		return x;
 	}
-	
-	public int getY(){
+
+	public int getY() {
 		return y;
 	}
-	
-	public String getPath(){
+
+	public String getPath() {
 		return path;
 	}
-	
-	public void setTestPath(String s){
+
+	public void setTestPath(String s) {
 		this.test = s;
 	}
-	
-	public String getTestPath(){
+
+	public String getTestPath() {
 		return this.test;
 	}
 
 	public void setType(String type) {
 		this.type = type;
 	}
-	
-	public String getType(){
+
+	public String getType() {
 		return this.type;
 	}
-	
-	public ArrayList<String> getExceptions(){
+
+	public ArrayList<String> getExceptions() {
 		return exceptions;
 	}
-	
-	public void setExceptions(ArrayList<String> expts){
+
+	public void setExceptions(ArrayList<String> expts) {
 		this.exceptions = expts;
 	}
-	
-	public ArrayList<Token> getParameters(){
+
+	public ArrayList<Token> getParameters() {
 		return this.params;
 	}
-	
-	public void setParameters(ArrayList<Token> params){
+
+	public void setParameters(ArrayList<Token> params) {
 		this.params = params;
 	}
 }

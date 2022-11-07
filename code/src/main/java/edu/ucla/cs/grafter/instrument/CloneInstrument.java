@@ -138,21 +138,6 @@ public class CloneInstrument {
 				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
 				+ "iprOutput.txt"
 				+ "\", true); } catch (Exception e) {System.out.println(\"cannot create fileWriter\");}";
-		/*
-		 * cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator +
-		 * "try { o = new PrintStream(new FileOutputStream(\""
-		 * + filepath.substring(0, filepath.lastIndexOf("/") + 1) + "iprOutput.txt"
-		 * +
-		 * "\",true)); } catch (Exception e) {System.out.println(\"no iprOutput.txt found\");}"
-		 * ;
-		 * cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator +
-		 * "PrintStream console = System.out;";
-		 * cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator +
-		 * "System.setOut(o);";
-		 */
-		// cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator +
-		// "System.setOut(console);";
-		// to separate different rounds of outputs
 		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator
 				+ "try { IPRfw.write(\"A round starts:\" + System.getProperty(\"line.separator\"));} catch (Exception e) {System.out.println(\"cannot write to fileWriter\");}";
 
@@ -251,10 +236,12 @@ public class CloneInstrument {
 			if (name.contains("assert")) {
 				continue;
 			}
+			String tempname = "\\\"" + name + "\\\"";
 			cc[line - 2] = cc[line - 2] + lineSeparator + "try { " + "IPRfw.write(\"before"
 					+ Integer.toString(line)
 					+ "," + "method,"
-					+ name + "," + "\"+ " + "xstream.toXML(" + name + ")" + "+ System.getProperty(\"line.separator\"));"
+					+ "\"+\"" + tempname + "\"+\"" + "," + "\"+ " + "xstream.toXML(" + name + ")"
+					+ "+ System.getProperty(\"line.separator\"));"
 					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
 		}
 		// set outputstream back
@@ -675,7 +662,6 @@ public class CloneInstrument {
 
 	// used for manual testing
 	public static void main(String[] args) {
-
 		String[] patches = args[3].split(",");
 		CloneInstrument.instru(args[0], args[1], Integer.parseInt(args[2]), patches, args[4], args[5], args[6],
 				args[7]);
