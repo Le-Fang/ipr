@@ -118,27 +118,25 @@ public class CloneInstrument {
 			}
 		}
 		lineToInsertImport++;
-		cc[lineToInsertImport] = "import com.thoughtworks.xstream.XStream;" + lineSeparator
-				+ "import com.thoughtworks.xstream.io.xml.DomDriver;import java.io.*;" + lineSeparator
+		cc[lineToInsertImport] = "import com.thoughtworks.xstream.XStream;"
+				+ "import com.thoughtworks.xstream.io.xml.DomDriver;import java.io.*;"
 				+ cc[lineToInsertImport];
 		ArrayList<String> serialSentenses = addSerialization();
 		for (String each : serialSentenses) {
-			cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator + each;
+			cc[linenumber - 2] = cc[linenumber - 2] + each;
 		}
 		// create and redirect the system out to a file named iprOutput.txt
-		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator + "File new_file = new File(" + "\""
+		cc[linenumber - 2] = cc[linenumber - 2] + "File new_file = new File(" + "\""
 				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
-				+ "iprOutput.txt" + "\");";
-		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator +
+				+ "iprOutput" + Integer.toString(linenumber) + ".txt" + "\");";
+		cc[linenumber - 2] = cc[linenumber - 2] +
 				"if (!new_file.exists()) { try {new_file.createNewFile();} catch(Exception e) {System.out.println(\"cannot create iprOutput.txt\");} }";
-		// cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator + "PrintStream o =
-		// null;";
-		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator + "FileWriter IPRfw = null;";
-		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator + "try {  IPRfw = new FileWriter(" + "\""
+		cc[linenumber - 2] = cc[linenumber - 2] + "FileWriter IPRfw = null;";
+		cc[linenumber - 2] = cc[linenumber - 2] + "try {  IPRfw = new FileWriter(" + "\""
 				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
-				+ "iprOutput.txt"
+				+ "iprOutput" + Integer.toString(linenumber) + ".txt"
 				+ "\", true); } catch (Exception e) {System.out.println(\"cannot create fileWriter\");}";
-		cc[linenumber - 2] = cc[linenumber - 2] + lineSeparator
+		cc[linenumber - 2] = cc[linenumber - 2]
 				+ "try { IPRfw.write(\"A round starts:\" + System.getProperty(\"line.separator\"));} catch (Exception e) {System.out.println(\"cannot write to fileWriter\");}";
 
 		// create the inserted lines
@@ -149,14 +147,17 @@ public class CloneInstrument {
 			if (line - 2 > lastIndex) {
 				lastIndex = line - 2;
 			}
-			cc[line - 2] = cc[line - 2] + lineSeparator + "try { " + "IPRfw.write(\"before"
+			cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\"before"
 					+ Integer.toString(line) + "," + "used,"
-					+ name + "," + "\"+ " + "xstream.toXML(" + name + ")" + "+ System.getProperty(\"line.separator\"));"
+					+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + name
+					+ ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
+					+ "+ System.getProperty(\"line.separator\"));"
 					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
 			if (!cc[line - 1].contains("return")) {
-				cc[line - 1] = cc[line - 1] + lineSeparator + "try { " + "IPRfw.write(\"after"
+				cc[line - 1] = cc[line - 1] + "try { " + "IPRfw.write(\"after"
 						+ Integer.toString(line) + "," + "used,"
-						+ name + "," + "\"+ " + "xstream.toXML(" + name + ")"
+						+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + name
+						+ ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
 						+ "+ System.getProperty(\"line.separator\"));"
 						+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
 				if (line - 1 > lastIndex) {
@@ -170,10 +171,11 @@ public class CloneInstrument {
 			String name = each.split(":")[0];
 			int line = Integer.parseInt(each.split(":")[1]);
 			if (!cc[line - 1].contains("return")) {
-				cc[line - 1] = cc[line - 1] + lineSeparator + "try { " + "IPRfw.write(\"after"
+				cc[line - 1] = cc[line - 1] + "try { " + "IPRfw.write(\"after"
 						+ Integer.toString(line)
 						+ "," + "defined,"
-						+ name + "," + "\"+ " + "xstream.toXML(" + name + ")"
+						+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + name
+						+ ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
 						+ "+ System.getProperty(\"line.separator\"));"
 						+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
 				if (line - 1 > lastIndex) {
@@ -212,11 +214,12 @@ public class CloneInstrument {
 			if (line - 2 > lastIndex) {
 				lastIndex = line - 2;
 			}
-			cc[line - 2] = cc[line - 2] + lineSeparator + type + " iprTemp" + i + " = " + name + ";";
-			cc[line - 2] = cc[line - 2] + lineSeparator + "try { " + "IPRfw.write(\"before"
+			cc[line - 2] = cc[line - 2] + type + " iprTemp" + i + " = " + name + ";";
+			cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\"before"
 					+ Integer.toString(line)
 					+ "," + "infix,"
-					+ name + "," + "\"+ " + "xstream.toXML(" + "iprTemp" + i + ")"
+					+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + "iprTemp" + i
+					+ ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
 					+ "+ System.getProperty(\"line.separator\"));" +
 					"} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
 			// update our patch string
@@ -237,15 +240,16 @@ public class CloneInstrument {
 				continue;
 			}
 			String tempname = "\\\"" + name + "\\\"";
-			cc[line - 2] = cc[line - 2] + lineSeparator + "try { " + "IPRfw.write(\"before"
+			cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\"before"
 					+ Integer.toString(line)
 					+ "," + "method,"
-					+ "\"+\"" + tempname + "\"+\"" + "," + "\"+ " + "xstream.toXML(" + name + ")"
+					+ "\"+\"" + tempname + "\"+\"" + "," + "\"+ " + "xstream.toXML(" + name
+					+ ").toString().replaceAll(\"\\\"\", \"\")"
 					+ "+ System.getProperty(\"line.separator\"));"
 					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
 		}
 		// set outputstream back
-		cc[lastIndex] = cc[lastIndex] + lineSeparator
+		cc[lastIndex] = cc[lastIndex]
 				+ "try { IPRfw.close(); } catch (Exception e) {System.out.println(\"cannot close file writer\");}";
 
 		for (String each : cc) {
@@ -718,9 +722,11 @@ public class CloneInstrument {
 	}
 
 	private static void testMath30() {
-		CloneInstrument.showDiff(
+		String[] p = { "final double n1n2prod = n1*n2;", "final double n1n2prod = n1*( n1+2+1) /2.0;" };
+		CloneInstrument.instru("/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30",
 				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
-				173, "final double n1n2prod = n1 * n2;", "MannWhitneyUTestTest",
+				173, p,
+				"MannWhitneyUTestTest",
 				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30", "", "testBigDataSet");
 	}
 

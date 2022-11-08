@@ -57,7 +57,7 @@ public class InstruThread extends Thread {
             Scanner sc = new Scanner(new File("./IPRTraces.txt"));
             while (sc.hasNext()) {
                 // System.out.println(sc.nextLine());
-                traces.add(sc.nextLine());
+                traces.add(directoryPath + sc.nextLine());
             }
             sc.close();
         } catch (Exception e) {
@@ -84,19 +84,24 @@ public class InstruThread extends Thread {
         // copy our test results to a more obvious location
         try {
             org.apache.commons.io.FileUtils.copyFile(new File(
-                    filePath.substring(0, filePath.lastIndexOf("/") + 1) + "iprOutput.txt"),
-                    new File(directoryPath + "IPR/result-i/" + "iprOutput" + Integer.toString(i) + ".csv"));
+                    filePath.substring(0, filePath.lastIndexOf("/") + 1) + "iprOutput" + Integer.toString(linenumber)
+                            + ".txt"),
+                    new File(directoryPath + "IPR/result-i/" + "iprOutput" + Integer.toString(i) + "-buggy" + ".csv"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         // now we only move the output file for our target file, we should also move
         // output files for the call stack
-        for (String each : paths) {
+        for (String each : traces) {
+            String path = each.split(",")[0];
+            int lineN = Integer.valueOf(each.split(",")[1]);
+            path = path.replaceFirst(directoryPath, directoryPath + "IPR/" + Integer.toString(i));
             try {
                 org.apache.commons.io.FileUtils.copyFile(new File(
-                        each.substring(0, each.lastIndexOf("/") + 1) + "iprOutput.txt"),
+                        path.substring(0, path.lastIndexOf("/") + 1) + "iprOutput" + Integer.toString(lineN) + ".txt"),
                         new File(directoryPath + "IPR/result-i/" + "iprOutput" +
-                                Integer.toString(i) + each.substring(each.lastIndexOf("/") + 1) + ".csv"));
+                                Integer.toString(i) + path.substring(path.lastIndexOf("/") + 1)
+                                + Integer.toString(lineN) + ".csv"));
             } catch (IOException e) {
                 e.printStackTrace();
             }
