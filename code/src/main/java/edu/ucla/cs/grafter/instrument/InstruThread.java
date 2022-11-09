@@ -50,6 +50,8 @@ public class InstruThread extends Thread {
 
     public void run() {
 
+        String projectName = directoryPath.split("/")[directoryPath.split("/").length - 1];
+
         // read execution traces from a txt file, these execution traces do not include
         // our target file
         ArrayList<String> traces = new ArrayList<>();
@@ -70,7 +72,7 @@ public class InstruThread extends Thread {
         for (String each : traces) {
             String path = each.split(",")[0];
             int lineN = Integer.valueOf(each.split(",")[1]);
-            path = path.replaceFirst(directoryPath, directoryPath + "IPR/" + Integer.toString(i));
+            path = path.replaceFirst(directoryPath, destination);
             paths.add(path);
             CloneInstrument.preprocessTrace(path, lineN);
         }
@@ -86,7 +88,8 @@ public class InstruThread extends Thread {
             org.apache.commons.io.FileUtils.copyFile(new File(
                     filePath.substring(0, filePath.lastIndexOf("/") + 1) + "iprOutput" + Integer.toString(linenumber)
                             + ".txt"),
-                    new File(directoryPath + "IPR/result-i/" + "iprOutput" + Integer.toString(i) + "-buggy" + ".csv"));
+                    new File(System.getProperty("user.home") + "/.ipr/" + projectName + "/iproutput/" + Integer.toString(i) 
+                    + "#" + filePath.substring(filePath.lastIndexOf("/") + 1) + "#" + Integer.toString(linenumber) + ".csv"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -95,13 +98,13 @@ public class InstruThread extends Thread {
         for (String each : traces) {
             String path = each.split(",")[0];
             int lineN = Integer.valueOf(each.split(",")[1]);
-            path = path.replaceFirst(directoryPath, directoryPath + "IPR/" + Integer.toString(i));
+            path = path.replaceFirst(directoryPath, destination);
             try {
                 org.apache.commons.io.FileUtils.copyFile(new File(
                         path.substring(0, path.lastIndexOf("/") + 1) + "iprOutput" + Integer.toString(lineN) + ".txt"),
-                        new File(directoryPath + "IPR/result-i/" + "iprOutput" +
-                                Integer.toString(i) + path.substring(path.lastIndexOf("/") + 1)
-                                + Integer.toString(lineN) + ".csv"));
+                        new File(System.getProperty("user.home") + "/.ipr/" + projectName + "/iproutput/" +
+                                Integer.toString(i) + "#" + path.substring(path.lastIndexOf("/") + 1) + 
+                                "#" + Integer.toString(lineN) + ".csv"));
             } catch (IOException e) {
                 e.printStackTrace();
             }

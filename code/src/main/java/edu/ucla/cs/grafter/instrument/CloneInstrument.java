@@ -46,16 +46,17 @@ public class CloneInstrument {
 	public static void instru(String directoryPath, String filepath, int linenumber, String[] patches, String testName,
 			String testPath, String moduleName, String methodName) {
 
+		String projectName = directoryPath.split("/")[directoryPath.split("/").length - 1];
 		// success is an array that records whether our tests run sucessfully
 		success = new ArrayList<>(10);
 		for (int i = 0; i < 10; i++) {
 			success.add(false);
 		}
 		ArrayList<InstruThread> threads = new ArrayList<>();
-		for (int i = 0; i < patches.length; i++) {
+		for (int i = 0; i <= patches.length; i++) {
 			String source = directoryPath;
 			File srcDir = new File(source);
-			String destination = directoryPath + "IPR/" + Integer.toString(i);
+			String destination = System.getProperty("user.home") + "/.ipr/" + projectName + "/" + Integer.toString(i);
 			File destDir = new File(destination);
 
 			try {
@@ -64,12 +65,21 @@ public class CloneInstrument {
 				e.printStackTrace();
 			}
 
-			String newFilePath = filepath.replaceFirst(directoryPath, directoryPath + "IPR/" + Integer.toString(i));
+			String newFilePath = filepath.replaceFirst(directoryPath, destination);
 
-			InstruThread thread = new InstruThread(newFilePath, linenumber, patches[i], testName, destination,
-					moduleName, methodName, directoryPath, i);
-			thread.start();
-			threads.add(thread);
+			if (i == 0) {
+				InstruThread thread = new InstruThread(newFilePath, linenumber, "", testName, destination,
+				moduleName, methodName, directoryPath, i);
+				thread.start();
+				threads.add(thread);
+			} else {
+				InstruThread thread = new InstruThread(newFilePath, linenumber, patches[i-1], testName, destination,
+				moduleName, methodName, directoryPath, i);
+				thread.start();
+				threads.add(thread);
+			}
+
+
 		}
 
 		// should wait for all threads
@@ -130,7 +140,7 @@ public class CloneInstrument {
 				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
 				+ "iprOutput" + Integer.toString(linenumber) + ".txt" + "\");";
 		cc[linenumber - 2] = cc[linenumber - 2] +
-				"if (!new_file.exists()) { try {new_file.createNewFile();} catch(Exception e) {System.out.println(\"cannot create iprOutput.txt\");} }";
+				"if (!new_file.exists()) { try {new_file.createNewFile();} catch(Exception e) {e.printStackTrace();System.out.println(\"cannot create iprOutput.txt\");} }";
 		cc[linenumber - 2] = cc[linenumber - 2] + "FileWriter IPRfw = null;";
 		cc[linenumber - 2] = cc[linenumber - 2] + "try {  IPRfw = new FileWriter(" + "\""
 				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
@@ -358,11 +368,13 @@ public class CloneInstrument {
 	public static boolean showDiff(String filepath, int linenumber, String patch, String testName, String testPath,
 			String moduleName, String methodName) {
 
-		try {
-			FileUtils.rewriteStringToFile(patch, linenumber, filepath);
-		} catch (IOException e) {
-			System.out.println("exception when rewriting the file");
-			return false;
+		if (patch != "") { 
+			try {
+				FileUtils.rewriteStringToFile(patch, linenumber, filepath);
+			} catch (IOException e) {
+				System.out.println("exception when rewriting the file");
+				return false;
+			}
 		}
 
 		// get variables needed from CloneVisitor.parseSnipCode
@@ -670,6 +682,19 @@ public class CloneInstrument {
 		CloneInstrument.instru(args[0], args[1], Integer.parseInt(args[2]), patches, args[4], args[5], args[6],
 				args[7]);
 	}
+
+	// public static void main(String[] args) {
+	// 	String[] patches = {"final int n1n2prod = n1 * n2;", "final double n1n2prod = n1*n2;", "final double n1n2prod = n1*( n1+2+1) /2.0;"};
+	// 	CloneInstrument.instru(
+	// 		"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_30", 
+	// 		"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+	// 		173, 
+	// 		patches, 
+	// 		"MannWhitneyUTestTest", 
+	// 		"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_30", 
+	// 		"",
+	// 		"testBigDataSet");
+	// }
 
 	private static void testwhole() {
 		String[] p = { "if ((u == 0) || (v == 0)) {", "if ((u == 0) || (v == 0)) {" };
