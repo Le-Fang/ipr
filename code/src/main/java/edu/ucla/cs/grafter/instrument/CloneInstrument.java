@@ -16,9 +16,7 @@ import javax.swing.JOptionPane;
 import org.eclipse.jdt.core.dom.CatchClause;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 
-import edu.ucla.cs.grafter.config.GrafterConfig;
 import edu.ucla.cs.grafter.file.FileUtils;
-import edu.ucla.cs.grafter.graft.analysis.CloneCalibrator;
 import edu.ucla.cs.grafter.graft.analysis.CloneVisitor;
 import junit.framework.TestCase;
 import edu.ucla.cs.grafter.instrument.InstruThread;
@@ -45,8 +43,9 @@ public class CloneInstrument {
 
 	public static void instru(String directoryPath, String filepath, int linenumber, String[] patches, String testName,
 			String testPath, String moduleName, String methodName) {
-
 		String projectName = directoryPath.split("/")[directoryPath.split("/").length - 1];
+		FileUtils.emptyDir(System.getProperty("user.home") + "/.ipr/" + projectName);
+
 		// success is an array that records whether our tests run sucessfully
 		success = new ArrayList<>(10);
 		for (int i = 0; i < 10; i++) {
@@ -69,16 +68,15 @@ public class CloneInstrument {
 
 			if (i == 0) {
 				InstruThread thread = new InstruThread(newFilePath, linenumber, "", testName, destination,
-				moduleName, methodName, directoryPath, i);
+						moduleName, methodName, directoryPath, i);
 				thread.start();
 				threads.add(thread);
 			} else {
-				InstruThread thread = new InstruThread(newFilePath, linenumber, patches[i-1], testName, destination,
-				moduleName, methodName, directoryPath, i);
+				InstruThread thread = new InstruThread(newFilePath, linenumber, patches[i - 1], testName, destination,
+						moduleName, methodName, directoryPath, i);
 				thread.start();
 				threads.add(thread);
 			}
-
 
 		}
 
@@ -140,7 +138,7 @@ public class CloneInstrument {
 				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
 				+ "iprOutput" + Integer.toString(linenumber) + ".txt" + "\");";
 		cc[linenumber - 2] = cc[linenumber - 2] +
-				"if (!new_file.exists()) { try {new_file.createNewFile();} catch(Exception e) {e.printStackTrace();System.out.println(\"cannot create iprOutput.txt\");} }";
+				"if (!new_file.exists()) { try {new_file.createNewFile();} catch(Exception e) {System.out.println(\"cannot create iprOutput.txt\");} }";
 		cc[linenumber - 2] = cc[linenumber - 2] + "FileWriter IPRfw = null;";
 		cc[linenumber - 2] = cc[linenumber - 2] + "try {  IPRfw = new FileWriter(" + "\""
 				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
@@ -157,23 +155,26 @@ public class CloneInstrument {
 			if (line - 2 > lastIndex) {
 				lastIndex = line - 2;
 			}
-			cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\"before"
+			cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\""
 					+ Integer.toString(line) + "," + "used,"
 					+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + name
 					+ ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
 					+ "+ System.getProperty(\"line.separator\"));"
 					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
-			if (!cc[line - 1].contains("return")) {
-				cc[line - 1] = cc[line - 1] + "try { " + "IPRfw.write(\"after"
-						+ Integer.toString(line) + "," + "used,"
-						+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + name
-						+ ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
-						+ "+ System.getProperty(\"line.separator\"));"
-						+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
-				if (line - 1 > lastIndex) {
-					lastIndex = line - 1;
-				}
-			}
+			/*
+			 * if (!cc[line - 1].contains("return")) {
+			 * cc[line - 1] = cc[line - 1] + "try { " + "IPRfw.write(\"after"
+			 * + Integer.toString(line) + "," + "used,"
+			 * + name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + name
+			 * + ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
+			 * + "+ System.getProperty(\"line.separator\"));"
+			 * +
+			 * "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+			 * if (line - 1 > lastIndex) {
+			 * lastIndex = line - 1;
+			 * }
+			 * }
+			 */
 		}
 		for (String each : vars.get(1)) {
 			// if our patch is a return statement, we don't want to insert print after
@@ -181,7 +182,7 @@ public class CloneInstrument {
 			String name = each.split(":")[0];
 			int line = Integer.parseInt(each.split(":")[1]);
 			if (!cc[line - 1].contains("return")) {
-				cc[line - 1] = cc[line - 1] + "try { " + "IPRfw.write(\"after"
+				cc[line - 1] = cc[line - 1] + "try { " + "IPRfw.write(\""
 						+ Integer.toString(line)
 						+ "," + "defined,"
 						+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + name
@@ -194,48 +195,55 @@ public class CloneInstrument {
 			}
 		}
 
-		// variableTypes is the dictionary that we use to look up the types of certain
-		// variables
-		HashMap<String, String> variableTypes = new HashMap<>();
-		try {
-			Scanner sc = new Scanner(new File("./typeInfo.txt"));
-			while (sc.hasNext()) {
-				// System.out.println(sc.nextLine());
-				String[] pair = sc.nextLine().split(":::");
-				variableTypes.put(pair[0], pair[1]);
-			}
-			sc.close();
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.out.println("variableTypes csv file unreadable");
-			return "";
-		}
-
-		// handle infix expressions: insert a printStatement only once(before the target
-		// line)
-		int i = 0;
-		for (String each : vars.get(2)) {
-			String name = each.split(":")[0];
-			int line = Integer.parseInt(each.split(":")[1]);
-			String type = variableTypes.get(name);
-			if (type == null) {
-				continue;
-			}
-			if (line - 2 > lastIndex) {
-				lastIndex = line - 2;
-			}
-			cc[line - 2] = cc[line - 2] + type + " iprTemp" + i + " = " + name + ";";
-			cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\"before"
-					+ Integer.toString(line)
-					+ "," + "infix,"
-					+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + "iprTemp" + i
-					+ ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
-					+ "+ System.getProperty(\"line.separator\"));" +
-					"} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
-			// update our patch string
-			cc[line - 1].replaceFirst(each, "iprTemp" + i);
-			i++;
-		}
+		/*
+		 * 
+		 * // variableTypes is the dictionary that we use to look up the types of
+		 * certain
+		 * // variables
+		 * HashMap<String, String> variableTypes = new HashMap<>();
+		 * try {
+		 * Scanner sc = new Scanner(new File("./typeInfo.txt"));
+		 * while (sc.hasNext()) {
+		 * // System.out.println(sc.nextLine());
+		 * String[] pair = sc.nextLine().split(":::");
+		 * variableTypes.put(pair[0], pair[1]);
+		 * }
+		 * sc.close();
+		 * } catch (Exception e) {
+		 * e.printStackTrace();
+		 * System.out.println("variableTypes csv file unreadable");
+		 * return "";
+		 * }
+		 * 
+		 * // handle infix expressions: insert a printStatement only once(before the
+		 * target
+		 * // line)
+		 * int i = 0;
+		 * for (String each : vars.get(2)) {
+		 * String name = each.split(":")[0];
+		 * int line = Integer.parseInt(each.split(":")[1]);
+		 * String type = variableTypes.get(name);
+		 * if (type == null) {
+		 * continue;
+		 * }
+		 * if (line - 2 > lastIndex) {
+		 * lastIndex = line - 2;
+		 * }
+		 * cc[line - 2] = cc[line - 2] + type + " iprTemp" + i + " = " + name + ";";
+		 * cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\"before"
+		 * + Integer.toString(line)
+		 * + "," + "infix,"
+		 * + name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + "iprTemp" + i
+		 * + ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
+		 * + "+ System.getProperty(\"line.separator\"));" +
+		 * "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+		 * // update our patch string
+		 * cc[line - 1].replaceFirst(each, "iprTemp" + i);
+		 * i++;
+		 * }
+		 * 
+		 * infix expressions are not needed
+		 */
 
 		// handle methodCalls: insert a printStatement before the target line
 		// assumption: calling the method(s) more than once does not alter the overall
@@ -250,7 +258,7 @@ public class CloneInstrument {
 				continue;
 			}
 			String tempname = "\\\"" + name + "\\\"";
-			cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\"before"
+			cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\""
 					+ Integer.toString(line)
 					+ "," + "method,"
 					+ "\"+\"" + tempname + "\"+\"" + "," + "\"+ " + "xstream.toXML(" + name
@@ -368,7 +376,7 @@ public class CloneInstrument {
 	public static boolean showDiff(String filepath, int linenumber, String patch, String testName, String testPath,
 			String moduleName, String methodName) {
 
-		if (patch != "") { 
+		if (patch != "") {
 			try {
 				FileUtils.rewriteStringToFile(patch, linenumber, filepath);
 			} catch (IOException e) {
@@ -536,165 +544,16 @@ public class CloneInstrument {
 		return sentenses;
 	}
 
-	public void instrument() throws InstrumentException {
-		try {
-			addTestTracker();
-			updateRange();
-			insertPrintStatement();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-
-	void addTestTracker() throws IOException {
-		// Check if TestTracker.java exists in the current package
-		String dir = path.substring(0, path.lastIndexOf(File.separator));
-		String testTracker = dir + File.separator + "TestTracker.java";
-		File file = new File(testTracker);
-
-		if (!file.exists()) {
-			// Get the package name
-			String packageName = getPackageName();
-			// Customize the template
-			String code = "package " + packageName + ";" + System.lineSeparator()
-					+ FileUtils.readFileToString(template);
-
-			// Create TestTracker.java in the package of the code clone
-			file.createNewFile();
-			BufferedWriter bw = null;
-			try {
-				bw = new BufferedWriter(new FileWriter(file));
-				bw.write(code);
-			} catch (IOException e) {
-				e.printStackTrace();
-			} finally {
-				if (bw != null)
-					bw.close();
-			}
-		}
-	}
-
-	/**
-	 * Update the start and end line numbers, since Grafter may have inserted print
-	 * statements into the same file for other clone before
-	 * 
-	 * @throws IOException
-	 * @throws InstrumentException
-	 */
-	void updateRange() throws IOException, InstrumentException {
-		String code = FileUtils.readFileToString(this.path);
-		String lineSeparator = System.getProperty("line.separator");
-
-		String[] cc = code.split(lineSeparator);
-		int counter = 0; // count the inserted print statements before the clone
-		int counter2 = 0; // count the inserted print statements in the clone
-		for (int i = 0; i < cc.length; i++) {
-			if (i < this.start && cc[i].contains("TestTracker.getTestName")) {
-				counter++;
-			} else if (i >= this.start && i <= this.end && cc[i].contains("TestTracker.getTestName")) {
-				// a clone may appear in other clone groups and therefore can be instrumented
-				// before
-				counter2++;
-			}
-		}
-
-		this.start_new += counter;
-		this.end_new += counter + counter2;
-	}
-
-	void insertPrintStatement() throws IOException, InstrumentException {
-		// Get the line number of the first statement in the clone
-		CompilationUnit cu = JavaParser.parse(this.path);
-		CloneCalibrator calibrator = new CloneCalibrator(cu, this.start_new, this.end_new);
-		cu.accept(calibrator);
-
-		if (calibrator.first == Integer.MAX_VALUE) {
-			// we cannot find the first statment in the clone, please double check the
-			// validity of the clone
-			if (GrafterConfig.batch) {
-				System.out.println("[Grafter]Cannot find the first statement in the clone in file -- " + this.path
-						+ " -- in group " + this.id);
-			} else {
-				JOptionPane.showMessageDialog(null, "[Grafter]Cannot find the first statement in the clone in file -- "
-						+ this.path + " -- in group " + this.id);
-			}
-
-			throw new InstrumentException();
-		}
-
-		// insert the print statement in the clone
-		int ln = calibrator.first;
-		String clazz = this.path.substring(this.path.lastIndexOf(File.separator) + 1, this.path.lastIndexOf('.'));
-		String instr = "System.out.println(\"[Grafter][Clone Group " + this.id + "][Class " + clazz + "][Range("
-				+ this.start + "," + this.end + ")]\"+ TestTracker.getTestName());";
-		String code = FileUtils.readFileToString(this.path);
-		String lineSeparator = System.getProperty("line.separator");
-
-		String[] cc = code.split(lineSeparator);
-		String before = "";
-		String after = "";
-		for (int i = 0; i < cc.length; i++) {
-			if (i + 1 < ln) {
-				before += cc[i] + lineSeparator;
-			} else {
-				after += cc[i] + lineSeparator;
-			}
-		}
-
-		// rename the old file
-		File backup = new File(this.path + ".bak");
-		if (!backup.exists()) {
-			// no need to back up multiple times
-			File old_file = new File(this.path);
-			backup.createNewFile();
-			old_file.renameTo(new File(this.path + ".bak"));
-		}
-
-		// create a new file with the same name
-		File new_file = new File(this.path);
-		new_file.createNewFile();
-		code = before + instr + lineSeparator + after;
-		BufferedWriter bw = null;
-		try {
-			bw = new BufferedWriter(new FileWriter(new_file));
-			bw.write(code);
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if (bw != null)
-				bw.close();
-		}
-	}
-
-	String getPackageName() {
-		try {
-			CompilationUnit cu = JavaParser.parse(path);
-			return cu.getPackage().getName().getFullyQualifiedName();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return "";
-	}
-
 	// used for manual testing
 	public static void main(String[] args) {
+		testMath30();
+		if (true) {
+			return;
+		}
 		String[] patches = args[3].split(",");
 		CloneInstrument.instru(args[0], args[1], Integer.parseInt(args[2]), patches, args[4], args[5], args[6],
 				args[7]);
 	}
-
-	// public static void main(String[] args) {
-	// 	String[] patches = {"final int n1n2prod = n1 * n2;", "final double n1n2prod = n1*n2;", "final double n1n2prod = n1*( n1+2+1) /2.0;"};
-	// 	CloneInstrument.instru(
-	// 		"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_30", 
-	// 		"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
-	// 		173, 
-	// 		patches, 
-	// 		"MannWhitneyUTestTest", 
-	// 		"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_30", 
-	// 		"",
-	// 		"testBigDataSet");
-	// }
 
 	private static void testwhole() {
 		String[] p = { "if ((u == 0) || (v == 0)) {", "if ((u == 0) || (v == 0)) {" };
@@ -747,7 +606,8 @@ public class CloneInstrument {
 	}
 
 	private static void testMath30() {
-		String[] p = { "final double n1n2prod = n1*n2;", "final double n1n2prod = n1*( n1+2+1) /2.0;" };
+		String[] p = { "final int n1n2prod = n1 * n2;", "final double n1n2prod = n1*n2;",
+				"final double n1n2prod = n1*( n1+2+1) /2.0;" };
 		CloneInstrument.instru("/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30",
 				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
 				173, p,

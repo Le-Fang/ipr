@@ -130,53 +130,6 @@ public class CloneVisitor extends ASTVisitor {
 	}
 
 	@Override
-	public boolean visit(TypeDeclaration node) {
-		if (!node.getName().toString().equals(this.clone.getOwner())) {
-			// TODO: currently we do not handle inner classes
-			return false;
-		}
-
-		Type superType = node.getSuperclassType();
-		if (superType != null) {
-			if (superType.isSimpleType()) {
-				SimpleType st = (SimpleType) superType;
-				String fn = st.getName().getFullyQualifiedName();
-				String[] ss = fn.split("\\.");
-				String name = ss[ss.length - 1];
-				File file = FileUtils.findFile(name + ".java");
-				if (file != null) {
-					CloneParser cp = new CloneParser();
-					try {
-						CompilationUnit cu = cp.parse(file.getAbsolutePath());
-						CloneVisitor cv = new CloneVisitor(new Clone(0, 0, "", name), cu, file.getAbsolutePath());
-						cu.accept(cv);
-
-						// add all fields in the superclass if not overriden
-						for (Token f : cv.fields) {
-							if (!this.fields.contains(f)) {
-								this.fields.add(f);
-								this.field_decls.put(f.getName(), cv.field_decls.get(f.getName()));
-							}
-						}
-
-						// add all inherited methods, if not overridden
-						for (Method m : cv.method_decls.keySet()) {
-							if (!this.method_decls.containsKey(m)) {
-								this.method_decls.put(m, cv.method_decls.get(m));
-							}
-						}
-					} catch (IOException e) {
-						e.printStackTrace();
-						System.exit(-1);
-					}
-				}
-			}
-		}
-
-		return true;
-	}
-
-	@Override
 	public boolean visit(FieldDeclaration node) {
 		String type = node.getType().toString();
 
@@ -1028,16 +981,36 @@ public class CloneVisitor extends ASTVisitor {
 		cu.accept(cv);
 		ArrayList<String> used = new ArrayList<>();
 		ArrayList<String> defined = new ArrayList<>();
-		// System.out.println("uses: ");
+		// System.out.println("uses: " + cv.use_var);
 		for (String t : cv.use_var) {
 			// System.out.println(t.getLabel() + " - " + t.getType() + " " + t.getName());
-			used.add(t);
+			String name = t.split(":")[0];
+			boolean exist = false;
+			for (String each : used) {
+				if (each.split(":")[0].equals(name)) {
+					exist = true;
+				}
+			}
+			if (!exist) {
+				used.add(t);
+			}
+
 		}
 
 		// System.out.println("defined: ");
 		for (String t : cv.def_var) {
 			// System.out.println(t.getLabel() + " - " + t.getType() + " " + t.getName());
-			defined.add(t);
+			String name = t.split(":")[0];
+			boolean exist = false;
+			for (String each : defined) {
+				if (each.split(":")[0].equals(name)) {
+					exist = true;
+				}
+			}
+			if (!exist) {
+				defined.add(t);
+			}
+
 		}
 
 		// remove the repeated element from [used]
@@ -1069,7 +1042,8 @@ public class CloneVisitor extends ASTVisitor {
 		ArrayList<ArrayList<String>> ans = new ArrayList<>();
 		ans.add(used);
 		ans.add(defined);
-		ans.add(cv.infix);
+		// ans.add(cv.infix);
+		ans.add(new ArrayList<String>());
 		ans.add(cv.methodCalls);
 		ArrayList<String> tempBox = new ArrayList<>();
 		tempBox.add(String.valueOf(cv.ifEndLine));
