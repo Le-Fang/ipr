@@ -1,4 +1,0 @@
-1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.jcp.xml.dsig.internal.dom.DOMXPathFilter2Transform@init:61:params == null |==> false
-2:ROR:==(java.lang.Object,java.lang.Object):!=(java.lang.Object,java.lang.Object):org.apache.jcp.xml.dsig.internal.dom.DOMXPathFilter2Transform@init:61:params == null |==> params != null
-3:ROR:==(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.jcp.xml.dsig.internal.dom.DOMXPathFilter2Transform@init:61:params == null |==> true
-4:ORU:==(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.jcp.xml.dsig.internal.dom.DOMXPathFilter2Transform@init:61:!(params instanceof XPathFilter2ParameterSpec) |==> params instanceof XPathFilter2ParameterSpec

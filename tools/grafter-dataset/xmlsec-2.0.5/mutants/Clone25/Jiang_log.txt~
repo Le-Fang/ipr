@@ -1,6 +1,0 @@
-Type 3 Inconsistency
-[debug, log, digestMethod, XMLCipher, getInstance, String, isDebugEnabled, transformation, canon, XMLEncryptionException, validateTransformation]
-[debug, log, digestMethod, XMLCipher, String, transformation, canon, XMLEncryptionException, validateTransformation, provider, NullPointerException, getProviderInstance, isDebugEnabled]
-
-==== After Injecting Mutants ========
-

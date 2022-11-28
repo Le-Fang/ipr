@@ -1,6 +1,0 @@
-1:STD:<CALL>:<NO-OP>:org.apache.xml.security.keys.keyresolver.implementations.PrivateKeyResolver@resolveX509SubjectName:292:log.debug("Can I resolve X509SubjectName?") |==> <NO-OP>
-2:ORU:keyStore.isKeyEntry(alias):!keyStore.isKeyEntry(alias):org.apache.xml.security.keys.keyresolver.implementations.PrivateKeyResolver@resolveX509SubjectName:297:keyStore.isKeyEntry(alias) |==> false
-3:ORU:cert instanceof X509Certificate:!(cert instanceof X509Certificate):org.apache.xml.security.keys.keyresolver.implementations.PrivateKeyResolver@resolveX509SubjectName:297:keyStore.isKeyEntry(alias) |==> !(cert instanceof X509Certificate)
-4:ORU:certSN.equals(x509SubjectName):!certSN.equals(x509SubjectName):org.apache.xml.security.keys.keyresolver.implementations.PrivateKeyResolver@resolveX509SubjectName:304:certSN.equals(x509SubjectName) |==> !certSN.equals(x509SubjectName)
-5:STD:<CALL>:<NO-OP>:org.apache.xml.security.keys.keyresolver.implementations.PrivateKeyResolver@resolveX509SubjectName:305:log.debug("match !!! ") |==> <NO-OP>
-6:STD:<CALL>:<NO-OP>:org.apache.xml.security.keys.keyresolver.implementations.PrivateKeyResolver@resolveX509SubjectName:313:log.debug("Cannot recover the key", e) |==> <NO-OP>

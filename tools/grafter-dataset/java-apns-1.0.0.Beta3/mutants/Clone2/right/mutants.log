@@ -1,2 +1,0 @@
-1:STD:<ASSIGNMENT>:<NO-OP>:com.notnoop.apns.ApnsServiceBuilder@withFeedbackDestination:281:this.feedbackHost = host; |==> <NO-OP>
-2:STD:<ASSIGNMENT>:<NO-OP>:com.notnoop.apns.ApnsServiceBuilder@withFeedbackDestination:282:this.feedbackPort = port; |==> <NO-OP>

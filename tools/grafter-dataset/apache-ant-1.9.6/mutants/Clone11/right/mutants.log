@@ -1,3 +1,0 @@
-1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.DirectoryScanner@getIncludedDirectories:1660:dirsIncluded == null |==> false
-2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DirectoryScanner@getIncludedDirectories:1664:dirsIncluded.copyInto(directories) |==> <NO-OP>
-3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DirectoryScanner@getIncludedDirectories:1666:Arrays.sort(directories) |==> <NO-OP>

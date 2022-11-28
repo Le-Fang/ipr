@@ -1,5 +1,0 @@
-1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.security.utils.Signature11ElementProxy@<init>:41:doc == null |==> false
-2:STD:<CALL>:<NO-OP>:org.apache.xml.security.utils.Signature11ElementProxy@<init>:45:setDocument(doc) |==> <NO-OP>
-3:STD:<CALL>:<NO-OP>:org.apache.xml.security.utils.Signature11ElementProxy@<init>:46:setElement(XMLUtils.createElementInSignature11Space(doc, this.getBaseLocalName())) |==> <NO-OP>
-4:ROR:==(java.lang.Object,java.lang.Object):!=(java.lang.Object,java.lang.Object):org.apache.xml.security.utils.Signature11ElementProxy@<init>:41:doc == null |==> doc != null
-4:ROR:==(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.utils.Signature11ElementProxy@<init>:41:doc == null |==> true

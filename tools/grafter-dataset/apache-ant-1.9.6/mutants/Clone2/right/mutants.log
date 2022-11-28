@@ -1,2 +1,0 @@
-1:COR:isReference():TRUE:org.apache.tools.ant.types.PatternSet@createExclude:266:isReference() |==> false
-2:COR:isReference():FALSE:org.apache.tools.ant.types.PatternSet@createExclude:266:isReference() |==> true

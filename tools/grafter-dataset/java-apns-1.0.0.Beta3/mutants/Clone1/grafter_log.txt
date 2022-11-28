@@ -1,3 +1,0 @@
-Testing mutant 1 in ApnsServiceBuilder.withReadTimeout
-Testing mutant 1 in ApnsServiceBuilder.withConnectTimeout
-com.notnoop.apns.integration.FeedbackTest.simpleFeedbackWithTimeout

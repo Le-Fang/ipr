@@ -1,2 +1,0 @@
-1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DirectoryScanner@getDeselectedFiles:1643:slowScan() |==> <NO-OP>
-2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DirectoryScanner@getDeselectedFiles:1645:filesDeselected.copyInto(files) |==> <NO-OP>

@@ -1,2 +1,0 @@
-1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.ZipFileSet@getRef:74:dieOnCircularReference(p) |==> <NO-OP>
-2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.ZipFileSet@getRef:80:configureFileSet(zfs) |==> <NO-OP>

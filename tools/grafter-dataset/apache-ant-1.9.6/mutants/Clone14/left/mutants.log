@@ -1,6 +1,0 @@
-1:COR:e.hasMoreElements():TRUE:org.apache.tools.ant.taskdefs.Delete@removeDir:41:e.hasMoreElements() |==> false
-2:COR:e.hasMoreElements():FALSE:org.apache.tools.ant.taskdefs.Delete@removeDir:41:e.hasMoreElements() |==> true
-3:COR:!c.eval():TRUE:org.apache.tools.ant.taskdefs.Delete@removeDir:43:!c.eval() |==> false
-4:COR:!c.eval():FALSE:org.apache.tools.ant.taskdefs.Delete@removeDir:43:!c.eval() |==> true
-5:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.condition.And@eval:44:false |==> true
-6:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.condition.And@eval:47:true |==> false

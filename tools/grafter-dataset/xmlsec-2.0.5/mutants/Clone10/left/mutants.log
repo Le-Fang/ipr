@@ -1,6 +1,0 @@
-1:LVR:TRUE:FALSE:org.apache.xml.security.stax.impl.processor.input.XMLDecryptInputProcessor@handleEncryptedContent:77:true |==> false
-2:STD:<CALL>:<NO-OP>:org.apache.xml.security.stax.impl.processor.input.XMLDecryptInputProcessor@handleEncryptedContent:78:contentEncryptedElementSecurityEvent.setElementPath(elementPath) |==> <NO-OP>
-3:STD:<CALL>:<NO-OP>:org.apache.xml.security.stax.impl.processor.input.XMLDecryptInputProcessor@handleEncryptedContent:79:contentEncryptedElementSecurityEvent.setXmlSecEvent(parentXMLSecStartElement) |==> <NO-OP>
-4:STD:<CALL>:<NO-OP>:org.apache.xml.security.stax.impl.processor.input.XMLDecryptInputProcessor@handleEncryptedContent:80:contentEncryptedElementSecurityEvent.setSecurityToken(inboundSecurityToken) |==> <NO-OP>
-5:STD:<CALL>:<NO-OP>:org.apache.xml.security.stax.impl.processor.input.XMLDecryptInputProcessor@handleEncryptedContent:81:contentEncryptedElementSecurityEvent.setCorrelationID(encryptedDataType.getId()) |==> <NO-OP>
-6:STD:<CALL>:<NO-OP>:org.apache.xml.security.stax.impl.processor.input.XMLDecryptInputProcessor@handleEncryptedContent:82:inputProcessorChain.getSecurityContext().registerSecurityEvent(contentEncryptedElementSecurityEvent) |==> <NO-OP>

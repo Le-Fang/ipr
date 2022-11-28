@@ -1,8 +1,0 @@
-Testing mutant 1 in DOMXPathFilter2Transform.init
-Testing mutant 2 in DOMXPathFilter2Transform.init
-Testing mutant 3 in DOMXPathFilter2Transform.init
-Testing mutant 4 in DOMXPathFilter2Transform.init
-Testing mutant 1 in DOMXPathTransform.init
-Testing mutant 2 in DOMXPathTransform.init
-Testing mutant 3 in DOMXPathTransform.init
-Testing mutant 4 in DOMXPathTransform.init

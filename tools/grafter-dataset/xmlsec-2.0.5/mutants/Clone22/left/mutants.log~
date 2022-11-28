@@ -1,4 +1,0 @@
-1:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.signature.ObjectContainer@setEncoding:104:Encoding != null |==> true
-2:STD:<CALL>:<NO-OP>:org.apache.xml.security.signature.ObjectContainer@setEncoding:105:setLocalAttribute(Constants._ATT_ENCODING, Encoding) |==> <NO-OP>
-3:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):org.apache.xml.security.signature.ObjectContainer@setEncoding:104:Encoding != null |==> Encoding == null
-4:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.signature.ObjectContainer@setEncoding:104:Encoding != null |==> false

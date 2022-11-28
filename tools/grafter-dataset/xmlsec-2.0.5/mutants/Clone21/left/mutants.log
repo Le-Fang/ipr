@@ -1,4 +1,0 @@
-1:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.signature.ObjectContainer@setId:64:Id != null |==> true
-2:STD:<CALL>:<NO-OP>:org.apache.xml.security.signature.ObjectContainer@setId:65:setLocalIdAttribute(Constants._ATT_ID, Id) |==> <NO-OP>
-3:ROR:!=(java.lang.Object,java.lang.Object):==(java.lang.Object,java.lang.Object):org.apache.xml.security.signature.ObjectContainer@setId:64:Id != null |==> Id == null
-1:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.security.signature.ObjectContainer@setId:64:Id != null |==> false

@@ -1,4 +1,0 @@
-1:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.signature.SignatureProperty@setTarget:100:target != null |==> true
-2:STD:<CALL>:<NO-OP>:org.apache.xml.security.signature.SignatureProperty@setTarget:101:setLocalAttribute(Constants._ATT_TARGET, target) |==> <NO-OP>
-3:ROR:!=(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.security.signature.SignatureProperty@setTarget:100:target != null |==> false
-4:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.security.signature.SignatureProperty@setTarget:100:target != null |==> target == null

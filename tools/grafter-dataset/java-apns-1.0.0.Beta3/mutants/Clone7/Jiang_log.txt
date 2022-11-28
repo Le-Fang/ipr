@@ -1,7 +1,0 @@
-[withReadTimeout, readTimeout, ApnsServiceBuilder]
-[ApnsServerSocketBuilder, withGatewayDestination, port, gatewayPort]
-Testing mutant 1 in ApnsServiceBuilder.withReadTimeout
-Type 3 Inconsistency
-[withReadTimeout, readTimeout, ApnsServiceBuilder]
-[ApnsServerSocketBuilder, withGatewayDestination, port, gatewayPort]
-Testing mutant 1 in ApnsServerSocketBuilder.withGatewayDestination
