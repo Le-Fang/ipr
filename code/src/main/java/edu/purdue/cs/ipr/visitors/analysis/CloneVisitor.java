@@ -944,9 +944,9 @@ public class CloneVisitor extends ASTVisitor {
 						break;
 					}
 				}
-				System.out.println("x: " + get_x() + " y: " + get_y());
-				System.out.println("lineNumber: " + lineNumber);
-				System.out.println("strContent: " + str.substring(i, j));
+				// System.out.println("x: " + get_x() + " y: " + get_y());
+				// System.out.println("lineNumber: " + lineNumber);
+				// System.out.println("strContent: " + str.substring(i, j));
 				break;
 			}
 			if (str.charAt(i) == '\n') {
@@ -1026,10 +1026,10 @@ public class CloneVisitor extends ASTVisitor {
 			}
 		}
 
-		System.out.println("defined: " + defined);
-		System.out.println("used: " + used);
-		System.out.println("infix: " + cv.infix);
-		System.out.println("methodCalls: " + cv.methodCalls);
+		// System.out.println("defined: " + defined);
+		// System.out.println("used: " + used);
+		// System.out.println("infix: " + cv.infix);
+		// System.out.println("methodCalls: " + cv.methodCalls);
 
 		// ans returns an array of parameters that CloneInstrument might use
 		// [0] is an array of Used variables

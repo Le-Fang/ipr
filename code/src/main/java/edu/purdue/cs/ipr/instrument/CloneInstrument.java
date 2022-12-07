@@ -152,6 +152,7 @@ public class CloneInstrument {
 		for (String each : vars.get(0)) {
 			String name = each.split(":")[0];
 			int line = Integer.parseInt(each.split(":")[1]);
+			name = name + "," + Integer.toString(line);
 			if (line - 2 > lastIndex) {
 				lastIndex = line - 2;
 			}
@@ -181,6 +182,7 @@ public class CloneInstrument {
 			// return
 			String name = each.split(":")[0];
 			int line = Integer.parseInt(each.split(":")[1]);
+			name = name + "," + Integer.toString(line);
 			if (!cc[line - 1].contains("return")) {
 				cc[line - 1] = cc[line - 1] + "try { " + "IPRfw.write(\""
 						+ Integer.toString(line)
@@ -251,6 +253,7 @@ public class CloneInstrument {
 		for (String each : vars.get(3)) {
 			String name = each.split(":")[0];
 			int line = Integer.parseInt(each.split(":")[1]);
+			name = name + "," + Integer.toString(line);
 			if (line - 2 > lastIndex) {
 				lastIndex = line - 2;
 			}
@@ -315,7 +318,7 @@ public class CloneInstrument {
 		File old_file = new File(filepath);
 		boolean ifRename = old_file.renameTo(backup);
 		if (ifRename) {
-			System.out.println("rename sucess");
+			// System.out.println("rename sucess");
 		}
 
 		// create a new file with the same name
@@ -417,7 +420,7 @@ public class CloneInstrument {
 		File old_file = new File(filepath);
 		boolean ifRename = old_file.renameTo(backup);
 		if (ifRename) {
-			System.out.println("rename sucess");
+			// System.out.println("rename sucess");
 		}
 
 		// create a new file with the same name
@@ -499,7 +502,7 @@ public class CloneInstrument {
 				File old = new File(filepath + ".bak");
 				ifRename = old.renameTo(originalPath);
 				if (ifRename) {
-					System.out.println("rename(back) sucess failed");
+					// System.out.println("rename(back) sucess failed");
 				}
 			}
 			return false;
@@ -508,7 +511,7 @@ public class CloneInstrument {
 			try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
 				String line;
 				while ((line = reader.readLine()) != null) {
-					System.out.println(line);
+					// System.out.println(line);
 				}
 			}
 		} catch (IOException e) {
