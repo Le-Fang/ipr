@@ -219,7 +219,7 @@
     <executions>
         <execution>
             <configuration>
-                <mainClass>edu.ucla.cs.grafter.instrument.CloneInstrument</mainClass>
+                <mainClass>edu.purdue.cs.ipr.instrument.CloneInstrument</mainClass>
                 <attachToBuild>true</attachToBuild>
                 <filename>
                   instrument.${project.packaging}

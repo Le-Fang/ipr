@@ -43,6 +43,7 @@ public class CloneInstrument {
 
 	public static void instru(String directoryPath, String filepath, int linenumber, String[] patches, String testName,
 			String testPath, String moduleName, String methodName) {
+		System.out.println("[IPR] Begin parallel debugging...");
 		String projectName = directoryPath.split("/")[directoryPath.split("/").length - 1];
 		FileUtils.emptyDir(System.getProperty("user.home") + "/.ipr/" + projectName);
 
@@ -60,6 +61,11 @@ public class CloneInstrument {
 
 			try {
 				org.apache.commons.io.FileUtils.copyDirectory(srcDir, destDir);
+				if (i == 0) {
+					System.out.println("[IPR] Project with buggy line has been created.");
+				} else {
+					System.out.println("[IPR] Project with patch No." + Integer.toString(i) + " has been created.");
+				}
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -94,7 +100,8 @@ public class CloneInstrument {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println(success.toString());
+		System.out.println("[IPR] Finished parallel debugging.");
+
 	}
 
 	public static String insert_print(String code, ArrayList<ArrayList<String>> vars, int linenumber, String filepath) {
@@ -152,7 +159,7 @@ public class CloneInstrument {
 		for (String each : vars.get(0)) {
 			String name = each.split(":")[0];
 			int line = Integer.parseInt(each.split(":")[1]);
-			name = name + "," + Integer.toString(line);
+			// name = name + "," + Integer.toString(line);
 			if (line - 2 > lastIndex) {
 				lastIndex = line - 2;
 			}
@@ -182,7 +189,7 @@ public class CloneInstrument {
 			// return
 			String name = each.split(":")[0];
 			int line = Integer.parseInt(each.split(":")[1]);
-			name = name + "," + Integer.toString(line);
+			// name = name + "," + Integer.toString(line);
 			if (!cc[line - 1].contains("return")) {
 				cc[line - 1] = cc[line - 1] + "try { " + "IPRfw.write(\""
 						+ Integer.toString(line)
@@ -253,7 +260,7 @@ public class CloneInstrument {
 		for (String each : vars.get(3)) {
 			String name = each.split(":")[0];
 			int line = Integer.parseInt(each.split(":")[1]);
-			name = name + "," + Integer.toString(line);
+			// name = name + "," + Integer.toString(line);
 			if (line - 2 > lastIndex) {
 				lastIndex = line - 2;
 			}
@@ -476,6 +483,7 @@ public class CloneInstrument {
 		}
 
 		// we should run this new clone file
+
 		ProcessBuilder processBuilder = new ProcessBuilder();
 		if (moduleName.equals("")) {
 			processBuilder.command("./myscript.sh", testPath, testName,
@@ -549,10 +557,6 @@ public class CloneInstrument {
 
 	// used for manual testing
 	public static void main(String[] args) {
-		testMath30();
-		if (true) {
-			return;
-		}
 		String[] patches = args[3].split(",");
 		CloneInstrument.instru(args[0], args[1], Integer.parseInt(args[2]), patches, args[4], args[5], args[6],
 				args[7]);

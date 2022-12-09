@@ -80,6 +80,11 @@ public class InstruThread extends Thread {
 
         this.result = CloneInstrument.showDiff(filePath, linenumber, patch, testName, destination, moduleName,
                 methodName);
+        if (i == 0) {
+            System.out.println("[IPR] Project with buggy line has been tested.");
+        } else {
+            System.out.println("[IPR] Project with patch No." + Integer.toString(i) + " has been tested.");
+        }
 
         // pass our return values back to CloneInstrument
         CloneInstrument.success.set(i, result);
