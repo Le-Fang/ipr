@@ -1,7 +1,0 @@
-MathUtils.compareTo(entry,0,epsilon) >= 0:::boolean
-n1 * n2:::int
-u == 0:::boolean
-dataset == null:::boolean
-endIndex < 0:::boolean
-endIndex < startIndex:::boolean
-(endIndex < 0) || (endIndex < startIndex):::boolean

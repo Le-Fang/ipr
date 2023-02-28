@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
+import java.util.Collections;
 
 import javax.swing.JOptionPane;
 
@@ -132,27 +133,59 @@ public class CloneInstrument {
 				break;
 			}
 		}
+		String outputFileName = "\""
+				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
+				+ "iprOutput" + Integer.toString(linenumber) + ".txt" + "\"";
 		lineToInsertImport++;
 		cc[lineToInsertImport] = "import com.thoughtworks.xstream.XStream;"
 				+ "import com.thoughtworks.xstream.io.xml.DomDriver;import java.io.*;"
 				+ cc[lineToInsertImport];
-		ArrayList<String> serialSentenses = addSerialization();
-		for (String each : serialSentenses) {
-			cc[linenumber - 2] = cc[linenumber - 2] + each;
+
+		ArrayList<Integer> lineIndices = new ArrayList<Integer>();
+		for (String each : vars.get(0)) {
+			lineIndices.add(Integer.parseInt(each.split(":")[1]));
 		}
+		for (String each : vars.get(1)) {
+			lineIndices.add(Integer.parseInt(each.split(":")[1]));
+		}
+		for (String each : vars.get(2)) {
+			lineIndices.add(Integer.parseInt(each.split(":")[1]));
+		}
+		for (String each : vars.get(3)) {
+			lineIndices.add(Integer.parseInt(each.split(":")[1]));
+		}
+
+		int minLineIndex = Collections.min(lineIndices);
+
 		// create and redirect the system out to a file named iprOutput.txt
-		cc[linenumber - 2] = cc[linenumber - 2] + "File new_file = new File(" + "\""
-				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
-				+ "iprOutput" + Integer.toString(linenumber) + ".txt" + "\");";
-		cc[linenumber - 2] = cc[linenumber - 2] +
+		cc[minLineIndex - 2] = cc[minLineIndex - 2] + "File new_file = new File(" + outputFileName + ");";
+		cc[minLineIndex - 2] = cc[minLineIndex - 2] +
 				"if (!new_file.exists()) { try {new_file.createNewFile();} catch(Exception e) {System.out.println(\"cannot create iprOutput.txt\");} }";
-		cc[linenumber - 2] = cc[linenumber - 2] + "FileWriter IPRfw = null;";
-		cc[linenumber - 2] = cc[linenumber - 2] + "try {  IPRfw = new FileWriter(" + "\""
-				+ filepath.substring(0, filepath.lastIndexOf("/") + 1)
-				+ "iprOutput" + Integer.toString(linenumber) + ".txt"
-				+ "\", true); } catch (Exception e) {System.out.println(\"cannot create fileWriter\");}";
-		cc[linenumber - 2] = cc[linenumber - 2]
-				+ "try { IPRfw.write(\"A round starts:\" + System.getProperty(\"line.separator\"));} catch (Exception e) {System.out.println(\"cannot write to fileWriter\");}";
+		cc[minLineIndex - 2] = cc[minLineIndex - 2] + "FileWriter IPRfw0 = null;";
+		cc[minLineIndex - 2] = cc[minLineIndex - 2] + "try {  IPRfw0 = new FileWriter(" + outputFileName
+				+ ", true); } catch (Exception e) {System.out.println(\"cannot create fileWriter\");}";
+		cc[minLineIndex - 2] = cc[minLineIndex - 2]
+				+ "try { IPRfw0.write(\"<entry>\" + System.getProperty(\"line.separator\"));} catch (Exception e) {System.out.println(\"cannot write to fileWriter\");}"
+				+ "try { IPRfw0.close(); } catch (Exception e) {System.out.println(\"cannot close file writer\");} IPRfw0 = null;";
+
+
+		// variableTypes is the dictionary that we use to look up the types of
+		// certain variables
+		HashMap<String, String> variableTypes = new HashMap<>();
+		try {
+			Scanner sc = new Scanner(new File("./typeInfo.txt"));
+			while (sc.hasNext()) {
+				// System.out.println(sc.nextLine());
+				String[] pair = sc.nextLine().split(":::");
+				variableTypes.put(pair[0], pair[1]);
+				}
+				sc.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+				System.out.println("variableTypes csv file unreadable");
+				return "";
+		}
+		 
 
 		// create the inserted lines
 		// vars[0] is used variable list; vars[1] is defined variable list
@@ -163,26 +196,43 @@ public class CloneInstrument {
 			if (line - 2 > lastIndex) {
 				lastIndex = line - 2;
 			}
-			cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\""
-					+ Integer.toString(line) + "," + "used,"
-					+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + name
-					+ ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
-					+ "+ System.getProperty(\"line.separator\"));"
-					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
-			/*
-			 * if (!cc[line - 1].contains("return")) {
-			 * cc[line - 1] = cc[line - 1] + "try { " + "IPRfw.write(\"after"
-			 * + Integer.toString(line) + "," + "used,"
-			 * + name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + name
-			 * + ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
-			 * + "+ System.getProperty(\"line.separator\"));"
-			 * +
-			 * "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
-			 * if (line - 1 > lastIndex) {
-			 * lastIndex = line - 1;
-			 * }
-			 * }
-			 */
+			String type = variableTypes.get(name);
+			if (type != null) {
+				continue;
+			}
+			cc[line - 2] = cc[line - 2] + "try { FileWriter IPRfw = null; XStream xstream = new XStream(new DomDriver());" 
+				+ "try { IPRfw = new FileWriter(" + outputFileName
+				+ ", true); } catch (Exception e) {System.out.println(\"cannot create fileWriter\");}"
+				+ "String s = xstream.toXML(" + name 
+				+ ");"
+				+ "if (s.length() < 300)"
+				+ "{IPRfw.write(\""
+				+ Integer.toString(line) + "," + "used,"
+				+ name + "," + "\"+ " + "\"\\\"\"+"
+				+ "s.replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
+				+ "+ System.getProperty(\"line.separator\"));}"
+				+ "try { IPRfw.close(); } catch (Exception e) {System.out.println(\"cannot close file writer\");}"
+				+ "IPRfw = null; xstream = null;} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+		
+			 if (!cc[line - 1].contains("return")) {
+					cc[line - 1] = cc[line - 1] + "try { FileWriter IPRfw = null; XStream xstream = new XStream(new DomDriver());" 
+					+ "try { IPRfw = new FileWriter(" + outputFileName
+					+ ", true); } catch (Exception e) {System.out.println(\"cannot create fileWriter\");}"
+					+ "String s = xstream.toXML(" + name 
+					+ ");"
+					+ "if (s.length() < 300)"
+					+ "{IPRfw.write(\""
+					+ Integer.toString(line) + "," + "defined,"
+					+ name + "," + "\"+ " + "\"\\\"\"+"
+					+ "s.replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
+					+ "+ System.getProperty(\"line.separator\"));}"
+					+ "try { IPRfw.close(); } catch (Exception e) {System.out.println(\"cannot close file writer\");}"
+					+ "IPRfw = null; xstream = null;} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+					if (line - 1 > lastIndex) {
+					lastIndex = line - 1;
+				}
+			}
+			 
 		}
 		for (String each : vars.get(1)) {
 			// if our patch is a return statement, we don't want to insert print after
@@ -191,68 +241,53 @@ public class CloneInstrument {
 			int line = Integer.parseInt(each.split(":")[1]);
 			// name = name + "," + Integer.toString(line);
 			if (!cc[line - 1].contains("return")) {
-				cc[line - 1] = cc[line - 1] + "try { " + "IPRfw.write(\""
-						+ Integer.toString(line)
-						+ "," + "defined,"
-						+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + name
-						+ ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
-						+ "+ System.getProperty(\"line.separator\"));"
-						+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+				cc[line - 1] = cc[line - 1] + "try { FileWriter IPRfw = null; XStream xstream = new XStream(new DomDriver());" 
+				+ "try { IPRfw = new FileWriter(" + outputFileName
+					+ ", true); } catch (Exception e) {System.out.println(\"cannot create fileWriter\");}"
+					+ "String s = xstream.toXML(" + name 
+					+ ");"
+					+ "if (s.length() < 300)"
+					+ "{IPRfw.write(\""
+					+ Integer.toString(line) + "," + "defined,"
+					+ name + "," + "\"+ " + "\"\\\"\"+"
+					+ "s.replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
+					+ "+ System.getProperty(\"line.separator\"));}"
+					+ "try { IPRfw.close(); } catch (Exception e) {System.out.println(\"cannot close file writer\");}"
+					+ "IPRfw = null; xstream = null;} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
 				if (line - 1 > lastIndex) {
 					lastIndex = line - 1;
 				}
 			}
 		}
 
-		/*
-		 * 
-		 * // variableTypes is the dictionary that we use to look up the types of
-		 * certain
-		 * // variables
-		 * HashMap<String, String> variableTypes = new HashMap<>();
-		 * try {
-		 * Scanner sc = new Scanner(new File("./typeInfo.txt"));
-		 * while (sc.hasNext()) {
-		 * // System.out.println(sc.nextLine());
-		 * String[] pair = sc.nextLine().split(":::");
-		 * variableTypes.put(pair[0], pair[1]);
-		 * }
-		 * sc.close();
-		 * } catch (Exception e) {
-		 * e.printStackTrace();
-		 * System.out.println("variableTypes csv file unreadable");
-		 * return "";
-		 * }
-		 * 
-		 * // handle infix expressions: insert a printStatement only once(before the
-		 * target
-		 * // line)
-		 * int i = 0;
-		 * for (String each : vars.get(2)) {
-		 * String name = each.split(":")[0];
-		 * int line = Integer.parseInt(each.split(":")[1]);
-		 * String type = variableTypes.get(name);
-		 * if (type == null) {
-		 * continue;
-		 * }
-		 * if (line - 2 > lastIndex) {
-		 * lastIndex = line - 2;
-		 * }
-		 * cc[line - 2] = cc[line - 2] + type + " iprTemp" + i + " = " + name + ";";
-		 * cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\"before"
-		 * + Integer.toString(line)
-		 * + "," + "infix,"
-		 * + name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + "iprTemp" + i
-		 * + ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
-		 * + "+ System.getProperty(\"line.separator\"));" +
-		 * "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
-		 * // update our patch string
-		 * cc[line - 1].replaceFirst(each, "iprTemp" + i);
-		 * i++;
-		 * }
-		 * 
-		 * infix expressions are not needed
-		 */
+		 // handle infix expressions: insert a printStatement only once (before the target line)
+		// int i = 0;
+		// for (String each : vars.get(2)) {
+		// 	String name = each.split(":")[0];
+		// 	int line = Integer.parseInt(each.split(":")[1]);
+		// 	String type = variableTypes.get(name);
+		// 	System.out.println(name + " " + type);
+		// 	if (type == null) {
+		// 		continue;
+		// 	}
+			
+		// 	if (line - 2 > lastIndex) {
+		// 		lastIndex = line - 2;
+		// 	}
+		// 	cc[line - 2] = cc[line - 2] + type + " iprTemp" + i + " = " + name + ";";
+		// 	cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\"before"
+		// 	+ Integer.toString(line)
+		// 	+ "," + "infix,"
+		// 	+ name + "," + "\"+ " + "\"\\\"\"+" + "xstream.toXML(" + "iprTemp" + i
+		// 	+ ").toString().replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
+		// 	+ "+ System.getProperty(\"line.separator\"));" +
+		// 	"} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+		// 	// update our patch string
+		// 	cc[line - 1].replaceFirst(each, "iprTemp" + i);
+		// 	i++;
+		// }
+		// infix expressions are not needed
+
 
 		// handle methodCalls: insert a printStatement before the target line
 		// assumption: calling the method(s) more than once does not alter the overall
@@ -261,24 +296,40 @@ public class CloneInstrument {
 			String name = each.split(":")[0];
 			int line = Integer.parseInt(each.split(":")[1]);
 			// name = name + "," + Integer.toString(line);
+			String type = variableTypes.get(name);
+			if (type != null) {
+				continue;
+			}
 			if (line - 2 > lastIndex) {
 				lastIndex = line - 2;
 			}
 			if (name.contains("assert")) {
 				continue;
 			}
-			String tempname = "\\\"" + name + "\\\"";
-			cc[line - 2] = cc[line - 2] + "try { " + "IPRfw.write(\""
+			String tempname = "\\\"" + name.replaceAll("\"","&quote;") + "\\\"";
+			cc[line - 2] = cc[line - 2] + "try { FileWriter IPRfw = null; XStream xstream = new XStream(new DomDriver());" 
+					+ "try { IPRfw = new FileWriter(" + outputFileName
+					+ ", true); } catch (Exception e) {System.out.println(\"cannot create fileWriter\");}"
+					+ "String s = xstream.toXML(" + name 
+					+ ");"
+					+ "if (s.length() < 300)"
+					+ "{IPRfw.write(\""
 					+ Integer.toString(line)
 					+ "," + "method,"
-					+ "\"+\"" + tempname + "\"+\"" + "," + "\"+ " + "xstream.toXML(" + name
-					+ ").toString().replaceAll(\"\\\"\", \"\")"
-					+ "+ System.getProperty(\"line.separator\"));"
-					+ "} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
+					+ "\"+\"" + tempname + "\"+\"" + "," + "\"+ \"\\\"\"+"
+					+ "s.replaceAll(\"\\\"\", \"\")" + "+\"\\\"\""
+					+ "+ System.getProperty(\"line.separator\"));}"
+					+ "try { IPRfw.close(); } catch (Exception e) {System.out.println(\"cannot close file writer\");}"
+					+ "IPRfw = null; xstream = null;} catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
 		}
-		// set outputstream back
-		cc[lastIndex] = cc[lastIndex]
-				+ "try { IPRfw.close(); } catch (Exception e) {System.out.println(\"cannot close file writer\");}";
+
+		// cc[lastIndex] = cc[lastIndex]
+		// 		+ "try { FileWriter IPRfw = null;" 
+		// 		+ "try { IPRfw = new FileWriter(" + outputFileName
+		// 		+ ", true); } catch (Exception e) {System.out.println(\"cannot create fileWriter\");}"
+		// 		+ "IPRfw.write(\"<exit>\" + System.getProperty(\"line.separator\"));"
+		// 		+ "try { IPRfw.close(); } catch (Exception e) {System.out.println(\"cannot close file writer\");}"
+		// 		+ "IPRfw = null; } catch(Exception e) {System.out.println(\"XStream cannnot serialize\");}";
 
 		for (String each : cc) {
 			result += each + lineSeparator;
@@ -557,18 +608,55 @@ public class CloneInstrument {
 
 	// used for manual testing
 	public static void main(String[] args) {
-		String[] patches = args[3].split(",");
-		CloneInstrument.instru(args[0], args[1], Integer.parseInt(args[2]), patches, args[4], args[5], args[6],
-				args[7]);
+		testLang6();
+		// String[] patches = args[3].split("##");
+		// CloneInstrument.instru(args[0], args[1], Integer.parseInt(args[2]), patches, args[4], args[5], args[6],
+		// 		args[7]);
 	}
 
-	private static void testwhole() {
+	private static void testLang6() {
+		String[] p = { "pos += Character.charCount( Character.codePointAt( input , pos - pos ) ) ;", "pos += Character.charCount(Character.codePointAt(input, pt));"};
+		CloneInstrument.instru("/Users/ruixinwang/Documents/Projects/ipr/repo/Lang_6",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Lang_6/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java",
+				95, p,
+				"StringUtilsTest",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Lang_6", "", "testEscapeSurrogatePairs");
+	}
+
+	private static void testMath27() {
+		String[] p = { "return 100.0*doubleValue( ) ;"};
+		CloneInstrument.instru("/Users/ruixinwang/Documents/Projects/ipr/repo/Math_27",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_27/src/main/java/org/apache/commons/math3/fraction/Fraction.java",
+				597, p,
+				"FractionTest",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_27", "", "testMath835");
+	}
+
+	private static void testMath57() {
+		String[] p = { "double sum = 0;"};
+		CloneInstrument.instru("/Users/ruixinwang/Documents/Projects/ipr/repo/Math_57",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_57/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java",
+				175, p,
+				"KMeansPlusPlusClustererTest",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_57", "", "testSmallDistances");
+	}
+
+	private static void testMath59() {
+		String[] p = { "return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : a);"};
+		CloneInstrument.instru("/Users/ruixinwang/Documents/Projects/ipr/repo/Math_59",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_59/src/main/java/org/apache/commons/math/util/FastMath.java",
+				3482, p,
+				"FastMathTest",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_59", "", "testMinMaxFloat");
+	}
+
+	private static void testMath94() {
 		String[] p = { "if ((u == 0) || (v == 0)) {", "if ((u == 0) || (v == 0)) {" };
 		CloneInstrument.instru(
-				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math94",
-				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math94/src/java/org/apache/commons/math/util/MathUtils.java",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_94",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_94/src/java/org/apache/commons/math/util/MathUtils.java",
 				412, p, "MathUtilsTest",
-				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math94", "", "testGcd");
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_94", "", "testGcd");
 	}
 
 	private static void testMath82() {
@@ -594,15 +682,6 @@ public class CloneInstrument {
 				"/Users/eddiii/Desktop/courses/ipr/jfreechart", "", "");
 	}
 
-	// testMath94 tests a bug (Math 94) from defect4J (using the buggy version--if
-	// statement)
-	private static void testMath94() {
-		CloneInstrument.showDiff(
-				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math94/src/java/org/apache/commons/math/util/MathUtils.java",
-				412, "if ((u == 0) || (v == 0)) {", "MathUtilsTest",
-				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math94", "", "testGcd");
-	}
-
 	// testMath75 tests a bug (Math 75) from defect4J (using the buggy
 	// version--return statement)
 	private static void testMath75() {
@@ -615,11 +694,11 @@ public class CloneInstrument {
 	private static void testMath30() {
 		String[] p = { "final int n1n2prod = n1 * n2;", "final double n1n2prod = n1*n2;",
 				"final double n1n2prod = n1*( n1+2+1) /2.0;" };
-		CloneInstrument.instru("/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30",
-				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+		CloneInstrument.instru("/Users/ruixinwang/Documents/Projects/ipr/repo/Math_30",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
 				173, p,
 				"MannWhitneyUTestTest",
-				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math30", "", "testBigDataSet");
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_30", "", "testBigDataSet");
 	}
 
 	private static void testObject() {

@@ -208,7 +208,7 @@ public class CloneVisitor extends ASTVisitor {
 			try {
 				CloneParser cp = new CloneParser();
 				String strFile = cp.readFileToString(this.path);
-				clone.set_x(FileUtils.getStartIndex(strFile, linenumber));
+				clone.set_x(FileUtils.getStartIndex(strFile, start));
 				clone.set_y(FileUtils.getEndIndex(strFile, end));
 			} catch (IOException e) {
 				System.out.println("unable to perform readfiletostring in cv, methodinvocation");
@@ -633,7 +633,11 @@ public class CloneVisitor extends ASTVisitor {
 			Token t = new Token(type, Label.LOCAL, name, isFinal, isPrivate, isInit);
 			int line = getLineNumber(node);
 			t.start = line;
-			t.end = blockStacks.peek().getRight() - 1;
+			try {
+				t.end = blockStacks.peek().getRight() - 1;
+			} catch (Exception e) {
+				return false;
+			}
 			vars.add(t);
 
 			if ((clone.getX() <= start) && (end <= clone.getY())) {
@@ -689,7 +693,12 @@ public class CloneVisitor extends ASTVisitor {
 			Token t = new Token(type, Label.LOCAL, name, isFinal, isPrivate, isInit);
 			int line = getLineNumber(node);
 			t.start = line;
-			t.end = blockStacks.peek().getRight() - 1;
+			try
+			{
+				t.end = blockStacks.peek().getRight() - 1;
+			} catch (Exception e) {
+				return false;
+			}
 			vars.add(t);
 
 			if ((clone.getX() <= start) && (end <= clone.getY())) {
@@ -991,9 +1000,9 @@ public class CloneVisitor extends ASTVisitor {
 					exist = true;
 				}
 			}
-			if (!exist) {
+			// if (!exist) {
 				used.add(t);
-			}
+			// }
 
 		}
 
@@ -1007,9 +1016,9 @@ public class CloneVisitor extends ASTVisitor {
 					exist = true;
 				}
 			}
-			if (!exist) {
+			// if (!exist) {
 				defined.add(t);
-			}
+			// }
 
 		}
 
