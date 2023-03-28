@@ -829,7 +829,8 @@ public class CloneVisitor extends ASTVisitor {
 					// it is redefined
 					t.start = line < t.start ? line : t.start;
 					t.end = line > t.end ? line : t.end;
-					// defs.add(t);
+					defs.add(t);
+					def_var.add(t.getName() + ":" + line);
 					effects.add(t);
 				} else {
 					t.start = line < t.start ? line : t.start;
@@ -1051,8 +1052,7 @@ public class CloneVisitor extends ASTVisitor {
 		ArrayList<ArrayList<String>> ans = new ArrayList<>();
 		ans.add(used);
 		ans.add(defined);
-		// ans.add(cv.infix);
-		ans.add(new ArrayList<String>());
+		ans.add(cv.infix);
 		ans.add(cv.methodCalls);
 		ArrayList<String> tempBox = new ArrayList<>();
 		tempBox.add(String.valueOf(cv.ifEndLine));

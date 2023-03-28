@@ -192,7 +192,9 @@ public class CloneInstrument {
 		for (String each : vars.get(0)) {
 			String name = each.split(":")[0];
 			int line = Integer.parseInt(each.split(":")[1]);
-			// name = name + "," + Integer.toString(line);
+			if (line < linenumber - 2) {
+				continue;
+			}
 			if (line - 2 > lastIndex) {
 				lastIndex = line - 2;
 			}
@@ -260,7 +262,7 @@ public class CloneInstrument {
 			}
 		}
 
-		 // handle infix expressions: insert a printStatement only once (before the target line)
+		// handle infix expressions: insert a printStatement only once (before the target line)
 		// int i = 0;
 		// for (String each : vars.get(2)) {
 		// 	String name = each.split(":")[0];
@@ -608,10 +610,18 @@ public class CloneInstrument {
 
 	// used for manual testing
 	public static void main(String[] args) {
-		testLang6();
+		testMath82();
 		// String[] patches = args[3].split("##");
 		// CloneInstrument.instru(args[0], args[1], Integer.parseInt(args[2]), patches, args[4], args[5], args[6],
 		// 		args[7]);
+	}
+
+	private static void testChart9() {
+		String[] p = {"if ((endIndex < 0) || (endIndex < startIndex)) {"};
+		CloneInstrument.instru( "/Users/ruixinwang/Documents/Projects/ipr/repo/Chart_9",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Chart_9/src/main/java/org/jfree/data/time/TimeSeries.java",
+				1071, p, "TimeSeriesTest",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Chart_9", "", "testBug1864222");
 	}
 
 	private static void testLang6() {
@@ -651,7 +661,7 @@ public class CloneInstrument {
 	}
 
 	private static void testMath94() {
-		String[] p = { "if ((u == 0) || (v == 0)) {", "if ((u == 0) || (v == 0)) {" };
+		String[] p = { "if( u ==0|| v ==0) {", "if( u ==0|| u *0== v ) {" };
 		CloneInstrument.instru(
 				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_94",
 				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_94/src/java/org/apache/commons/math/util/MathUtils.java",
@@ -661,24 +671,15 @@ public class CloneInstrument {
 
 	private static void testMath82() {
 		CloneInstrument.showDiff(
-				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
 				82, "if (MathUtils.compareTo(entry, 0, epsilon) > 0) {", "SimplexSolverTest",
-				"/Users/eddiii/Desktop/courses/ipr/defects4j-repair-Math82", "", "");
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_82", "", "");
 	}
 
 	private static void testChart1() {
 		CloneInstrument.showDiff(
 				"/Users/eddiii/Desktop/courses/ipr/jfreechart/src/main/java/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java",
 				1488, "if (dataset == null) {", "AbstractCategoryItemRendererTest",
-				"/Users/eddiii/Desktop/courses/ipr/jfreechart", "", "");
-	}
-
-	// testChart9 tests an open-source maven project jfreechart (using the correct
-	// line)
-	private static void testChart9() {
-		CloneInstrument.showDiff(
-				"/Users/eddiii/Desktop/courses/ipr/jfreechart/src/main/java/org/jfree/data/time/TimeSeries.java",
-				1068, "if ((endIndex < 0) || (endIndex < startIndex)) {", "TimeSeriesTest",
 				"/Users/eddiii/Desktop/courses/ipr/jfreechart", "", "");
 	}
 
@@ -699,6 +700,15 @@ public class CloneInstrument {
 				173, p,
 				"MannWhitneyUTestTest",
 				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_30", "", "testBigDataSet");
+	}
+
+	private static void testMath41() {
+		String[] p = { "for (int i = begin; i < begin + length; i++) {" };
+		CloneInstrument.instru("/Users/ruixinwang/Documents/Projects/ipr/repo/Math_41",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java",
+				520, p,
+				"VarianceTest",
+				"/Users/ruixinwang/Documents/Projects/ipr/repo/Math_41", "", "testEvaluateArraySegmentWeighted");
 	}
 
 	private static void testObject() {
